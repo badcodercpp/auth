@@ -1,0 +1,5 @@
+{{define "chatContainerStyle"}}
+  <script type="text/javascript">
+    document.getElementById('_chat_container').style.marginTop=window.innerHeight-50+"px";
+  </script>
+{{end}}

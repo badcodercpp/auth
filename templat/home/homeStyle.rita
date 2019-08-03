@@ -1,0 +1,192 @@
+{{define "homeStyle"}}
+<style type="text/css">
+	body{background-color: #f5f8fa;}
+	#_head{width:100%;height:50px;background-color:white;position: fixed;left:0;top:0;border-top:2px solid lightgrey;border-bottom:2px solid lightgrey;z-index:10}
+	#_body{width:100%;height: 1200px;background-color: #f5f8fa;}
+	#_bdy_part_1{width: 29%;height: 100%;display: inline;float: left;margin-right:1%;}
+	#_bdy_part_2{width: 40%;height: 100%;display: inline;float: left;margin-right:1%;}
+	#_bdy_part_3{width: 29%;height: 100%;display: inline;float: right}
+	#_chat_container{width:68%;height:30px;position:fixed;z-index:25;margin-top:750px;background-color:transparent;}
+</style>
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" media="screen,projection">
+<style type="text/css">
+		#_unique_id_for_hide_news_scrollbar::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+</style>
+<style type="text/css">
+		#_part_three_home_u_id_f_hs::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+</style>
+<style type="text/css">
+		html::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+		html::-webkit-scrollbar {
+			width: 15px;  /* remove scrollbar space */
+			background: darkgrey;  /* optional: just make scrollbar invisible */
+		}
+		html::-webkit-scrollbar-thumb {
+			background: #f5f8fa;
+		}
+</style>
+<style type="text/css">
+		#_maal_or_katto_s_hs::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+</style>
+<style type="text/css">
+		#_jaaniye_heeriye_oo_hs::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+</style>
+<style type="text/css">
+		#_preet_ki_dhun_par_naach_le_hs::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+</style>
+<style type="text/css">
+			#fHundredStyle_nabiya_salam_same::-webkit-scrollbar {
+  			width: 0px;  /* remove scrollbar space */
+  			background: transparent;  /* optional: just make scrollbar invisible */
+			}
+			#fHundredStyle_nabiya_salam_same::-webkit-scrollbar {
+  			width: 15px;  /* remove scrollbar space */
+  			background: darkgrey;  /* optional: just make scrollbar invisible */
+			}
+			#fHundredStyle_nabiya_salam_same::-webkit-scrollbar-thumb {
+				background: #f5f8fa;
+			}
+</style>
+<style type="text/css">
+			#salla_alan_nabi_ok::-webkit-scrollbar {
+	    			width: 0px;  /* remove scrollbar space */
+	    			background: transparent;  /* optional: just make scrollbar invisible */
+			}
+			#salla_alan_nabi_ok::-webkit-scrollbar {
+  			width: 15px;  /* remove scrollbar space */
+  			background: darkgrey;  /* optional: just make scrollbar invisible */
+			}
+			#salla_alan_nabi_ok::-webkit-scrollbar-thumb {
+				background: #f5f8fa;
+			}
+</style>
+<style type="text/css">
+			.main_agar_samne::-webkit-scrollbar {
+  			width: 0px;  /* remove scrollbar space */
+  			background: transparent;  /* optional: just make scrollbar invisible */
+			}
+			.main_agar_samne::-webkit-scrollbar {
+  			width: 15px;  /* remove scrollbar space */
+  			background: darkgrey;  /* optional: just make scrollbar invisible */
+			}
+			.main_agar_samne::-webkit-scrollbar-thumb {
+				background: #f5f8fa;
+			}
+</style>
+<style type="text/css">
+		#_moniterable_outside_baap::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+</style>
+<style type="text/css">
+		._moniterable_outside_baap_comment::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+</style>
+<style type="text/css">
+		._moniterable_outside_baap_comment_amazon::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+</style>
+<style type="text/css">
+		#its_ok_shreya_i_am_alright::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style type="text/javascript">
+		.myownblack{background-color:transparent;color:black !important;}
+</style>
+<style type="text/css">
+		.jaanvdega::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+		.jaanvdega::-webkit-scrollbar {
+			width: 15px;  /* remove scrollbar space */
+			background: darkgrey;  /* optional: just make scrollbar invisible */
+		}
+		.jaanvdega::-webkit-scrollbar-thumb {
+			background: #f5f8fa;
+		}
+</style>
+<style type="text/css">
+		.chhoro_v_ye_ada::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+		.chhoro_v_ye_ada::-webkit-scrollbar {
+			width: 15px;  /* remove scrollbar space */
+			background: darkgrey;  /* optional: just make scrollbar invisible */
+		}
+		.chhoro_v_ye_ada::-webkit-scrollbar-thumb {
+			background: #f5f8fa;
+		}
+</style>
+<style type="text/css">
+		.its_ok_shreya_i_am_alright_ok::-webkit-scrollbar {
+			width: 0px;  /* remove scrollbar space */
+			background: transparent;  /* optional: just make scrollbar invisible */
+		}
+</style>
+<style type="text/css">
+		.capital_capital_hoho {
+			text-transform:capitalize;
+		}
+</style>
+<style type="text/css">
+		a.capital_capital_hoho_dissabled {
+			pointer-events: none;
+			cursor: default;
+		}
+		a._kala_suit_kala_til{
+			opacity:0.2
+		}
+</style>
+<style type="text/css">
+    ._pratibha_reset_my_text{text-transform:none;}
+		._pratibha_capitalize_my_text{text-transform:capitalize;}
+		.large_font_pratibha{font-size:large;}
+		._design_my_cursor_pratibha{cursor:pointer;}
+		._align_my_text_pratibha_center{text-align: center;}
+		._kar_yaad_wo_jamana_mere_pyar_ka{cursor:zoom-in;}
+		._design_my_font_weight_pratibha{font-size:large;}
+		._temp_hundred_percent_style_class_width{width: 100%;}
+</style>
+<style>
+	._sorry_pratibha_am_really_sorry_forgive_me::-webkit-input-placeholder {
+		color:black;
+	}
+	.sajan_sajan_teri_dulhan_pp_prat{width: 100%;height: 50px;}
+	._payaliya_teri_hohoho_mujhe_rulaye_pp_prati{width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;}
+	._basne_laga_q_fir_wo_jahan{width:100%;}
+	._lut_lut_ke_saiyan_hun_main_ki_kara{width: 70%;}
+</style>
+<script type="text/javascript">
+	window.__pageType="Social";
+</script>
+{{end}}

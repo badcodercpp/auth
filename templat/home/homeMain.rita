@@ -1,0 +1,35 @@
+{{define "home"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>theLinkedFace - We link faces together</title>
+	{{template "cdn" .Cdn}}
+	{{template "homeStyle"}}
+	{{template "placeholderHome"}}
+	{{template "popupListener"}}
+</head>
+<body>
+<div id="_js_root_animation">
+</div>
+<div id="_head">
+</div>
+{{template "homeHead" .Me}}
+<div id="_head_root_animation">
+</div>
+<div id="_chat_container">
+</div>
+{{template "chatContainerStyle"}}
+<div id="_body">
+	<div id="_bdy_part_1">
+	</div>
+	{{template "homeBodyPartOne" .Playlist}}
+	<div id="_bdy_part_2">
+	</div>
+	{{template "homeBodyPartTwo"}}
+	<div id="_bdy_part_3">
+	</div>
+	{{template "homeBodyPartThree" .Linked}}
+</div>
+</body>
+</html>
+{{end}}

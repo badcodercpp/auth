@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>linkedFace-we link faces together</title>
+    <meta name="author" content="AJAY JHA">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <style type="text/css">
+	body{background-color: #f5f8fa;}
+	#_head{width:100%;height:50px;background-color:white;position: fixed;left:0;top:0;border-top:2px solid lightgrey;border-bottom:2px solid lightgrey;z-index:10}
+	#_body{width:100%;height: 1200px;background-color: #f5f8fa;}
+	#_bdy_part_1{width: 29%;height: 100%;display: inline;float: left;margin-right:1%;}
+	#_bdy_part_2{width: 40%;height: 100%;display: inline;float: left;margin-right:1%;}
+	#_bdy_part_3{width: 29%;height: 100%;display: inline;float: right}
+	#_chat_container{width:68%;height:30px;position:fixed;z-index:25;margin-top:750px;background-color:transparent;}
+    </style>
+</head>
+<body>
+	<div id="_head">
+	</div>
+	<div id="_body">
+		<div id="_bdy_part_1">
+		</div>
+		<script type="text/babel">
+			const myDatingQueueFrame={width:"100%",height:"100%"};
+			const textDatingQueueMessageMe={width:"100%",height:"50px"};
+			const textDatingQueueMessageMe_after={width:"100%",minHeight:"400px"};
+			const dFlexInfyBoxDateText_datingQueue={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+			const fCursor_cs={cursor:"pointer"};
+			class MyDatingQueue extends React.Component {
+				constructor(props){
+					super(props);
+					this.state = {
+					};
+				}
+				render(){
+					return (
+						<div style={myDatingQueueFrame}>
+							<div style={textDatingQueueMessageMe}>
+								<div style={dFlexInfyBoxDateText_datingQueue}>
+									<font style={fCursor_cs} size={5}>
+										My dating queue
+									</font>
+								</div>
+							</div>
+							<div style={textDatingQueueMessageMe_after}>
+							</div>
+						</div>
+					);
+				}
+			}
+
+
+
+
+
+			const datePartOneBoxStyle={width:"70%",height:"100%",marginTop:"55px",float:"right"};
+			const myDatingDp={width:"99%",height:"250px"};
+			const afterMyDatingDP={width:"100%",minHeight:"500px"};
+			const myActualDpImgStyle={width:"80%",height:"80%",float:"right"};
+			class MyDatingPartOne extends React.Component {
+				constructor(props){
+					super(props);
+					this.state = {
+						rc:"a.jpg"
+					};
+				}
+				render(){
+					return (
+						<div style={datePartOneBoxStyle}>
+							<div style={myDatingDp}>
+								<img src={this.state.rc} style={myActualDpImgStyle} alt="refetching" />
+							</div>
+							<div style={afterMyDatingDP}>
+								<MyDatingQueue />
+							</div>
+						</div>
+					)
+				}
+			}
+			ReactDOM.render(<MyDatingPartOne />,document.getElementById('_bdy_part_1'));
+		</script>
+		<div id="_bdy_part_2">
+		</div>
+		<script type="text/babel">
+			const activityChangeOptionBox={width:"100%",height:"100%"};
+			class ActivityChangerDateOption extends React.Component {
+				constructor(props){
+					super(props);
+					this.state = {
+					};
+				}
+				render(){
+					return (
+						<div style={activityChangeOptionBox}>
+							
+						</div>
+					)
+				}
+			}
+
+
+
+
+
+			const infoBoxIndiWrap={width:"100%",height:"100%"};
+			const upperHalfInfiPic={width:"100%",height:"50%"};
+			const lowerHalfInfiPic={width:"100%",height:"50%"};
+			const dFlexImgBoxDate={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+			const imgCircleDisplayAsDater={height:"98%",borderRadius:"50%"};
+			const upperHalfActNameWalaInfy={width:"100%",height:"33%"};
+			const lowerHalfActNameWalaInfy={width:"100%",height:"33%"};
+			const lowerHalfActNameWalaInfy_ok={width:"100%",height:"33%"};
+			const dFlexInfyBoxDateText={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+			const fCursor={cursor:"pointer"};
+			const reqDatingButtonStyle={backgroundColor:"transparent"};
+			
+			class IndiFaceCreaterDate extends React.Component {
+				constructor(props){
+					super(props);
+					this.state = {
+						info:this.props.Info
+					};
+				}
+				render(){
+					return (
+						<div style={infoBoxIndiWrap}>
+							
+							<div style={upperHalfInfiPic}>
+								<div style={dFlexImgBoxDate}>
+									<img src={this.state.info.rc} style={imgCircleDisplayAsDater} />
+								</div>
+							</div>
+							<div style={lowerHalfInfiPic}>
+								<div style={upperHalfActNameWalaInfy}>
+									<div style={dFlexInfyBoxDateText}>
+										<font style={fCursor} size={4}>
+											{
+												this.state.info.name.split(" ")[0]
+											}
+										</font>
+									</div>
+								</div>
+								<div style={lowerHalfActNameWalaInfy}>
+									<div style={dFlexInfyBoxDateText}>
+										<font style={fCursor} size={4}>Total Date - &nbsp;
+											{
+												this.state.info.pDate
+											}
+										</font>
+									</div>
+								</div>
+								<div style={lowerHalfActNameWalaInfy_ok}>
+									<div style={dFlexInfyBoxDateText}>
+										<input style={reqDatingButtonStyle} type="button" value="Request for dating" />
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					);
+				}
+			}
+
+
+			const myDatePartTwoFrame={width:"100%",height:"100%",marginTop:"55px"};
+			const availableDatingFaces={width:"100%",height:"250px",overflowY:"hidden",overflowX:"scroll",whiteSpace:"nowrap"};
+			const activityTabForDateActivity={width:"100%",height:"50px"};
+			const afterActivityClickPageChange={width:"100%",minHeight:"500px"};
+			const indiFaceAvDateWrap={width:"200px",height:"95%",border:"1px solid black",display:"inline-block",marginLeft:"10px"};
+
+			var moreLoaderFaceForDate=(ml)=>{
+				return {width:"30px",height:"250px",position:"absolute",zIndex:"15",marginLeft:ml,backgroundColor:"white"};
+			}
+			const myOwnActivityClkable={width:"49%",height:"100%",display:"inline",float:"left"};
+			const myPartActivityClkable={width:"49%",height:"100%",display:"inline",float:"right"};
+			class MydatingPagePartTwoClas extends React.Component {
+				constructor(props){
+					super(props);
+					this.state = {
+						avFace:[{name:"ajay",rc:"a.jpg",pDate:0},{name:"vijay",rc:"a.jpg",pDate:0},{name:"sanjay",rc:"a.jpg",pDate:0},{name:"dhananjay",rc:"a.jpg",pDate:0},{name:"parajay",rc:"a.jpg",pDate:0}],
+						ml:"0px",
+						allWhiter:"My Activity"
+					};
+					this.componentDidMount=this.componentDidMount.bind(this);
+				}
+				componentDidMount(){
+					let mx=document.getElementById('_frame_id_of_unknown_girl_date').clientWidth-30+"px";
+					this.setState({
+						ml:mx
+					})
+				}
+				render(){
+					return (
+						<div id="_frame_id_of_unknown_girl_date" style={myDatePartTwoFrame}>
+							<div style={availableDatingFaces}>
+								<div style={moreLoaderFaceForDate(this.state.ml)}>
+								</div>
+								{
+									this.state.avFace.map( (a,b) => {
+										return (
+											<div key={b} style={indiFaceAvDateWrap}>
+												<IndiFaceCreaterDate Info={a} />
+											</div>
+										)
+									} )
+								}
+							</div>
+							<div style={activityTabForDateActivity}>
+								<div style={myOwnActivityClkable}>
+									<div style={dFlexInfyBoxDateText}>
+										<font size={5}>
+											My activity
+										</font>
+									</div>
+								</div>
+								<div style={myPartActivityClkable}>
+									<div style={dFlexInfyBoxDateText}>
+										<font size={5}>
+											Partner's activity
+										</font>
+									</div>
+								</div>
+							</div>
+							<div style={afterActivityClickPageChange}>3
+							</div>
+						</div>
+					)
+				}
+			}
+			ReactDOM.render(<MydatingPagePartTwoClas />,document.getElementById('_bdy_part_2'));
+		</script>
+		<div id="_bdy_part_3">
+		</div>
+		<script type="text/babel">
+
+			const myDatingQueueFrame_part={width:"100%",height:"100%"};
+			const textDatingQueueMessageMe_part={width:"100%",height:"50px"};
+			const textDatingQueueMessageMe_after_part={width:"100%",minHeight:"400px"};
+			const dFlexInfyBoxDateText_datingQueue_part={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+			const fCursor_cs_part={cursor:"pointer"};
+			class MyPartnersDatingQueue extends React.Component {
+				constructor(props){
+					super(props);
+					this.state = {
+					};
+				}
+				render(){
+					return (
+						<div style={myDatingQueueFrame_part}>
+							<div style={textDatingQueueMessageMe_part}>
+								<div style={dFlexInfyBoxDateText_datingQueue_part}>
+									<font style={fCursor_cs_part} size={5}>
+										Partner's dating queue
+									</font>
+								</div>
+							</div>
+							<div style={textDatingQueueMessageMe_after_part}>
+							</div>
+						</div>
+					);
+				}
+			}
+
+
+
+
+			const datePartThreeBoxStyle={width:"70%",height:"100%",marginTop:"55px",float:"left"};
+			const myDatingDp_p={width:"99%",height:"250px"};
+			const afterMyDatingDP_p={width:"100%",minHeight:"500px"};
+			const myActualDpImgStyle_p={width:"80%",height:"80%",float:"left"};
+			class MyDatingPartThree extends React.Component {
+				constructor(props){
+					super(props);
+					this.state = {
+						rc:"a.jpg"
+					};
+				}
+				render(){
+					return (
+						<div style={datePartThreeBoxStyle}>
+							<div style={myDatingDp_p}>
+								<img src={this.state.rc} style={myActualDpImgStyle_p} alt="refetching" />
+							</div>
+							<div style={afterMyDatingDP_p}>
+								<MyPartnersDatingQueue />
+							</div>
+						</div>
+					)
+				}
+			}
+			ReactDOM.render(<MyDatingPartThree />,document.getElementById('_bdy_part_3'));
+		</script>
+	</div>
+</body>
+</html>

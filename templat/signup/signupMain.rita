@@ -1,0 +1,30 @@
+{{define "signup"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>theLinkedFace - We link faces together</title>
+	{{template "cdn" .}}
+	{{template "signupStyle"}}
+	{{template "verify"}}
+	{{template "placeholder"}}
+</head>
+<body>
+<div id="_js_root_animation">
+</div>
+<div id="_head">
+</div>
+{{template "signupHead"}}
+<div id="_head_root_animation">
+</div>
+<div id="_body">
+	<div id="_bdy_part_1">
+	</div>
+	<div id="_bdy_part_2">
+	</div>
+	{{template "signupBody"}}
+	<div id="_bdy_part_3">
+	</div>
+</div>
+</body>
+</html>
+{{end}}

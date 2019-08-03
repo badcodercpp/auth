@@ -1,0 +1,5 @@
+{{define "cdn"}}
+	{{range .}}
+		<script src="{{- . -}}"></script>
+	{{end}}
+{{end}}

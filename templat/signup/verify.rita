@@ -1,0 +1,33 @@
+{{define "verify"}}
+<script type="text/javascript">
+	function sEmail(email) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
+
+
+function sName(id)
+{
+    var regex = /^[a-zA-Z ]{4,16}$/;
+	return regex.test(id)
+}
+</script>
+	<!-- <script type="text/javascript" id="email_ss">
+	function validateEmail(email) {
+    	var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    	return re.test(email);
+	}
+	</script> -->
+	<script type="text/javascript" id="password_ss">
+	function sPassword(password) {
+    	var re = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+
+    	return re.test(password);
+	}
+	function sMobile(mob) {
+    	var pattern = new RegExp("^[0-9]{10}$");
+
+    		return pattern.test(mob);
+	}
+	</script>
+{{end}}

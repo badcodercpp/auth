@@ -1,0 +1,10 @@
+{{define "signupStyle"}}
+<style type="text/css">
+	body{background-color: #f5f8fa;}
+	#_head{width:100%;height:50px;background-color:white;position: fixed;left:0;top:0;border-top:2px solid lightgrey;border-bottom:2px solid lightgrey;}
+	#_body{width:100%;height: 600px;background-color: #f5f8fa;}
+	#_bdy_part_1{width: 20%;height: 100%;display: inline;float: left}
+	#_bdy_part_2{width: 60%;height: 100%;display: inline;float: left}
+	#_bdy_part_3{width: 20%;height: 100%;display: inline;float: right}
+</style>
+{{end}}

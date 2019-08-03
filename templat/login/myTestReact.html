@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.2/react.js"></script>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.2/react-dom.js"></script>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+	
+
+
+
+</head>
+<body>
+<div id="myId"></div>
+	<script type="text/babel">
+	class NewTestReact extends React.Component{
+		constructor(props){
+		super(props);
+
+		this.state = {x:this.props.m};
+		this.componentWillMount = this.componentWillMount.bind(this);
+		this.componentWillReceiveProps=this.componentWillReceiveProps.bind(this)
+		}
+
+		componentWillMount(){
+				ReactDOM.render(<MyTestReact n={this.state.x} />,document.getElementById('myId'))
+			}
+componentWillReceiveProps(nextProps){
+	this.setState({
+	x : nextProps.m
+	})
+}
+		render(){
+		return(<div>
+			<span>hi</span>
+		</div>);
+		}
+
+
+	}
+		class MyTestReact extends React.Component{
+			constructor(props){
+				super(props);
+
+				this.x = this.props.x;
+				this.state = {text:this.props.n,mounted:false}
+				this.changed = this.changed.bind(this);
+				this.mouseEntered = this.mouseEntered.bind(this);
+				this.componentWillReceiveProps = this.componentWillReceiveProps.bind(this);
+				this.componentDidMount = this.componentDidMount.bind(this);
+			}
+componentWillReceiveProps(nextProps){
+	this.setState({
+	text : nextProps.n
+	})
+}
+			componentDidMount(){
+			this.setState({mounted:true});
+			}
+			mouseEntered(evt){
+			console.log(this.state.mounted)
+				if(this.state.mounted)
+				{
+				ReactDOM.unmountComponentAtNode(this.refs.newID)
+					ReactDOM.render(<NewTestReact m={"changed"} />,this.refs.newID);
+				}
+			}
+
+			changed(evt){
+			this.setState({text:evt.target.value});
+			}
+			render(){
+				return (<div>
+					<a href="#" onMouseEnter={this.mouseEntered}>show div</a>
+					<div ref="newID"></div>
+					<input type="text" onChange = {this.changed} />
+					<br/>
+					<span>{this.state.text}</span>
+				</div>
+				);
+			}
+
+		}
+		ReactDOM.render(<MyTestReact n={"hi"} />,document.getElementById('myId'))
+
+	</script>
+</body>
+
+</html>

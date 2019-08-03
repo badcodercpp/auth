@@ -1,0 +1,309 @@
+{{define "signupBody"}}
+
+
+
+	<script type="text/babel">
+		"use strict";
+		//let h=`${document.getElementById('_body').clientHeight-50}px`;
+
+		const loginBodyMainStyle={width:"100%",height:"100%",marginTop:"50px"};
+		const logicalContainerStyle={width:"100%",height:"300px",border:"1px solid lightgrey",borderRadius:"2%",backgroundColor:"white"};
+		const partitionStyle_1={wisth:"100%",height:"240px",borderRadius:"4%"};
+		const partitionStyle_2={wisth:"100%",height:"60px",backgroundColor:"#f4f4f4",borderRadius:"4%"}
+		const individualStyle_1={width:"15%",height:"100%",display:"inline",float:"left"};
+		const individualStyle_2={width:"85%",height:"100%",display:"inline",float:"right"};
+		const contPsudoStyle={width:"100%",height:"100%"};
+		const againInnerSt={width:"100%",height:"40px"};
+		const dFlexStyle={width:"100%",height:"100%",display:"flex",justifyContent:"flex-start",alignItems:"center"};
+		const textCodeStyle={fontFamily:"cursive"};
+		const emOphnStyle={width:"50%",height:"30px",borderRadius:"3px",border:"1px solid #e6ecf0",textIndent:"10px"};
+		const loginButtonContStyle={width:"100%",height:"100%"};
+		const indiLoginBtContStyle={width:"20%",height:"100%",display:"inline",float:"left"};
+		const logBtStyle={width:"70%",height:"95%",cursor:"pointer",backgroundColor:"#3b88c3",fontSize:"larger",fontFamily:"cursive",color:"white",borderRadius:"10%",border:"none"};
+		const rememberMeStyle={width:"100%",height:"100%",display:"flex",justifyContent:"flex-start",alignItems:"center"};
+		const fontStyleForgotStyle={cursor:"pointer"};
+		const newUserStyle={width:"100%",height:"100%"};
+		const newStyle={wisth:"100%",height:"50%",display:"flex",justifyContent:"flex-start",alignItems:"center"};
+		const newStyle_c={wisth:"100%",height:"50%",display:"flex",justifyContent:"center",alignItems:"center"};
+		const blankCopyright={width:"15%",height:"100%",display:"inline",float:"left"};
+		const blankCopyrightNo={width:"85%",height:"100%",display:"inline",float:"right"};
+		const aSt={width:"63%",height:"100%",display:"block"};
+		const bSt={width:"33%",height:"100%",display:"inline",float:"left"};
+		const cSt={fontFamily:"cursive"};
+		const helpSt={width:"100%",height:"100%",display:"flex",alignItems:"center"};
+		const indiLoginBtContStyle_tanha={width:"30%",height:"100%",display:"inline",float:"left"};
+		const indiLoginBtContStyle_mine={width:"30%",height:"100%",display:"inline",float:"left"};
+		const spanningHello={marginLeft:"10px",color:"red"};
+		const spanningHello_ok={marginLeft:"10px",color:"green",fontSize:"18px"};
+		class SignupBody extends React.Component {
+			constructor(props){
+				super(props);
+				this.state = {
+					logMsg:"Sign up to theLinkedface",
+					emOphnVal:"",
+					pwdVal:"",
+					fpDecoration:"none",
+					chkd:true,
+					nmVal:"",
+					mGend:"",
+					repwdVal:"",
+					innerSpanning:"",
+					nmFoci:false,
+					innerSpanningEm:"",
+					innerSpanningPas:"",
+					innerSpanningRePas:""
+				};
+				this._em_o_phn_change=this._em_o_phn_change.bind(this);
+				this._pwd_change=this._pwd_change.bind(this);
+				this._ok_clk=this._ok_clk.bind(this);
+				this._nm_change=this._nm_change.bind(this);
+				this._underline_me=this._underline_me.bind(this);
+				this._deunderline_me=this._deunderline_me.bind(this);
+				this._ll_login_clk=this._ll_login_clk.bind(this);
+				this._my_gender=this._my_gender.bind(this);
+				this._re_pwd_change=this._re_pwd_change.bind(this);
+				this._mm_nm_foci=this._mm_nm_foci.bind(this);
+				this._mm_nm_bluri=this._mm_nm_bluri.bind(this);
+			}
+			_mm_nm_bluri(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				/*this.setState({
+					nmFoci:false
+				});*/
+			}
+			_mm_nm_foci(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				/*this.setState({
+					nmFoci:true
+				});*/
+			}
+			_re_pwd_change(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				this.setState({
+					repwdVal:evt.target.value
+				});
+				if(evt.target.value ==""){
+					this.setState({
+						innerSpanningRePas:"password won't match",
+						repwdVal:evt.target.value
+					});
+				}else if(!sName(evt.target.value)){
+					this.setState({
+						innerSpanningRePas:"password won't match",
+						repwdVal:evt.target.value
+					});
+				}else{
+					this.setState({
+						innerSpanningRePas:"",
+						repwdVal:evt.target.value
+					});
+				}
+			}
+			_my_gender(evt){
+				this.setState({
+					mGend:evt.target.value
+				})
+			}
+			_ll_login_clk(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				top.location.href=`${top.location.href.split('/')[0]}/login`;
+			}
+			_nm_change(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				if(evt.target.value ==""){
+					this.setState({
+						innerSpanning:"what's your name ?",
+						nmVal:evt.target.value
+					});
+				}else if(!sName(evt.target.value)){
+					this.setState({
+						innerSpanning:"please enter a valid name",
+						nmVal:evt.target.value
+					});
+				}else{
+					this.setState({
+						innerSpanning:"",
+						nmVal:evt.target.value
+					});
+				}
+			}
+			_ok_clk(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				/*let ac={Email:this.state.emOphnVal,Password:this.state.pwdVal,Name:this.state.nmVal,Gnd:this.state.mGend,repas:this.state.repwdVal};
+				console.log(ac);
+				if (this.state.pwdVal==this.state.repwdVal) {
+					var formData=new FormData();
+					formData.append("email",this.state.emOphnVal)
+					formData.append("password",this.state.pwdVal)
+					//console.log(ac)
+					var xhttp = new XMLHttpRequest();
+								xhttp.open("POST", "signUpMePlease", true);
+								xhttp.setRequestHeader('Content-Type','application/json');
+								xhttp.onreadystatechange = function(data){
+	    							if (xhttp.readyState==4) {
+	    								console.log(this.responseText)
+
+	    							}
+								};
+							xhttp.send({Ac:JSON.stringify(ac)});
+				}*/
+				/*var formData=new FormData();
+				formData.append("email",this.state.emOphnVal)
+				formData.append("password",this.state.pwdVal)
+				console.log(ac)
+				var xhttp = new XMLHttpRequest();
+							xhttp.open("POST", "linkAuth", true);
+							xhttp.setRequestHeader('Content-Type','application/json');
+							xhttp.onreadystatechange = function(data){
+    							if (xhttp.readyState==4) {
+    								console.log(this.responseText)
+
+    							}
+							};
+
+
+							let bvgh=JSON.stringify(ac)
+						xhttp.send(JSON.stringify(ac));
+						console.log(JSON.stringify(bvgh))*/
+			}
+			_underline_me(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				evt.target.style.textDecoration="underline";
+			}
+			_deunderline_me(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				evt.target.style.textDecoration="none";
+			}
+			_pwd_change(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				if(evt.target.value ==""){
+					this.setState({
+						innerSpanningPas:"we require a password ",
+						pwdVal:evt.target.value
+					});
+				}else if(!sName(evt.target.value)){
+					this.setState({
+						innerSpanningPas:"please enter a valid password",
+						pwdVal:evt.target.value
+					});
+				}else{
+					this.setState({
+						innerSpanningPas:"",
+						pwdVal:evt.target.value
+					});
+				}
+			}
+			_em_o_phn_change(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+
+				if(evt.target.value ==""){
+					this.setState({
+						innerSpanningEm:"what's your email ?",
+						emOphnVal:evt.target.value
+					});
+				}else if(!sEmail(evt.target.value)){
+					this.setState({
+						innerSpanningEm:"please enter a valid email",
+						emOphnVal:evt.target.value
+					});
+				}else{
+					this.setState({
+						innerSpanningEm:"",
+						emOphnVal:evt.target.value
+					});
+				}
+			}
+			render(){
+				return (
+					<div style={loginBodyMainStyle}>
+						<div style={logicalContainerStyle}>
+							<div style={partitionStyle_1}>
+								<div style={individualStyle_1}>
+
+								</div>
+								<div style={individualStyle_2}>
+									<div style={contPsudoStyle}>
+										<div style={againInnerSt}>
+											<div style={dFlexStyle}>
+												<code style={textCodeStyle}>
+													<font size={5}>
+														{this.state.logMsg}
+													</font>
+												</code>
+											</div>
+										</div>
+										<form method="POST" action="/signUpMePlease"><div style={againInnerSt}>
+											<div style={dFlexStyle}>
+												<input type="text" name="name" id="_name" style={emOphnStyle} value={this.state.nmVal} placeholder="name" onChange={this._nm_change} onFocus={this._mm_nm_foci} onBlur={this._mm_nm_bluri} />{(this.state.nmVal!="" && sName(this.state.nmVal))?(<span style={spanningHello_ok}>&#8730;</span>):(<span style={spanningHello}>{this.state.innerSpanning}</span>)}
+											</div>
+										</div>
+										<div style={againInnerSt}>
+											<div style={dFlexStyle}>
+												<input type="text" name="_em_o_phn" id="_em_o_phn" style={emOphnStyle} value={this.state.emOphnVal} placeholder="email or mobile" onChange={this._em_o_phn_change} />{(this.state.emOphnVal!="" && sEmail(this.state.emOphnVal))?(<span style={spanningHello_ok}>&#8730;</span>):(<span style={spanningHello}>{this.state.innerSpanningEm}</span>)}
+											</div>
+										</div>
+										<div style={againInnerSt}>
+											<div style={dFlexStyle}>
+												<input type="password" name="_pwd" id="_pwd" style={emOphnStyle} value={this.state.pwdVal} placeholder="password" onChange={this._pwd_change} />{(this.state.pwdVal!="" && sPassword(this.state.pwdVal))?(<span style={spanningHello_ok}>&#8730;</span>):(<span style={spanningHello}>{this.state.innerSpanningPas}</span>)}
+											</div>
+										</div>
+										<div style={againInnerSt}>
+											<div style={dFlexStyle}>
+												<input type="password" name="_pwd_re" id="re_pwd" style={emOphnStyle} value={this.state.repwdVal} placeholder="re enter password" onChange={this._re_pwd_change} />{(this.state.repwdVal!="" && this.state.pwdVal!="" && this.state.repwdVal==this.state.pwdVal)?(<span style={spanningHello_ok}>&#8730;</span>):(<span style={spanningHello}>{this.state.innerSpanningRePas}</span>)}
+											</div>
+										</div>
+										<div style={againInnerSt}>
+											<div style={aSt} >
+												<div style={bSt}>
+													<div style={helpSt}>
+														<input type="radio" name="gender" id="gender" value="male" onClick={this._my_gender} /><code style={cSt}><font size="4">male</font></code>
+													</div>
+												</div>
+												<div style={bSt}>
+													<div style={helpSt}>
+														<input type="radio" name="gender" id="gender" value="female" onClick={this._my_gender}  /><code style={cSt}><font size="4">female</font></code>
+													</div>
+												</div>
+												<div style={bSt}>
+													<div style={helpSt}>
+														<input type="radio" name="gender" id="gender" value="other" onClick={this._my_gender} /><code style={cSt}><font size="4">other</font></code>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div style={againInnerSt}>
+											<div style={loginButtonContStyle}>
+												<div style={indiLoginBtContStyle}>
+													<input type="submit" value="signup" style={logBtStyle} />
+												</div>
+												<div style={indiLoginBtContStyle_mine}>
+													<div style={rememberMeStyle}>
+														<code style={textCodeStyle}><font color="#3b88c3" style={fontStyleForgotStyle} onMouseOut={this._deunderline_me} onMouseEnter={this._underline_me} onClick={this._ll_login_clk}>Already have an account ?</font></code>
+													</div>
+												</div>
+												<div style={indiLoginBtContStyle_tanha}>
+
+												</div>
+											</div>
+											</div></form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				)
+			}
+		}
+		ReactDOM.render(<SignupBody />,document.getElementById('_bdy_part_2'));
+	</script>
+{{end}}

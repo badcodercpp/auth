@@ -1,0 +1,29 @@
+{{define "placeholderHome"}}
+<style type="text/css">
+		#_all_ser_opt_box::-webkit-input-placeholder,#_em_o_phn::-webkit-input-placeholder,#_pwd::-webkit-input-placeholder,#re_pwd::-webkit-input-placeholder,#password::-webkit-input-placeholder,#password_r::-webkit-input-placeholder,#email::-webkit-input-placeholder,#dob::-webkit-input-placeholder { /* WebKit browsers */
+  			line-height: 4.5em;
+  			color:black;
+  			font-size:15px;
+  			font-family:cursive;
+		}
+
+		 #_all_ser_opt_box::-webkit-input-placeholder,#_em_o_phn::-webkit-input-placeholder,#_pwd::-webkit-input-placeholder,#re_pwd::-webkit-input-placeholder,#password::-webkit-input-placeholder,#password_r::-webkit-input-placeholder,#email::-webkit-input-placeholder,#dob::-webkit-input-placeholder{ /* Mozilla Firefox 4 to 18 */
+  			line-height: 4.5em;
+  			color:black;
+  			font-size:15px;
+  			font-family:cursive;
+		}
+		 #_all_ser_opt_box::-webkit-input-placeholder,#_em_o_phn::-webkit-input-placeholder,#_pwd::-webkit-input-placeholder,#re_pwd::-webkit-input-placeholder,#password::-webkit-input-placeholder,#password_r::-webkit-input-placeholder,#email::-webkit-input-placeholder,#dob::-webkit-input-placeholder { /* Mozilla Firefox 19+ */
+  			line-height: 4.5em;
+  			color:black;
+  			font-size:15px;
+  			font-family:cursive;
+		}
+		 #_all_ser_opt_box::-webkit-input-placeholder,#_em_o_phn::-webkit-input-placeholder,#_pwd::-webkit-input-placeholder,#re_pwd::-webkit-input-placeholder,#password::-webkit-input-placeholder,#password_r::-webkit-input-placeholder,#email::-webkit-input-placeholder,#dob::-webkit-input-placeholder { /* Internet Explorer 10+ */
+  			line-height: 4.5em;
+  			color:black;
+  			font-size:15px;
+  			font-family:cursive;
+		}
+	</style>
+{{end}}

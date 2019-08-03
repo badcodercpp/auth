@@ -1,0 +1,10 @@
+{{define "popupListener"}}
+  <script type="text/javascript">
+    window.addEventListener("opacity",(evt) => {
+      document.getElementById("_head").style.opacity=evt.detail.message;
+      document.getElementById("_head_root_animation").style.opacity=evt.detail.message;
+      document.getElementById("_chat_container").style.opacity=evt.detail.message;
+      document.getElementById("_body").style.opacity=evt.detail.message;
+    },true)
+  </script>
+{{end}}

@@ -1,0 +1,2390 @@
+{{define "homeBodyPartThree"}}
+
+
+
+	<script type="text/babel">
+		'use strict';
+		const mgTopChatBoxScrolledTop={width:"100%",height:"250px",marginTop:"-255px",border:"1px solid #e6ecf0",backgroundColor:"#f5f8fa"};
+		const chtBxHead={width:"100%",height:"20px",backgroundColor:"white"};
+		const chtBxBody={width:"99%",height:"195px",border:"1px solid #e6ecf0",backgroundColor:"transparent",overflowY:"scroll"};
+		const chtBxFoot={width:"100%",height:"35px",backgroundColor:"white",border:"1px solid #e6ecf0"};
+		const flexChatFoot={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"flex-end"};
+		const msgBoxActualIp={width:"75%",height:"25px",textIndent:"10px",border:"1px solid #e6ecf0"};
+		const sendBtMessage={backgroundColor:"transparent",border:"1px solid #e6ecf0",cursor:"pointer"};
+		const flexChatHead={width:"100%",height:"100%",display:"flex",justifyContent:"flex-end",alignItems:"center"};
+		const fontingMinimise={marginRight:"10px",cursor:"pointer"};
+		const fontingClose={cursor:"pointer"};
+		const chatWalaBhaiya={height:"31px"};
+		const chatWalaBhaiya_dum_dum_ali={height:"30px"};
+		const message_baxa_for_u_pratibha_please_accept_it={width:"100%"};
+		const pratibha_actual_msg_text_body_for_u_1={width:"70%",display:"inline-block",float:"left",textIndent:"10px",paddingLeft:"10px",border:"1px solid grey",backgroundColor:"white",borderRadius:"25%",minHeight:"50px"};
+		const pratibha_actual_msg_text_body_for_u_2={width:"29%",display:"inline-block",float:"right",minHeight:"50px"};
+		const pratibha_actual_msg_text_body_for_u_3={width:"29%",display:"inline-block",float:"left",minHeight:"50px"};
+		const pratibha_actual_msg_text_body_for_u_4={width:"70%",display:"inline-block",float:"right",textIndent:"10px",paddingLeft:"10px",border:"1px solid grey",backgroundColor:"white",borderRadius:"25%",minHeight:"50px"};
+		const d_flex_for_who_symbol_pratibha={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+		const tu_nahi_hai_teri_yaaden_mujhe_satati_hai={width:"100%",minHeight:"50px",borderRadius:"50%",border:"1px solid grey"};
+		const looking_for_love_pratibha_i_l_u={cursor:"pointer"};
+		const mahi_ve_muhabbata_sachiya_be_understand_me_please={width:"100%",height:"5px"};
+		const under_table_style_me_pratibha={width:"30%"};
+		const under_table_style_me_pratibha_1={width:"70%"};
+		const under_table_style_me_pratibha_2={width:"30%"};
+		const under_table_style_me_pratibha_3={width:"70%"};
+		const grey_border_style_to_the_msg_content={width:"100%",minHeight:"100%",textIndent:"10px",paddingLeft:"10px",border:"1px solid grey",backgroundColor:"white",borderRadius:"5%"}
+
+		class ChatBoxBodyHidden extends React.Component {
+			constructor(props) {
+				super(props);
+				this.state = {
+					moto:this.props.pr,
+					msgBoxVal:"",
+					loler:[],
+					mapOption:true
+				};
+				this._fonting_minimise_clk=this._fonting_minimise_clk.bind(this);
+				this._fonting_close_clk=this._fonting_close_clk.bind(this);
+				this._msg_box_change=this._msg_box_change.bind(this);
+				this._send_msg_ajax=this._send_msg_ajax.bind(this);
+				this.componentDidMount=this.componentDidMount.bind(this);
+				this.componentWillReceiveProps=this.componentWillReceiveProps.bind(this);
+				this.componentDidUpdate=this.componentDidUpdate.bind(this);
+				this._update_my_body_pratibha=this._update_my_body_pratibha.bind(this);
+			}
+			_update_my_body_pratibha(){
+				var that=this;
+
+				let arx=[];
+				window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME.map( (a,b)=>{
+					if(JSON.parse(that.state.moto).id==a.toA || JSON.parse(that.state.moto).id==a.fromA){
+						arx.push({to:a.toA,from:a.fromA,value:a.contentA,imageA:a.toAImage})
+					}
+				} )
+				that.setState({
+					loler:arx
+				})
+
+				/*var db8 = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+				db8.transaction(function (tx) {
+					 tx.executeSql(`SELECT * FROM MESSAGECONTENTMY_PRATIBHA_LOVE_ME WHERE toA=${JSON.parse(that.state.moto).id} AND fromA='${window.__rasoola.allah[1]}' OR toA=${window.__rasoola.allah[1]} AND fromA='${JSON.parse(that.state.moto).id}'`, [], function (tx, results) {
+							console.log(results.rows.map);
+							var arx=[];
+							for(var pxc of results.rows){
+								console.log("lojjjjjjjjjjjj");
+								console.log(that.state.moto);
+								console.log(pxc.toA);
+								if(JSON.parse(that.state.moto).id==pxc.toA){
+									arx.push({to:pxc.toA,from:pxc.fromA,value:pxc.contentA,imageA:pxc.toAImage})
+								}
+
+							}
+							that.setState({
+								loler:arx
+							})
+					 }, null);
+				 });*/
+			}
+			componentWillReceiveProps(nextProps){
+				var that=this;
+				console.log("gently tears falling");
+				console.log(nextProps);
+				console.log(this.props);
+
+				let arx=[];
+				window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME.map( (a,b)=>{
+					if(JSON.parse(nextProps.pr).id==a.toA || JSON.parse(nextProps.pr).id==a.fromA){
+						arx.push({to:a.toA,from:a.fromA,value:a.contentA,imageA:a.toAImage})
+					}
+				} )
+				that.setState({
+					loler:arx
+				})
+
+				/*var dbNissan = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+				dbNissan.transaction(function (tx) {
+					 tx.executeSql(`SELECT * FROM MESSAGECONTENTMY_PRATIBHA_LOVE_ME WHERE toA=${JSON.parse(that.state.moto).id} AND fromA='${window.__rasoola.allah[1]}' OR toA=${window.__rasoola.allah[1]} AND fromA='${JSON.parse(that.state.moto).id}'`, [], function (tx, results) {
+							console.log(results.rows.map);
+							var arx=[];
+							for(var pxc of results.rows){
+								console.log("lojjjjjjjjjjjj");
+								console.log(that.state.moto);
+								console.log(pxc.toA);
+								if(JSON.parse(nextProps.pr).id==pxc.toA){
+									arx.push({to:pxc.toA,from:pxc.fromA,value:pxc.contentA,imageA:pxc.toAImage})
+								}
+
+							}
+							console.log("arrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr");
+							console.log(arx);
+							let more
+							that.setState({
+								loler:arx
+							})
+					 }, null);
+
+				});*/
+				console.log(that.state.loler);
+			}
+			componentWillMount(){
+				var that=this;
+
+				window.addEventListener('update_my_face_pratibha_for_message',(evt)=>{
+					console.log("hello i am a sinner please forgive me yaar maaf kar dena mujhe .");
+					console.log(evt.detail.message);
+					let arx=[];
+					evt.detail.message.map( (m,n)=>{
+						if(JSON.parse(that.state.moto).id==m.toA || JSON.parse(that.state.moto).id==m.fromA){
+							arx.push({to:m.toA,from:m.fromA,value:m.contentA,imageA:m.toAImage})
+						}
+					} )
+					that.setState({
+						loler:arx
+					});
+					arx=undefined;
+				},true);
+				/*var that=this;
+				var db8 = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+				db8.transaction(function (tx) {
+					 tx.executeSql(`SELECT * FROM MESSAGECONTENTMY_PRATIBHA_LOVE_ME WHERE toA=${JSON.parse(that.state.moto).id}`, [], function (tx, results) {
+							console.log(results.rows.map);
+							var arx=[];
+							for(const pxc of results.rows){
+								arx.push({to:pxc.toA,from:pxc.fromA,value:pxc.contentA})
+							}
+							that.setState({
+								loler:arx
+							})
+					 }, null);
+
+				});*/
+			}
+			componentDidUpdate(prevProps, prevState){
+				//console.log("componentDidUpdate updatinggggggg");
+				//console.log(prevProps);
+				//console.log(prevState);
+				/*var that=this;
+				var db8 = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+				db8.transaction(function (tx) {
+					 tx.executeSql(`SELECT * FROM MESSAGECONTENTMY_PRATIBHA_LOVE_ME WHERE toA=${JSON.parse(that.state.moto).id}`, [], function (tx, results) {
+							console.log(results.rows.map);
+							var arx=[];
+							for(const pxc of results.rows){
+								arx.push({to:pxc.toA,from:pxc.fromA,value:pxc.contentA})
+							}
+							that.setState({
+								loler:arx
+							})
+					 }, null);
+
+				});*/
+			}
+			componentDidMount(){
+				var that=this;
+				let arx=[];
+				if (window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME != undefined) {
+					window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME.map( (a,b)=>{
+						if(JSON.parse(that.state.moto).id==a.toA || JSON.parse(that.state.moto).id==a.fromA){
+							arx.push({to:a.toA,from:a.fromA,value:a.contentA,imageA:a.toAImage})
+						}
+					} )
+					that.setState({
+						loler:arx
+					})
+				}
+				/*var db8 = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+				db8.transaction(function (tx) {
+					 tx.executeSql(`SELECT * FROM MESSAGECONTENTMY_PRATIBHA_LOVE_ME WHERE toA=${JSON.parse(that.state.moto).id} AND fromA='${window.__rasoola.allah[1]}' OR toA=${window.__rasoola.allah[1]} AND fromA='${JSON.parse(that.state.moto).id}'`, [], function (tx, results) {
+							console.log(results.rows.map);
+							var arx=[];
+							for(var pxc of results.rows){
+								console.log("lojjjjjjjjjjjj");
+								console.log(that.state.moto);
+								console.log(pxc.toA);
+								if(JSON.parse(that.state.moto).id==pxc.toA || JSON.parse(that.state.moto).id==pxc.fromA){
+									arx.push({to:pxc.toA,from:pxc.fromA,value:pxc.contentA,imageA:pxc.toAImage})
+								}
+
+							}
+							that.setState({
+								loler:arx
+							})
+					 }, null);
+
+				});*/
+
+
+
+
+
+			}
+			_send_msg_ajax(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				var that=this;
+				let cx=evt.target.parentElement.lastChild.value;
+				console.log("styling rehnuma");
+				console.log(cx);
+				console.log(that.state.msgBoxVal);
+				let msgTemperAller=$(evt.target.parentElement).find('.validate');
+				let msgValTemp=$(msgTemperAller).val();
+				//var db7 = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+				let yado_meri_yadon_me_aao_na=window.__rasoola.allah[1];
+				let aa_rahi_hai_teri_yade=window.__pageType;
+				let winToAimage=window.__rasoola.allah[2];
+				let meMsgWhen=Date.now();
+				let pKey=window.__rasoola.allah[4]
+				/*db7.transaction(function (tx) {
+					 tx.executeSql('CREATE TABLE IF NOT EXISTS MESSAGECONTENTMY_PRATIBHA_LOVE_ME (toA, fromA, contentA, domainA, toAImage, whenA)');
+					 tx.executeSql("INSERT INTO MESSAGECONTENTMY_PRATIBHA_LOVE_ME (toA, fromA, contentA, domainA, toAImage, whenA) VALUES (?, ?, ?, ?, ?)",[JSON.parse(cx).id,yado_meri_yadon_me_aao_na,msgValTemp,aa_rahi_hai_teri_yade,winToAimage,meMsgWhen]);
+				});*/
+				/*that.setState({
+					msgBoxVal:evt.target.value
+				});*/
+				let jsAjaxable;
+				if (window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME==undefined) {
+					//window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME=[];
+					let jsmain={toA:JSON.parse(cx).id,fromA:yado_meri_yadon_me_aao_na,contentA:msgValTemp,domainA:aa_rahi_hai_teri_yade,toAImage:winToAimage,whenA:meMsgWhen}
+					//window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME.push(jsmain);
+					jsAjaxable={To:JSON.parse(cx).id,From:yado_meri_yadon_me_aao_na,Content:msgValTemp,Domain:aa_rahi_hai_teri_yade,When:`${meMsgWhen}`,Pkey:pKey};
+				}else{
+					let jsmain={toA:JSON.parse(cx).id,fromA:yado_meri_yadon_me_aao_na,contentA:msgValTemp,domainA:aa_rahi_hai_teri_yade,toAImage:winToAimage,whenA:meMsgWhen}
+					//window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME.push(jsmain);
+					jsAjaxable={To:JSON.parse(cx).id,From:yado_meri_yadon_me_aao_na,Content:msgValTemp,Domain:aa_rahi_hai_teri_yade,When:`${meMsgWhen}`,Pkey:pKey};
+				}
+
+				$(msgTemperAller).val("");
+				that._update_my_body_pratibha();
+				$.ajax({
+					url:`saveMyMessagePratibhaPleaseHelp?data=${JSON.stringify(jsAjaxable)}`,
+					type:"GET",
+					contentType:"json",
+					async:true
+				}).done((data)=>{
+					console.log("bas meri jindagi tera pyar mere baad kisko sataoge ?");
+					console.log(data);
+					let dt=data.All;
+					let jsmain={toA:dt[0],fromA:dt[1],contentA:dt[2],domainA:dt[3],toAImage:dt[4],whenA:dt[5]}
+					window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME.push(jsmain);
+					that._update_my_body_pratibha();
+				}).fail((jqXHR,statusText)=>{
+					console.log(statusText);
+				})
+			}
+			_msg_box_change(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				/*this.setState({
+					msgBoxVal:evt.target.value
+				});*/
+			}
+			_fonting_close_clk(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				var that=this;
+				console.log("deleting following");
+				console.log(JSON.parse(that.state.moto).name);
+				ReactDOM.unmountComponentAtNode(document.getElementById(JSON.parse(that.state.moto).id))
+				/*var db = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+
+				db.transaction(function (tx) {
+					 tx.executeSql(`DELETE FROM MESSAGES WHERE id=${JSON.parse(that.state.moto).id}`);
+				});*/
+				let tempMsgMe=window.__MESSAGE;
+				let ind;
+				for (let a in tempMsgMe){
+					if (tempMsgMe[a].id==JSON.parse(that.state.moto).id) {
+						ind=a;
+					}
+				}
+				if (ind != undefined) {
+					tempMsgMe.splice(ind,1);
+					window.__MESSAGE=tempMsgMe;
+				}
+
+				/*db.transaction(function (tx) {
+					 tx.executeSql('SELECT * FROM MESSAGES', [], function (tx, results) {
+							console.log(results.rows.map);
+							let mbvcghd=new Map();
+							for(var p of results.rows){
+								mbvcghd.set(p.id,{name:p.name,image:p.image})
+							}
+							console.log(mbvcghd);
+							var event = new CustomEvent(
+								"chat_head",
+								{
+									detail: mbvcghd,
+										bubbles: true,
+										cancelable: true
+									}
+								);
+								window.dispatchEvent(event);
+					 }, null);
+
+				});*/
+				let myMessageMapTempPratibha=new Map();
+				window.__MESSAGE.map( (a,b)=>{
+					myMessageMapTempPratibha.set(a.id,{name:a.name,image:a.image});
+				} )
+				var eventLoa = new CustomEvent(
+					"chat_head",
+					{
+						detail: myMessageMapTempPratibha,
+							bubbles: true,
+							cancelable: true
+						}
+					);
+					window.dispatchEvent(eventLoa);
+				that.setState({
+					msgBoxVal:""
+				})
+
+			}
+			_fonting_minimise_clk(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				//console.log(this.state.);
+				var that=this;
+				/*var db = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+
+				db.transaction(function (tx) {
+
+					 //tx.executeSql(`DELETE FROM MESSAGES WHERE id=${JSON.parse(cvz).id}`);
+					 tx.executeSql(`DELETE FROM CHATFLAGALL WHERE id=${JSON.parse(that.state.moto).id}`);
+				});*/
+
+
+				let tempMsgMe=window.__CHATFLAGALL;
+				let ind;
+				for (let a in tempMsgMe){
+					if (tempMsgMe[a].id==JSON.parse(that.state.moto).id) {
+						ind=a;
+					}
+				}
+				if (ind != undefined) {
+					tempMsgMe.splice(ind,1);
+					window.__CHATFLAGALL=tempMsgMe;
+				}
+				ReactDOM.unmountComponentAtNode(evt.target.parentElement.parentElement.parentElement.parentElement)
+			}
+			render(){
+				return (
+					<div style={mgTopChatBoxScrolledTop}>
+						<div style={chtBxHead}>
+						<div style={flexChatHead}>
+							<font className="_fonting_minimise" size={5} style={fontingMinimise} onClick={this._fonting_minimise_clk}>&#10134;</font>
+							{/*<font size={5} style={fontingClose} onClick={this._fonting_close_clk}>&#9747;</font>*/}
+						</div>
+						</div>
+						<div style={chtBxBody}>
+							{
+								this.state.loler.map( (a,b) => {
+										console.log(JSON.parse(this.state.moto).id);
+										console.log(a);
+										if(a.to==window.__rasoola.allah[1]){
+											return (
+												<div key={b} style={message_baxa_for_u_pratibha_please_accept_it}>
+													<table>
+														<tbody>
+															<tr>
+																<td style={under_table_style_me_pratibha_1}>
+																	<div style={d_flex_for_who_symbol_pratibha}>
+																		<div style={grey_border_style_to_the_msg_content}>
+																			{
+																				a.value
+																			}
+																		</div>
+																	</div>
+																</td>
+																<td style={under_table_style_me_pratibha}>
+																	<div style={d_flex_for_who_symbol_pratibha}>
+																		<img src={a.imageA} style={tu_nahi_hai_teri_yaaden_mujhe_satati_hai} />
+																	</div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											)
+										}else {
+											return (
+												<div key={b} style={message_baxa_for_u_pratibha_please_accept_it}>
+													<table>
+														<tbody>
+															<tr>
+																<td style={under_table_style_me_pratibha_2}>
+																	<div style={d_flex_for_who_symbol_pratibha}>
+																		<img src={a.imageA} style={tu_nahi_hai_teri_yaaden_mujhe_satati_hai} />
+																	</div>
+																</td>
+																<td style={under_table_style_me_pratibha_3}>
+																	<div style={d_flex_for_who_symbol_pratibha}>
+																		<div style={grey_border_style_to_the_msg_content}>
+																			{
+																				a.value
+																			}
+																		</div>
+																	</div>
+																</td>
+
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											)
+										}
+								} )
+							}
+						</div>
+						<div style={chtBxFoot}>
+							<div style={flexChatFoot}>
+							 <div className="input-field inline" style={chatWalaBhaiya}>
+								 <i className="material-icons prefix" style={looking_for_love_pratibha_i_l_u} onClick={this._send_msg_ajax}>touch_app</i>
+								 <input id="icon_prefix" type="text" className="validate" style={chatWalaBhaiya_dum_dum_ali} onChange={this._msg_box_change} />
+								 <label for="icon_prefix">Type message</label>
+								 <input type="hidden" value={this.state.moto} />
+							 </div>
+							</div>
+						</div>
+					</div>
+				)
+			}
+		}
+
+		const ChatBoxContainer={width:"100%",height:"100%"};
+		const indiChatHeadClickable={width:"24%",marginLeft:"1%",height:"100%",display:"inline",float:"right"};
+		const my_divi_co_st={width:"99%",height:"100%",backgroundColor:"white",border:"1px solid #e6ecf0"};
+		const my_divi_co_st_fc={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+		const my_divi_co_st_fc_ob={cursor:"pointer"};
+		const afterMountChatClickableImage={width:"30px",height:"30px",marginRight:"10px",borderRadius:"50%"};
+		const fontingClose_sclickable={marginLeft:"100px",cursor:"pointer"}
+		class SudoChatBox extends React.Component {
+			constructor(props) {
+				super(props);
+				this.state = {
+					psudoChatArray:this.props.M
+				};
+				this.componentWillMount=this.componentWillMount.bind(this);
+				this.componentWillReceiveProps=this.componentWillReceiveProps.bind(this);
+				this._fontingIndiChatBox=this._fontingIndiChatBox.bind(this);
+				this._fonting_close_clk_sclickable=this._fonting_close_clk_sclickable.bind(this);
+				this.componentDidMount=this.componentDidMount.bind(this);
+			}
+			componentDidMount(){
+				var that=this;
+				let oor=this.state.psudoChatArray;
+
+				if (window.__CHATFLAGALL!=undefined) {
+					window.__CHATFLAGALL.map( (a,b)=>{
+						for (var kl of oor) {
+							//console.log(pl.id);
+							console.log(kl);
+							if(a.id==kl[0]){
+								console.log("pilling"+kl[0]);
+								//ReactDOM.render(<SudoChatBox M={window.__display_active_chatter} />,document.getElementById('_chat_container'))
+								//ReactDOM.render(<ChatBoxBodyHidden pr={JSON.stringify({id:kl[0],name:kl[1].name,image:kl[1].image})} />,document.getElementById(`${kl[0]}`))
+								console.log(document.getElementById(`${kl[0]}`));
+								if(document.getElementById(`${kl[0]}`).getElementsByClassName('_fonting_minimise')[0]!=undefined)
+								{
+
+								}
+								//document.getElementById(`${kl[0]}`).getElementsByClassName('_fonting_minimise')[0].click();
+								//ReactDOM.unmountComponentAtNode(document.getElementById(`${kl[0]}`));
+								document.getElementById(`${kl[0]}`).parentElement.getElementsByClassName('_fonting_maximise')[0].click();
+
+							}
+						}
+					} )
+				}
+				/*var db23 = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+				db23.transaction(function (tx) {
+					 tx.executeSql('SELECT * FROM CHATFLAGALL', [], function (tx, results) {
+
+								// window.__display_active_chatter
+								for(var pl of results.rows){
+										for (var kl of oor) {
+											console.log(pl.id);
+											console.log(kl);
+											if(pl.id==kl[0]){
+												console.log("pilling"+kl[0]);
+												//ReactDOM.render(<SudoChatBox M={window.__display_active_chatter} />,document.getElementById('_chat_container'))
+												//ReactDOM.render(<ChatBoxBodyHidden pr={JSON.stringify({id:kl[0],name:kl[1].name,image:kl[1].image})} />,document.getElementById(`${kl[0]}`))
+												console.log(document.getElementById(`${kl[0]}`));
+												if(document.getElementById(`${kl[0]}`).getElementsByClassName('_fonting_minimise')[0]!=undefined)
+												{
+
+												}
+												//document.getElementById(`${kl[0]}`).getElementsByClassName('_fonting_minimise')[0].click();
+												//ReactDOM.unmountComponentAtNode(document.getElementById(`${kl[0]}`));
+												document.getElementById(`${kl[0]}`).parentElement.getElementsByClassName('_fonting_maximise')[0].click();
+
+											}
+										}
+								}
+					 }, null);
+
+				});*/
+				$(document).ready(function(){
+					$('.tooltipped').tooltip({delay: 50,position:"top"});
+				});
+			}
+			_fonting_close_clk_sclickable(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				var that=this;
+				let cvz=evt.target.parentElement.lastChild.value;
+				console.log("deleting following");
+
+				let tempMsgMe=window.__MESSAGE;
+				let ind;
+				for (let a in tempMsgMe){
+					if (tempMsgMe[a].id==JSON.parse(cvz).id) {
+						ind=a;
+					}
+				}
+				if (ind != undefined) {
+					tempMsgMe.splice(ind,1);
+					window.__MESSAGE=tempMsgMe;
+				}
+
+				// deleting CHATFLAGALL
+
+				let tempMsgMe1=window.__CHATFLAGALL;
+				let ind1;
+				for (let a in tempMsgMe1){
+					if (tempMsgMe1[a].id==JSON.parse(cvz).id) {
+						ind1=a;
+					}
+				}
+				if (ind1 != undefined) {
+					tempMsgMe1.splice(ind1,1);
+					window.__CHATFLAGALL=tempMsgMe1;
+				}
+				let displayMapper=new Map();
+				window.__MESSAGE.map( (a,b)=>{
+					displayMapper.set(a.id,{id:a.id,name:a.name,image:a.image,extra:a.id})
+				} )
+
+				var eventDil = new CustomEvent(
+					"chat_head",
+					{
+						detail: displayMapper,
+							bubbles: true,
+							cancelable: true
+						}
+					);
+					window.dispatchEvent(eventDil);
+
+				//console.log(JSON.parse(that.state.moto).name);
+				//ReactDOM.unmountComponentAtNode(document.getElementById(JSON.parse(cvz).id))
+				/*var db = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+
+				db.transaction(function (tx) {
+					 tx.executeSql(`DELETE FROM MESSAGES WHERE id=${JSON.parse(cvz).id}`);
+					 tx.executeSql(`DELETE FROM CHATFLAGALL WHERE id=${JSON.parse(cvz).id}`);
+				});
+				var dbAccount = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+				dbAccount.transaction(function (tx) {
+					 tx.executeSql('SELECT * FROM MESSAGES', [], function (tx, results) {
+							console.log(results.rows.map);
+							let mbvcghdof=new Map();
+							for(var p of results.rows){
+								mbvcghdof.set(p.id,{id:p.id,name:p.name,image:p.image,extra:p.id})
+							}
+							console.log(mbvcghdof);
+							var event = new CustomEvent(
+								"chat_head",
+								{
+									detail: mbvcghdof,
+										bubbles: true,
+										cancelable: true
+									}
+								);
+								window.dispatchEvent(event);
+					 }, null);
+
+				});*/
+				/*var db2 = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+				db2.transaction(function (tx) {
+					 tx.executeSql('SELECT * FROM CHATFLAGALL', [], function (tx, results) {
+							let lokloinasa=new Map();
+							for(const p of results.rows){
+									lokloinasa.set(p.id,{id:p.id,name:p.name,image:p.image})
+							}
+							var event = new CustomEvent(
+								"chat_head_own_child",
+								{
+									detail: lokloinasa,
+										bubbles: true,
+										cancelable: true
+									}
+								);
+								window.dispatchEvent(event);
+					 }, null);
+
+				});*/
+			}
+			_fontingIndiChatBox(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				let cv=evt.target.parentElement.lastChild.value;
+				console.log(cv);
+
+				if (window.__CHATFLAGALL==undefined) {
+					window.__CHATFLAGALL=[];
+					let jsTemp={id:JSON.parse(cv).id,name:JSON.parse(cv).name,image:JSON.parse(cv).image};
+					window.__CHATFLAGALL.push(jsTemp)
+				}else {
+					let jsTemp={id:JSON.parse(cv).id,name:JSON.parse(cv).name,image:JSON.parse(cv).image};
+					window.__CHATFLAGALL.push(jsTemp)
+				}
+
+				/*var db = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+
+				db.transaction(function (tx) {
+					 tx.executeSql('CREATE TABLE IF NOT EXISTS CHATFLAGALL (id unique,name,image )');
+					 tx.executeSql(`INSERT INTO CHATFLAGALL (id, name, image) VALUES (${JSON.parse(cv).id}, "${JSON.parse(cv).name}","${JSON.parse(cv).image}")`);
+				});*/
+
+
+				// ref   evt.target.parentElement.parentElement.parentElement.firstChild     next line element
+				ReactDOM.render(<ChatBoxBodyHidden pr={cv} />,document.getElementById(JSON.parse(cv).id))
+			}
+			componentWillReceiveProps(nextProps){
+				this.setState({
+					psudoChatArray:nextProps.M
+				})
+				console.log("main hun na baby saath tere ");
+				console.log(this.state.psudoChatArray);
+				console.log(nextProps.M);
+				console.log("main hun na baby saath tere ");
+
+				let oor=this.state.psudoChatArray;
+
+				window.__CHATFLAGALL.map( (a,b)=>{
+					for (var kl of oor) {
+						//console.log(pl.id);
+						console.log(kl);
+						if(a.id==kl[0]){
+							console.log("pilling"+kl[0]);
+							//ReactDOM.render(<SudoChatBox M={window.__display_active_chatter} />,document.getElementById('_chat_container'))
+							//ReactDOM.render(<ChatBoxBodyHidden pr={JSON.stringify({id:kl[0],name:kl[1].name,image:kl[1].image})} />,document.getElementById(`${kl[0]}`))
+							console.log(document.getElementById(`${kl[0]}`));
+							if(document.getElementById(`${kl[0]}`).getElementsByClassName('_fonting_minimise')[0]!=undefined)
+							{
+
+							}
+							//document.getElementById(`${kl[0]}`).getElementsByClassName('_fonting_minimise')[0].click();
+							//ReactDOM.unmountComponentAtNode(document.getElementById(`${kl[0]}`));
+							document.getElementById(`${kl[0]}`).parentElement.getElementsByClassName('_fonting_maximise')[0].click();
+
+						}
+					}
+				} )
+				/*var db254 = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+				db254.transaction(function (tx) {
+					 tx.executeSql('SELECT * FROM CHATFLAGALL', [], function (tx, results) {
+
+								// window.__display_active_chatter
+								for(var pl of results.rows){
+										for (var kl of oor) {
+											console.log(pl.id);
+											console.log(kl);
+											if(pl.id==kl[0]){
+												console.log("pilling"+kl[0]);
+												//ReactDOM.render(<SudoChatBox M={window.__display_active_chatter} />,document.getElementById('_chat_container'))
+												//ReactDOM.render(<ChatBoxBodyHidden pr={JSON.stringify({id:kl[0],name:kl[1].name,image:kl[1].image})} />,document.getElementById(`${kl[0]}`))
+												console.log(document.getElementById(`${kl[0]}`));
+												if(document.getElementById(`${kl[0]}`).getElementsByClassName('_fonting_minimise')[0]!=undefined)
+												{
+
+												}
+												//document.getElementById(`${kl[0]}`).getElementsByClassName('_fonting_minimise')[0].click();
+												//ReactDOM.unmountComponentAtNode(document.getElementById(`${kl[0]}`));
+												document.getElementById(`${kl[0]}`).parentElement.getElementsByClassName('_fonting_maximise')[0].click();
+
+											}
+										}
+								}
+					 }, null);
+
+				});*/
+			}
+			componentWillMount(){
+
+			}
+			render(){
+				var st=[];
+				var ctr=0;
+				this.state.psudoChatArray.forEach( (a,b) => {
+					st.push({name:a.name,id:a.id,image:a.image});
+					ctr=ctr+1;
+				} )
+				console.log(st);
+				return (
+					<div style={ChatBoxContainer}>
+									{
+										st.map( (a,b)=>{
+											return (
+												<div key={b} style={indiChatHeadClickable}>
+													<div id={a.id} className="_the_unknown_girl">
+													</div>
+													<div style={my_divi_co_st}>
+														<div style={my_divi_co_st_fc}>
+															<img src={a.image} style={afterMountChatClickableImage} /><font className="_fonting_maximise truncate tooltipped" data-delay="50" data-tooltip={a.name} style={my_divi_co_st_fc_ob} size={4} onClick={this._fontingIndiChatBox}>{a.name}</font><font size={5} style={fontingClose_sclickable} onClick={this._fonting_close_clk_sclickable}>&#9747;</font><input type="hidden" value={JSON.stringify(a)} />
+														</div>
+													</div>
+												</div>
+											)
+										} )
+									}
+					</div>
+				)
+			}
+		}
+
+
+		function openInNewTab(url) {
+  		var win = window.open(url, '_blank');
+  		win.focus();
+		}
+
+
+		const mostPopularVideoYoutube={width:"100%",height:"100%"};
+		var myNewsBoxEach=(opacity)=>{
+			return {width:"100%",opacity:opacity};
+		}
+		var newsImageStyle=(width)=>{
+			return {width:width,height:"230px",position:"absolute",borderRadius:"5px",marginLeft:"23px"};
+		}
+		const myNewsSourceDetails={width:"100%",height:"50px",display:"flex",justifyContent:"center",alignItems:"center"};
+		var spanningClickableNews= (color) => {
+			return {color:color,cursor:"pointer",fontSize:"large"};
+		}
+		var myHeartIsFull=(bColor)=>{
+			return {width:"20px",height:"250px",position:"absolute",backgroundColor:"transparent"};
+		}
+		var myHeartIsFullRightSide=(bColor)=>{
+			return {width:"20px",height:"250px",position:"absolute",backgroundColor:"transparent",right:"9%"};
+		}
+		const selectStyleNewsChannel={fontSize:"larger",backgroundColor:"transparent",border:"1px solid #e6ecf0"};
+		const tujhmeRabDikhtaHai={width:"100%",height:"250px",overflowY:"scroll"};
+		var absSpanningSpan=(width,bColor) =>{
+			return {position:"relative",width:width,marginLeft:"25px",top:"190px",textAlign:"center",backgroundColor:bColor};
+		}
+		const iLeftMyHeart={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+		const fontwaCursor={cursor:"pointer"};
+		const rightImage={width:"100%",height:"40px"};
+		var imageKaBaap=(bColor)=>{
+			return {backgroundColor:bColor,cursor:"pointer"};
+		};
+		const righterfloatwa_bhai={float:"right"};
+		const myUniqueFaceSelectStyle_news={backgroundColor:"transparent",color:"black",textTransform:"capitalize",width:"100%"};
+		const myUniqueFaceSelectStyle_filter_news={backgroundColor:"transparent",color:"black",height:"90%",marginTop:"2px",textTransform:"capitalize"};
+		const myUniqueFaceSelectStyle_child_news={color:"black"};
+		const hamsafar_hi_to_hai={cursor:"pointer"};
+		class YoutubeMostPopular extends React.Component {
+			constructor(props) {
+				super(props);
+				this.state = {
+					inputArr:[],
+					source:"",
+					l:"national-geographic",
+					opacity:1,
+					cur:[],
+					curlol:[],
+					dEnabled:"transparent",
+					pos:0,
+					fontWaNews:"white",
+					curNewsType:"",
+					currentPos:0,
+					chooseChannelText:"Choose Channel"
+				};
+				this.componentDidMount=this.componentDidMount.bind(this);
+				this._my_news_option_change=this._my_news_option_change.bind(this);
+				this._saliyada_muhammad=this._saliyada_muhammad.bind(this);
+				this._mm_img_bbap_enter=this._mm_img_bbap_enter.bind(this);
+				this._mm_img_bbap_leave=this._mm_img_bbap_leave.bind(this);
+				this._clicking_for_next_news=this._clicking_for_next_news.bind(this);
+				this._clicking_for_previous_very_news=this._clicking_for_previous_very_news.bind(this);
+				this._tab_kahi_next=this._tab_kahi_next.bind(this);
+				this._tab_kahi_prev=this._tab_kahi_prev.bind(this);
+				this._hi_mera_naam_to_janti_ho=this._hi_mera_naam_to_janti_ho.bind(this);
+			}
+			_hi_mera_naam_to_janti_ho(evt){
+				let datMal=evt.currentTarget.getAttribute('data-ajay');
+				//alert(evt.currentTarget.getAttribute('data-ajay'));
+				var that=this;
+				Rx.Observable.ajax({ url: `/mostPopularVideo/${datMal}`, responseType: 'json',method:'GET'}).map(data=>data.response)
+				.subscribe(
+				function (data) {
+					console.log(data);
+					let os=data.articles[0]
+					let ms=[];
+					ms.push(os)
+					that.setState({
+						inputArr:data.articles,
+						cur:ms,
+						curlol:ms,
+						source:data.source,
+						opacity:1
+					});
+
+
+				},
+			function (error) {
+					console.log(error);
+				}
+			);
+			}
+			_tab_kahi_prev(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				if (this.state.currentPos==0) {
+					Materialize.toast('There are no previous news exist to show please click on next to see next news', 4000,'rounded')
+				}else {
+					let raina=this.state.currentPos-1;
+					let ofer=[];
+					let reetjagat=this.state.inputArr[raina];
+					ofer.push(reetjagat);
+					this.setState({
+						currentPos:raina,
+						curlol:ofer
+					})
+				}
+			}
+			_tab_kahi_next(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				if (this.state.currentPos==this.state.inputArr.length-1) {
+					Materialize.toast('There are no next news exist to show please click on previous to see previous news', 4000,'rounded')
+				}else {
+					let raina=this.state.currentPos+1;
+					let ofer=[];
+					let reetjagat=this.state.inputArr[raina];
+					ofer.push(reetjagat);
+					this.setState({
+						currentPos:raina,
+						curlol:ofer
+					})
+				}
+			}
+			_clicking_for_previous_very_news(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				if (this.state.pos<this.state.inputArr.length && this.state.pos>0) {
+					let arx=[];
+					arx.push(this.state.inputArr[this.state.pos-1]);
+					this.setState({
+						cur:arx,
+						pos:this.state.pos-1
+					})
+				}else if (this.state.pos==0) {
+					let arx=[];
+					arx.push(this.state.inputArr[this.state.inputArr.length-1]);
+					this.setState({
+						cur:arx,
+						pos:this.state.inputArr.length-1
+					})
+				}
+			}
+			_clicking_for_next_news(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				if (this.state.pos<this.state.inputArr.length-1) {
+					let arx=[];
+					arx.push(this.state.inputArr[this.state.pos+1]);
+					this.setState({
+						cur:arx,
+						pos:this.state.pos+1
+					})
+				}else if (this.state.pos==this.state.inputArr.length-1) {
+					let arx=[];
+					arx.push(this.state.inputArr[0]);
+					this.setState({
+						cur:arx,
+						pos:0
+					})
+				}
+			}
+			_mm_img_bbap_leave(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				this.setState({
+					dEnabled:"transparent",
+					fontWaNews:"white"
+				});
+			}
+			_mm_img_bbap_enter(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				this.setState({
+					dEnabled:"white",
+					fontWaNews:"black"
+				});
+			}
+			_saliyada_muhammad(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				evt.persist();
+				console.log(evt.target.parentElement.parentElement.lastChild.value);
+				openInNewTab(JSON.parse(evt.target.parentElement.parentElement.lastChild.value).url)
+			}
+			_my_news_option_change(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				this.setState({
+					opacity:0.2
+				})
+				evt.persist();
+				var that=this;
+				Rx.Observable.ajax({ url: `/mostPopularVideo/${evt.target.value}`, responseType: 'json',method:'GET'}).map(data=>data.response)
+				.subscribe(
+				function (data) {
+					console.log(data);
+					let os=data.articles[0]
+					let ms=[];
+					ms.push(os)
+					that.setState({
+						inputArr:data.articles,
+						cur:ms,
+						source:data.source,
+						opacity:1
+					});
+
+
+				},
+			function (error) {
+					console.log(error);
+				}
+			);
+			}
+			componentDidMount(){
+				var that=this;
+				Rx.Observable.ajax({ url: `/mostPopularVideo/${that.state.l}`, responseType: 'json',method:'GET'}).map(data=>data.response)
+				.subscribe(
+				function (data) {
+					console.log(data);
+					let os=data.articles;
+					let harjayi=os.source;
+					let ms=[];
+					ms.push(os);
+					let alr=[];
+					alr.push(os[0])
+					that.setState({
+						inputArr:data.articles,
+						cur:ms,
+						curlol:alr,
+						source:data.source,
+						currentPos:0
+					});
+
+
+				},
+			function (error) {
+					console.log(error);
+				}
+			);
+			}
+			render(){
+				//var ofgh=document.getElementById('_pyar_wala_part_3').clientWidth+"px";
+				return (
+					<div style={mostPopularVideoYoutube}>
+						{/*<div style={myNewsSourceDetails}>
+							<select style={selectStyleNewsChannel} onChange={this._my_news_option_change}>
+								<option value="national-geographic">National-Geographic</option>
+								<option value="cnn">CNN</option>
+								<option value="bbc-news">BBC News</option>
+								<option value="bbc-sport">BBC Sport</option>
+								<option value="breitbart-news">Breitbrat News</option>
+								<option value="business-insider">Business Insider</option>
+								<option value="buzzfeed">Buzzfeed</option>
+								<option value="cnbc">CNBC</option>
+								<option value="entertainment-weekly">Entertainment Weekly</option>
+								<option value="espn">ESPN</option>
+								<option value="google-news">Google News</option>
+							</select>
+						</div>
+						<div id="_unique_id_for_hide_news_scrollbar" style={tujhmeRabDikhtaHai} onMouseEnter={this._mm_img_bbap_enter} onMouseLeave={this._mm_img_bbap_leave}>
+						{
+							this.state.cur.map( (a,b) => {
+
+								return (
+									<div key={b} style={myNewsBoxEach(this.state.opacity)}>
+										<img src={a.urlToImage} style={newsImageStyle(document.getElementById('_pyar_wala_part_3').clientWidth-45+"px")} />
+										<div style={myHeartIsFull(this.state.dEnabled)}>
+											<div style={iLeftMyHeart}>
+												<div style={imageKaBaap(this.state.dEnabled)} onClick={this._clicking_for_previous_very_news}>
+													<img src="left-arrow-image.jpg" style={rightImage} />
+												</div>
+											</div>
+										</div>
+										<div style={myHeartIsFullRightSide(this.state.dEnabled)}>
+											<div style={iLeftMyHeart}>
+												<div style={imageKaBaap(this.state.dEnabled)}  onClick={this._clicking_for_next_news}>
+													<img src="left-arrow-right-hi.png" style={rightImage} />
+												</div>
+											</div>
+										</div>
+										<div style={absSpanningSpan(document.getElementById('_pyar_wala_part_3').clientWidth-50+"px",this.state.dEnabled)}>
+											<span style={spanningClickableNews(this.state.fontWaNews)} onClick={this._saliyada_muhammad}>{a.title}</span>
+										</div>
+
+										<input type="hidden" value={JSON.stringify(a)} />
+									</div>
+								)
+							} )
+						}
+						</div>*/}
+						{
+							this.state.curlol.map( (a,b) => {
+								return (
+									<div key={b} className="card">
+			    <div className="card-image">
+			      <img className="materialboxed" src={a.urlToImage} data-caption={a.title} alt="image not available in this news" ref={(e)=>{
+							$(document).ready(function(){
+	 							$('.materialboxed').materialbox();
+ 							});
+						}} />
+			    </div>
+			    <div className="card-content">
+
+					 <span className="grey-text text-darken-4" ><i style={hamsafar_hi_to_hai} className="material-icons right" onClick={this._tab_kahi_next}>skip_next</i></span><span><i style={hamsafar_hi_to_hai} className="material-icons right" onClick={this._tab_kahi_prev}>skip_previous</i></span>
+
+						<p className="activator grey-text text-darken-4 truncate">{"Source - "+this.state.source}</p>
+						<p className="activator grey-text text-darken-4 truncate">{a.title}</p>
+			    </div>
+			    <div className="card-reveal">
+			      <span className="card-title grey-text text-darken-4"><i className="material-icons right">close</i></span>
+			      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+			    </div>
+			  </div>
+								)
+							} )
+						}
+						<a style={myUniqueFaceSelectStyle_news} className='dropdown-button btn center-align' href='#' data-activates='dropdownNews2'>{this.state.chooseChannelText}</a>
+  					<ul id='dropdownNews2' className='dropdown-content jaanvdegs'>
+							<li className="divider"></li>
+    					<li><a style={myUniqueFaceSelectStyle_child_news} href="#!" data-ajay="national-geographic" onClick={this._hi_mera_naam_to_janti_ho}>National-Geographic</a></li>
+							<li className="divider"></li>
+					    <li><a style={myUniqueFaceSelectStyle_child_news} href="#!" data-ajay="cnn" onClick={this._hi_mera_naam_to_janti_ho}>CNN</a></li>
+					    <li className="divider"></li>
+							<li><a style={myUniqueFaceSelectStyle_child_news} href="#!" data-ajay="bbc-news" onClick={this._hi_mera_naam_to_janti_ho}>BBC-News</a></li>
+					    <li className="divider"></li>
+							<li><a style={myUniqueFaceSelectStyle_child_news} href="#!" data-ajay="bbc-sport" onClick={this._hi_mera_naam_to_janti_ho}>BBC-Sport</a></li>
+					    <li className="divider"></li>
+							<li><a style={myUniqueFaceSelectStyle_child_news} href="#!" data-ajay="breitbart-news" onClick={this._hi_mera_naam_to_janti_ho}>Breitbart-News</a></li>
+					    <li className="divider"></li>
+							<li><a style={myUniqueFaceSelectStyle_child_news} href="#!" data-ajay="business-insider" onClick={this._hi_mera_naam_to_janti_ho}>Business-Insider</a></li>
+					    <li className="divider"></li>
+							<li><a style={myUniqueFaceSelectStyle_child_news} href="#!" data-ajay="buzzfeed" onClick={this._hi_mera_naam_to_janti_ho}>Buzzfeed</a></li>
+					    <li className="divider"></li>
+							<li><a style={myUniqueFaceSelectStyle_child_news} href="#!" data-ajay="cnbc" onClick={this._hi_mera_naam_to_janti_ho}>CNBC</a></li>
+					    <li className="divider"></li>
+							<li><a style={myUniqueFaceSelectStyle_child_news} href="#!" data-ajay="entertainment" onClick={this._hi_mera_naam_to_janti_ho}>Entertainment</a></li>
+					    <li className="divider"></li>
+							<li><a style={myUniqueFaceSelectStyle_child_news} href="#!" data-ajay="espn" onClick={this._hi_mera_naam_to_janti_ho}>ESPN</a></li>
+					    <li className="divider"></li>
+							<li><a style={myUniqueFaceSelectStyle_child_news} href="#!" data-ajay="google-news" onClick={this._hi_mera_naam_to_janti_ho}>Google-News</a></li>
+					    <li className="divider"></li>
+  					</ul>
+  </div>
+				)
+			}
+		}
+
+
+
+
+
+		const capital_capital_hoho={textTransform:"capitalize"};
+		const dDilKaPaimana={width:"100%",height:"30px",display:"flex",justifyContent:"center",alignItems:"center"};
+		class LetMeGetShoppingCartAjay extends React.Component {
+			constructor(props) {
+				super(props);
+				this.state = {
+					myCartItem:[]
+				};
+			}
+			render(){
+				if (this.state.myCartItem.length==0) {
+					return (
+						<div className="row">
+							<div className="col s12">
+								<div className="card white darken-1">
+									<div className="card-content black-text">
+										<div style={dDilKaPaimana}><span className="card-title">My cart</span></div>
+										<p>Currently there are no items in your cart please add one to buy.</p>
+									</div>
+									<div className="card-action">
+										<a style={capital_capital_hoho} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">View</a>
+										<a style={capital_capital_hoho} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Buy</a>
+										<a style={capital_capital_hoho} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Empty</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					)
+				}else {
+					return (
+						<div className="row">
+							<div className="col s12">
+								<div className="card white darken-1">
+									<div className="card-content black-text">
+										<div style={dDilKaPaimana}><span className="card-title">My cart</span></div>
+										<p>I am a very simple card. I am good at containing small bits of information.
+										I am convenient because I require little markup to use effectively.</p>
+									</div>
+									<div className="card-action">
+										<a style={capital_capital_hoho} className="capital_capital_hoho black-text" href="#">View</a>
+										<a style={capital_capital_hoho} className="capital_capital_hoho black-text" href="#">Buy</a>
+										<a style={capital_capital_hoho} className="capital_capital_hoho black-text" href="#">Empty</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					)
+				}
+			}
+		}
+
+
+
+
+
+		const capital_capital_hoho_prof={textTransform:"capitalize"};
+		const dDilKaPaimana_prof={width:"100%",height:"30px",display:"flex",justifyContent:"center",alignItems:"center"};
+		class LetMeGetProfessionalCartAjay extends React.Component {
+			constructor(props) {
+				super(props);
+				this.state = {
+					myCartItem:[]
+				};
+			}
+			render(){
+				if (this.state.myCartItem.length==0) {
+					return (
+						<div className="row">
+							<div className="col s12">
+								<div className="card white darken-1">
+									<div className="card-content black-text">
+										<div style={dDilKaPaimana_prof}><span className="card-title">My job box</span></div>
+										<p>Currently there are no items in your cart please add one to buy.</p>
+									</div>
+									<div className="card-action">
+										<a style={capital_capital_hoho_prof} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">View</a>
+										<a style={capital_capital_hoho_prof} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Buy</a>
+										<a style={capital_capital_hoho_prof} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Empty</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					)
+				}else {
+					return (
+						<div className="row">
+							<div className="col s12">
+								<div className="card white darken-1">
+									<div className="card-content black-text">
+										<div style={dDilKaPaimana_prof}><span className="card-title">My job box</span></div>
+										<p>I am a very simple card. I am good at containing small bits of information.
+										I am convenient because I require little markup to use effectively.</p>
+									</div>
+									<div className="card-action">
+										<a style={capital_capital_hoho_prof} className="capital_capital_hoho black-text" href="#">View</a>
+										<a style={capital_capital_hoho_prof} className="capital_capital_hoho black-text" href="#">Buy</a>
+										<a style={capital_capital_hoho_prof} className="capital_capital_hoho black-text" href="#">Empty</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					)
+				}
+			}
+		}
+
+
+
+
+				const capital_capital_hoho_book={textTransform:"capitalize"};
+				const dDilKaPaimana_book={width:"100%",height:"30px",display:"flex",justifyContent:"center",alignItems:"center"};
+				class LetMeGetBookCartAjay extends React.Component {
+					constructor(props) {
+						super(props);
+						this.state = {
+							myCartItem:[]
+						};
+					}
+					render(){
+						if (this.state.myCartItem.length==0) {
+							return (
+								<div className="row">
+									<div className="col s12">
+										<div className="card white darken-1">
+											<div className="card-content black-text">
+												<div style={dDilKaPaimana_book}><span className="card-title">My bookstores</span></div>
+												<p>Currently there are no items in your cart please add one to buy.</p>
+											</div>
+											<div className="card-action">
+												<a style={capital_capital_hoho_book} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">View</a>
+												<a style={capital_capital_hoho_book} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Buy</a>
+												<a style={capital_capital_hoho_book} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Empty</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							)
+						}else {
+							return (
+								<div className="row">
+									<div className="col s12">
+										<div className="card white darken-1">
+											<div className="card-content black-text">
+												<div style={dDilKaPaimana_prof}><span className="card-title">My bookstores</span></div>
+												<p>I am a very simple card. I am good at containing small bits of information.
+												I am convenient because I require little markup to use effectively.</p>
+											</div>
+											<div className="card-action">
+												<a style={capital_capital_hoho_book} className="capital_capital_hoho black-text" href="#">View</a>
+												<a style={capital_capital_hoho_book} className="capital_capital_hoho black-text" href="#">Buy</a>
+												<a style={capital_capital_hoho_book} className="capital_capital_hoho black-text" href="#">Empty</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							)
+						}
+					}
+				}
+
+
+
+
+
+						const capital_capital_hoho_date={textTransform:"capitalize"};
+						const dDilKaPaimana_date={width:"100%",height:"30px",display:"flex",justifyContent:"center",alignItems:"center"};
+						class LetMeGetDateCartAjay extends React.Component {
+							constructor(props) {
+								super(props);
+								this.state = {
+									myCartItem:[]
+								};
+							}
+							render(){
+								if (this.state.myCartItem.length==0) {
+									return (
+										<div className="row">
+											<div className="col s12">
+												<div className="card white darken-1">
+													<div className="card-content black-text">
+														<div style={dDilKaPaimana_date}><span className="card-title">My datings</span></div>
+														<p>It seems that you have not dated any one yet ,link more faces and start datings.</p>
+													</div>
+													<div className="card-action">
+														<a style={capital_capital_hoho_date} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">View</a>
+														<a style={capital_capital_hoho_date} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Buy</a>
+														<a style={capital_capital_hoho_date} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Empty</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									)
+								}else {
+									return (
+										<div className="row">
+											<div className="col s12">
+												<div className="card white darken-1">
+													<div className="card-content black-text">
+														<div style={dDilKaPaimana_date}><span className="card-title">My datings</span></div>
+														<p>I am a very simple card. I am good at containing small bits of information.
+														I am convenient because I require little markup to use effectively.</p>
+													</div>
+													<div className="card-action">
+														<a style={capital_capital_hoho_date} className="capital_capital_hoho black-text" href="#">View</a>
+														<a style={capital_capital_hoho_date} className="capital_capital_hoho black-text" href="#">Buy</a>
+														<a style={capital_capital_hoho_date} className="capital_capital_hoho black-text" href="#">Empty</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									)
+								}
+							}
+						}
+
+
+
+
+
+								const capital_capital_hoho_donate={textTransform:"capitalize"};
+								const dDilKaPaimana_donate={width:"100%",height:"30px",display:"flex",justifyContent:"center",alignItems:"center"};
+								class LetMeGetDonationCartAjay extends React.Component {
+									constructor(props) {
+										super(props);
+										this.state = {
+											myCartItem:[]
+										};
+									}
+									render(){
+										if (this.state.myCartItem.length==0) {
+											return (
+												<div className="row">
+													<div className="col s12">
+														<div className="card white darken-1">
+															<div className="card-content black-text">
+																<div style={dDilKaPaimana_donate}><span className="card-title">My Donations</span></div>
+																<p>Currently there are no items in your cart please add one to buy.</p>
+															</div>
+															<div className="card-action">
+																<a style={capital_capital_hoho_donate} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">View</a>
+																<a style={capital_capital_hoho_donate} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Buy</a>
+																<a style={capital_capital_hoho_donate} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Empty</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											)
+										}else {
+											return (
+												<div className="row">
+													<div className="col s12">
+														<div className="card white darken-1">
+															<div className="card-content black-text">
+																<div style={dDilKaPaimana_donate}><span className="card-title">My Donations</span></div>
+																<p>I am a very simple card. I am good at containing small bits of information.
+																I am convenient because I require little markup to use effectively.</p>
+															</div>
+															<div className="card-action">
+																<a style={capital_capital_hoho_donate} className="capital_capital_hoho black-text" href="#">View</a>
+																<a style={capital_capital_hoho_donate} className="capital_capital_hoho black-text" href="#">Buy</a>
+																<a style={capital_capital_hoho_donate} className="capital_capital_hoho black-text" href="#">Empty</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											)
+										}
+									}
+								}
+
+
+
+
+
+
+										const capital_capital_hoho_sin={textTransform:"capitalize"};
+										const dDilKaPaimana_sin={width:"100%",height:"30px",display:"flex",justifyContent:"center",alignItems:"center"};
+										class LetMeGetSinCartAjay extends React.Component {
+											constructor(props) {
+												super(props);
+												this.state = {
+													myCartItem:[]
+												};
+											}
+											render(){
+												if (this.state.myCartItem.length==0) {
+													return (
+														<div className="row">
+															<div className="col s12">
+																<div className="card white darken-1">
+																	<div className="card-content black-text">
+																		<div style={dDilKaPaimana_sin}><span className="card-title">My confessions</span></div>
+																		<p>Currently there are no items in your cart please add one to buy.</p>
+																	</div>
+																	<div className="card-action">
+																		<a style={capital_capital_hoho_sin} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">View</a>
+																		<a style={capital_capital_hoho_sin} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Buy</a>
+																		<a style={capital_capital_hoho_sin} className="_kala_suit_kala_til capital_capital_hoho_dissabled black-text" href="#">Empty</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													)
+												}else {
+													return (
+														<div className="row">
+															<div className="col s12">
+																<div className="card white darken-1">
+																	<div className="card-content black-text">
+																		<div style={dDilKaPaimana_sin}><span className="card-title">My confessions</span></div>
+																		<p>I am a very simple card. I am good at containing small bits of information.
+																		I am convenient because I require little markup to use effectively.</p>
+																	</div>
+																	<div className="card-action">
+																		<a style={capital_capital_hoho_sin} className="capital_capital_hoho black-text" href="#">View</a>
+																		<a style={capital_capital_hoho_sin} className="capital_capital_hoho black-text" href="#">Buy</a>
+																		<a style={capital_capital_hoho_sin} className="capital_capital_hoho black-text" href="#">Empty</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													)
+												}
+											}
+										}
+
+
+
+
+
+
+
+										class PreloderCircularFacePratibha extends React.Component {
+											constructor(props) {
+												super(props);
+												this.state = {
+
+												};
+											}
+											render(){
+												return(
+													<div className="preloader-wrapper small active">
+											<div className="spinner-layer spinner-blue">
+												<div className="circle-clipper left">
+													<div className="circle"></div>
+												</div><div className="gap-patch">
+													<div className="circle"></div>
+												</div><div className="circle-clipper right">
+													<div className="circle"></div>
+												</div>
+											</div>
+
+											<div className="spinner-layer spinner-red">
+												<div className="circle-clipper left">
+													<div className="circle"></div>
+												</div><div className="gap-patch">
+													<div className="circle"></div>
+												</div><div className="circle-clipper right">
+													<div className="circle"></div>
+												</div>
+											</div>
+
+											<div className="spinner-layer spinner-yellow">
+												<div className="circle-clipper left">
+													<div className="circle"></div>
+												</div><div className="gap-patch">
+													<div className="circle"></div>
+												</div><div className="circle-clipper right">
+													<div className="circle"></div>
+												</div>
+											</div>
+
+											<div className="spinner-layer spinner-green">
+												<div className="circle-clipper left">
+													<div className="circle"></div>
+												</div><div className="gap-patch">
+													<div className="circle"></div>
+												</div><div className="circle-clipper right">
+													<div className="circle"></div>
+												</div>
+											</div>
+										</div>
+												)
+											}
+										}
+
+
+
+
+
+
+
+							const abcStylePopup_face_pratibha={width:"99%",height:"1240px",position:"absolute",zIndex:10,backgroundColor:"transparent"};
+							const popupPlaylistDf_face_pratibha={width:"100%",height:"100%",display:"flex",justifyContent:"center"};
+							const actPlaylistQuestPopup_face_pratibha={width:"400px",height:"400px",border:"1px solid #e6ecf0",marginTop:"150px"};
+							const playlistPopupHead_face_pratibha={width:"100%",height:"40px",backgroundColor:"white",marginBottom:"10px"};
+							const playlistPopupBody_face_pratibha={width:"100%",height:"340px",backgroundColor:"white"};
+							const closePlaylistPopupBefore_face_pratibha={width:"70%",height:"100%",display:"inline",float:"left"};
+							const closePlaylistPopupAfter_face_pratibha={width:"30%",height:"100%",display:"inline",float:"right"};
+							const dflexCloseBefore_face_pratibha={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+							const dflexCloseAfter_face_pratibha={width:"100%",height:"100%",display:"flex",justifyContent:"flex-end",alignItems:"center"};
+							const closingPopupFontwa_face_pratibha={cursor:"pointer"};
+							const msgInformationToAddPlaylist_face_pratibha={width:"100%",height:"40px",display:"flex",justifyContent:"center",alignItems:"center"};
+							const actPlaylistDataStyle_face_pratibha={width:"100%",height:"260px",overflowY:"scroll"};
+							const updatePlaylistStyle_face_pratibha={width:"100%",height:"40px"};
+							const createPlaylistButtonDadaji_face_pratibha={width:"100%",height:"100%",display:"inline",float:"left"};
+							const updatePlaylistButtonDadaji_face_pratibha={width:"50%",height:"100%",display:"inline",float:"right"};
+							const createPlaylistButtonDady_face_pratibha={width:"99%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center",border:"1px solid #e6ecf0"};
+							const updatePlaylistButtonDady_face_pratibha={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+							const closingPopupFontwaOf_face_pratibha={cursor:"pointer"};
+							const duniya_me_nahi_hai_face_pratibha={width:"100%",height:"200px"};
+							const kudrat_hans_paregi_face_pratibha={width:"100%",height:"33%"};
+							const man_amadeham_face_pratibha={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"flex-end"};
+							const man_amadeham_1_face_pratibha={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+							const man_amadeham_2_face_pratibha={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"flex-start"};
+							const aa_v_ja_bahon_me_face_pratibha={width:"80%",height:"25px"};
+							const dflex_loader_pratibha_beautiful_face={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"flex-start"}
+							const pratibha_i_wana_love_u_forever={width:"100%",height:"30%"};
+							const pratibha_i_wana_love_u_forever_2={width:"100%",height:"69%"};
+							class ChangeDPPopupBeautifulFacePratibha extends React.Component {
+								constructor(props) {
+									super(props);
+									this.state = {
+										statusText:"",
+										initBeg:0,
+										tarText:this.props.TarText
+									};
+									this.componentWillMount=this.componentWillMount.bind(this);
+									this.componentWillUnmount=this.componentWillUnmount.bind(this);
+									this._closing_playlist_popup_bhai=this._closing_playlist_popup_bhai.bind(this);
+									this._let_me_get_typed_array=this._let_me_get_typed_array.bind(this);
+								}
+								_let_me_get_typed_array(evt){
+									evt.preventDefault();
+									evt.stopPropagation();
+									// evt.persist();
+									// var that=this;
+									// var reader = new FileReader();
+									// reader.onload = function(event) {
+					    		// 		var contents = event.target.result;
+					    		// 		console.log(contents.byteLength);
+					    		// 		var uAr=new Uint8Array(contents);
+					    		// 		console.log(uAr);
+									// 		var who=window.__rasoola.allah[1];
+					    		// 		var xhttp = new XMLHttpRequest();
+									//
+					    		// 		xhttp.onreadystatechange = function() {
+					    		// 			if (this.readyState == 4 && this.status == 200) {
+					    		// 				//console.log(this.responseText)
+					    		// 				//_gotta_ok_main_shop_icon
+									//
+					    		// 				let vx=JSON.parse(this.responseText);
+					    		// 				console.log(vx)
+					    		// 				sessionStorage.itemMap=JSON.stringify({vax:vx.name});
+					    		// 				that.setState({
+					    		// 					statusText:`!!Success!! Total uploaded size = ${vx.size}`,
+					    		// 					fDisabled:false
+					    		// 				});
+					    		// 				//ReactDOM.render(<FakeIcon SR={vx.name} />,document.getElementById('_gotta_ok_main_shop_icon'))
+					    		// 			}
+					    		// 		};
+									//
+					    		// 		xhttp.open("POST", "https://www.linkedface.in/fileUploadClientIconDream", true);
+					    		// 		//xhttp.setRequestHeader('Content-Type','application/octet-stream')
+					    		// 		console.log(xhttp.upload)
+					    		// 		xhttp.upload.addEventListener("progress",function(e) {
+									// 		var pc = parseInt((e.loaded / e.total * 100));
+									// 		//progress.style.backgroundPosition = pc + "% 0";
+									// 		console.log(pc);
+									// 		that.setState({
+									// 			initBeg:pc
+									// 		})
+									// 	},false);
+									// 	xhttp.setRequestHeader('Content-Type', 'application/json');
+									// 	var s=JSON.stringify({val:uAr,who:who});
+									// 	xhttp.send(s);
+									// };
+									// reader.onerror = function(event) {
+					    		// 		console.error("File could not be read! Code " + event.target.error.code);
+									// };
+									// reader.readAsArrayBuffer(evt.target.files[0]);
+								}
+								_closing_playlist_popup_bhai(evt){
+									//console.log(JSON.parse(sessionStorage.itemMap).vax);
+									// if (sessionStorage.itemMap!=undefined) {
+									// 	let trv=JSON.parse(sessionStorage.itemMap).vax;
+									// 	var eventsIm = new CustomEvent(
+									// 		"dpChanged",
+									// 		{
+									// 			detail: {
+									// 				message: trv,
+									// 				time: new Date(),
+									// 		},
+									// 		bubbles: true,
+									// 		cancelable: true
+									// 	}
+									//  );
+									//  window.dispatchEvent(eventsIm);
+									// }
+									/*var eventsIm = new CustomEvent(
+										"dpChanged",
+										{
+											detail: {
+												message: 0.2,
+												time: new Date(),
+										},
+										bubbles: true,
+										cancelable: true
+									}
+								 );
+								 window.dispatchEvent(events);*/
+									ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'))
+								}
+								componentWillMount(){
+									var events = new CustomEvent(
+										"opacity",
+										{
+											detail: {
+												message: 0.2,
+												time: new Date(),
+										},
+										bubbles: true,
+										cancelable: true
+									}
+								 );
+								 window.dispatchEvent(events);
+								 let lastMan=this.state.tarText;
+								 console.log("lllllllllllllllllllllllllllllllaaaaaaaaaaaaaaaaaaaaaaaasssssssssssstttttttttttttt man");
+								 console.log(lastMan);
+								 let tempMe=window.__rasoola.allah[1];
+								 let pKey=window.__rasoola.allah[4];
+								 let meUr="wowPratibhaYouLooksLikeAnAngel?data="+JSON.stringify({Me:tempMe,Pkey:pKey,Id:lastMan})
+								 let tarText="";
+								 let myPageTypePratibha=window.__pageType;
+								 switch (myPageTypePratibha) {
+								 	case "Social":
+								 		tarText="Social face"
+								 		break;
+									case "Professional":
+								 		tarText="Professional face"
+								 		break;
+									case "Consumer":
+								 		tarText="Consumer face"
+								 		break;
+									case "Writer":
+								 		tarText="Reader face"
+								 		break;
+									case "Dater":
+								 		tarText="Dater face"
+								 		break;
+									case "Donator":
+								 		tarText="Donator face"
+								 		break;
+									case "Sinner":
+								 		tarText="Sinner face"
+								 		break;
+								 	default:
+										tarText="Social face"
+								 		break;
+								 }
+								 $.ajax({
+									 url:meUr,
+									 type:"GET",
+									 dataType:"json",
+									 ContentType:"json",
+									 async:true
+								 }).done((data)=>{
+									 console.log(data);
+									 let refEr=window.__rasoola.allah[1];
+									 let meName=data.Detail.Detail[0][0];
+									 let meEmail=data.Detail.Detail[0][1];
+									 let meDp=data.Detail.Detail[0][2];
+									 let mePlaylist=data.Playlist.Playlist;
+									 let meFace=data.Face.Face;
+									 let mePost=data.Post.Post
+									 let meSocialFace=[];
+									 let meProfessionalFace=[];
+									 let meShoppingFace=[];
+									 let meDatingFace=[];
+									 let meReaderFace=[];
+									 let meDonaterFace=[];
+									 let meSinnerFace=[];
+									 let meOwner="proxy";
+									 let meGender=data.Detail.Detail[0][3];
+									 meFace.map( (a,b)=>{
+										 if (a[3]=="true") {
+											 let abc={name:a[0],email:a[1],dp:a[2]};
+											 meSocialFace.push(abc);
+										 }
+										 if (a[4]=="true") {
+											 let abc={name:a[0],email:a[1],dp:a[2]};
+											 meProfessionalFace.push(abc);
+										 }
+										 if (a[5]=="true") {
+											 let abc={name:a[0],email:a[1],dp:a[2]};
+											 meShoppingFace.push(abc);
+										 }
+										 if (a[6]=="true") {
+											 let abc={name:a[0],email:a[1],dp:a[2]};
+											 meReaderFace.push(abc);
+										 }
+										 if (a[7]=="true") {
+											 let abc={name:a[0],email:a[1],dp:a[2]};
+											 meDatingFace.push(abc);
+										 }
+										 if (a[8]=="true") {
+											 let abc={name:a[0],email:a[1],dp:a[2]};
+											 meDonaterFace.push(abc);
+										 }
+										 if (a[9]=="true") {
+											 let abc={name:a[0],email:a[1],dp:a[2]};
+											 meSinnerFace.push(abc);
+										 }
+
+									 } )
+									 if (refEr==meEmail) {
+										 meOwner="owner";
+									 }
+									 let mainObj;
+									 console.log(tarText.toString()=="Social face");
+									 if (tarText=="Social face") {
+										 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Social",MeGender:meGender};
+									 }
+									 if (tarText=="Professional face") {
+										 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Professional",MeGender:meGender};
+									 }
+									 if (tarText=="Consumer face") {
+										 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Consumer",MeGender:meGender};
+									 }
+									 if (tarText=="Reader face") {
+										 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Reader",MeGender:meGender};
+									 }
+									 if (tarText=="Dater face") {
+										 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Dater",MeGender:meGender};
+									 }
+									 if (tarText=="Donator face") {
+										 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Donator",MeGender:meGender};
+									 }
+									 if (tarText=="Sinner face") {
+										 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Sinner",MeGender:meGender};
+									 }
+
+
+
+									 var event = new CustomEvent(
+										 "showMyFacePratibha",
+										 {
+											 detail: {
+												 message: mainObj,
+												 time: new Date(),
+											 },
+											 bubbles: true,
+											 cancelable: true
+										 }
+									 );
+									 window.dispatchEvent(event);
+
+								 }).fail((jqXHR, textStatus)=>{
+									 console.log(textStatus);
+								 });
+								}
+								componentWillUnmount(){
+									var events = new CustomEvent(
+										"opacity",
+										{
+											detail: {
+												message: 1,
+												time: new Date(),
+										},
+										bubbles: true,
+										cancelable: true
+									}
+								 );
+								 window.dispatchEvent(events);
+								}
+								render(){
+									return (
+										<div style={abcStylePopup_face_pratibha}>
+											<div style={popupPlaylistDf_face_pratibha}>
+												<div style={actPlaylistQuestPopup_face_pratibha}>
+													<div style={playlistPopupHead_face_pratibha}>
+														<div style={closePlaylistPopupBefore_face_pratibha}>
+															<div style={dflexCloseBefore_face_pratibha}>
+																<font className="truncate" size={4}>Please wait ....</font>
+															</div>
+														</div>
+														<div style={closePlaylistPopupAfter_face_pratibha}>
+															<div style={dflexCloseAfter_face_pratibha}>
+																<font className="truncate" style={closingPopupFontwa_face_pratibha} size={5} onClick={this._closing_playlist_popup_bhai}>&#9932;</font>
+															</div>
+														</div>
+													</div>
+													<div style={playlistPopupBody_face_pratibha}>
+														<div style={pratibha_i_wana_love_u_forever}>
+															<div style={dflex_loader_pratibha_beautiful_face}>
+																<PreloderCircularFacePratibha />
+															</div>
+														</div>
+														<div style={pratibha_i_wana_love_u_forever_2}>
+															<div style={dflex_loader_pratibha_beautiful_face}>
+																<p className="truncate flow-text">Selected profile is being loaded </p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									)
+								}
+							}
+
+
+
+
+							const capital_capital_hoho_prof_wallet={textTransform:"capitalize"};
+							const dDilKaPaimana_prof_wallet={width:"100%",height:"30px",display:"flex",justifyContent:"center",alignItems:"center"};
+							class TheLinkedFaceWalletView extends React.Component {
+								constructor(props) {
+									super(props);
+									this.state = {
+										myCartItem:[],
+										myInitialPenny:500
+									};
+								}
+								render(){
+
+										return (
+											<div className="row">
+												<div className="col s12">
+													<div className="card white darken-1">
+														<div className="card-content black-text">
+															<div style={dDilKaPaimana_prof_wallet}><span className="card-title">My wallet</span></div>
+															<span>Available penny - {this.state.myInitialPenny}</span>
+														</div>
+														<div className="card-action">
+															<a style={capital_capital_hoho_prof_wallet} className="black-text" href="#">Manage</a>
+															<a style={capital_capital_hoho_prof_wallet} className="black-text" href="#">Add penny</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										)
+
+								}
+							}
+
+
+
+
+
+
+
+
+		const homeBodyMainStyle={width:"100%",height:"100%",marginTop:"55px"};
+		const home_p_three_white={width:"70%",height:"100%",backgroundColor:"white",border:"1px solid lightgrey",float:"left",overflowY:"scroll"};
+		const partThreeTrndings={width:"100%"};
+		const partThreeLinkedFaces={width:"100%",height:"900px",overflowY:"scroll"};
+		const mlMyLinkFSup={width:"100%",height:"40px",display:"flex",justifyContent:"center",alignItems:"center",marginBottom:"20px"}
+		const myLinkefaceUI={width:"99%",height:"30px",display:"flex",justifyContent:"flex-start",alignItems:"center",marginBottom:"10px",backgroundColor:"white",cursor:"pointer"};
+		const myImgStyleOfLogoFacesLinked={width:"30px",height:"30px",marginRight:"20px",marginLeft:"30px",borderRadius:"50%"};
+		const myLfTextStyle={};
+		const non_empty_end={textAlign:"center"};
+		const di_inject_custom={width:"70%",marginLeft:"10%",color:"black",backgroundColor:"transparent",textAlign:"left",textTransform:"capitalize"};
+		const tere_paas_meradil_hai={width:"40px",height:"100%",borderRadius:"50%",verticalAlign:"middle",horizontalAlign:"middle"}
+		//var th=[
+
+
+		class HomeBodyPartThree extends React.Component {
+			constructor(props){
+				super(props);
+				this.state = {
+					faceMapper:[
+						{{range $i,$a:= .}}[{{range $c,$b:= $a}}{{$b}}{{ $length := len $b }}{{$l:=decreased $length}},{{end}}],{{end}}
+					],
+					myPageType:"Social"
+					};
+				this.componentDidMount=this.componentDidMount.bind(this);
+				this._mm_faceClickOpenChat=this._mm_faceClickOpenChat.bind(this);
+				this.componentWillMount=this.componentWillMount.bind(this);
+				this.componentDidUpdate=this.componentDidUpdate.bind(this);
+				this._its_quarter_after_one_i_need_you_now=this._its_quarter_after_one_i_need_you_now.bind(this);
+			}
+			_its_quarter_after_one_i_need_you_now(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				let tar=evt.target;
+				let tarVal=JSON.parse(tar.parentElement.lastChild.value)[1];
+				ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+				ReactDOM.render(<ChangeDPPopupBeautifulFacePratibha TarText={tarVal} />,document.getElementById('_js_root_animation'));
+			}
+			componentDidUpdate(prevProps, prevState){
+				$('.dropdown-button').dropdown({
+							inDuration: 300,
+							outDuration: 225,
+							constrainWidth: false, // Does not change width of dropdown to that of the activator
+							hover: false, // Activate on hover
+							gutter: 0, // Spacing from edge
+							belowOrigin: true, // Displays dropdown below the button
+							alignment: 'left', // Displays dropdown with edge aligned to the left of button
+							stopPropagation: false // Stops event propagation
+						}
+					);
+			}
+			_mm_faceClickOpenChat(evt){
+				evt.preventDefault();
+				evt.stopPropagation();
+				evt.persist();
+				//alert("hello")
+				console.log("oooooooooooooooooooooo muhammmmmmmmmadddd");
+				console.log(evt.target);
+				var jsd=JSON.parse(evt.target.parentElement.lastChild.value);
+				var mn=jsd[1];
+				var mv=jsd[0];
+				var mnbvg=jsd[2]
+				console.log(mv);
+				console.log(mn);
+				if (window.__MESSAGE==undefined) {
+					window.__MESSAGE=[];
+					let jsTempMsg={id:mn,name:mv,image:mnbvg};
+					window.__MESSAGE.push(jsTempMsg);
+				}else {
+					let jsTempMsg={id:mn,name:mv,image:mnbvg};
+					window.__MESSAGE.push(jsTempMsg);
+				}
+				let mmMap=new Map();
+				window.__MESSAGE.map( (a,b)=>{
+					mmMap.set(a.id,{id:a.id,name:a.name,image:a.image});
+				} )
+				var event = new CustomEvent(
+					"chat_head",
+					{
+						detail: mmMap,
+							bubbles: true,
+							cancelable: true
+						}
+					);
+					window.dispatchEvent(event);
+
+
+				/*var db = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+
+				db.transaction(function (tx) {
+					 tx.executeSql('CREATE TABLE IF NOT EXISTS MESSAGES (id unique, name, image)');
+					 tx.executeSql(`INSERT INTO MESSAGES (id, name, image) VALUES (${mn}, "${mv}","${mnbvg}")`);
+				});
+
+				db.transaction(function (tx) {
+					 tx.executeSql('SELECT * FROM MESSAGES', [], function (tx, results) {
+							console.log(results.rows.map);
+							let mbvcghd=new Map();
+							for(var p of results.rows){
+								mbvcghd.set(p.id,{id:p.id,name:p.name,image:p.image})
+							}
+							console.log(mbvcghd);
+							var event = new CustomEvent(
+								"chat_head",
+								{
+									detail: mbvcghd,
+										bubbles: true,
+										cancelable: true
+									}
+								);
+								window.dispatchEvent(event);
+					 }, null);
+
+				});*/
+
+
+				/*var db3 = openDatabase('rita', '1.0', 'Rita DB', 2 * 1024 * 1024);
+				db3.transaction(function (tx) {
+					 tx.executeSql('SELECT * FROM CHATFLAGALL', [], function (tx, results) {
+							let lokloinasa=new Map();
+							for(const q of results.rows){
+									lokloinasa.set(q.id,{id:q.id,name:q.name,image:q.image})
+							}
+							var event = new CustomEvent(
+								"chat_head_own_child",
+								{
+									detail: lokloinasa,
+										bubbles: true,
+										cancelable: true
+									}
+								);
+								window.dispatchEvent(event);
+					 }, null);
+
+				});*/
+
+
+				/*if (sessionStorage.psudoChatArray==undefined) {
+					//let st=JSON.parse(sessionStorage.psudoChatArray).chatArray;
+					let ar=[];
+					let mp=new Map();
+					mp.set("name",evt.target.innerText);
+					mp.set("id",evt.target.lastChild.value);
+					let mnp=new Map();
+					mp.set("message",mnp)
+					ar.push(mp)
+					console.log(mp);
+					console.log(ar);
+					console.log("if");
+					//let ob={name:evt.target.innerText,id:JSON.parse(evt.target.lastChild.value),message:[]}
+					let st=JSON.stringify({chatArray:ar})
+					console.log(st);
+					sessionStorage.psudoChatArray=st;
+				}else {
+					let mp=new Map();
+					console.log("else");
+					mp.set("name",evt.target.innerText);
+					mp.set("id",evt.target.lastChild.value);
+					let mnp=new Map();
+					mp.set("message",mnp)
+					//let ob={name:evt.target.innerText,id:JSON.parse(evt.target.lastChild.value),message:[]}
+					let st=JSON.parse(sessionStorage.psudoChatArray).chatArray;
+					st.push(mp);
+					let str=JSON.stringify({chatArray:st})
+					sessionStorage.psudoChatArray=str;
+				}*/
+
+			}
+			componentWillMount(){
+				var that=this;
+				const mpof=new Map();
+				const mnof=new Map();
+				const resmnE=new Map()
+				window.__active_chater=mpof;
+				window.__display_active_chatter=mnof;
+				window.addEventListener("chat_head",(evt) => {
+					console.log(evt.detail);
+					console.log("logged");
+					/*let ifferMaula=document.getElementsByClassName('_the_unknown_girl');
+					if(ifferMaula.length>0){
+						for (var pyas = 0; pyas < ifferMaula.length; pyas++) {
+							ReactDOM.unmountComponentAtNode(ifferMaula[pyas])
+						}
+					}*/
+
+
+
+
+
+					const sz=evt.detail.size;
+					var ctr=0;
+					var mps=new Map();
+					var mpsof=new Map();
+					evt.detail.forEach( (a,b) => {
+						mps.set(b,a);
+						ctr=ctr+1;
+						if(ctr>sz-4){
+							mpsof.set(b,a)
+						}
+
+					} )
+					window.__active_chater=mps;
+					window.__display_active_chatter=mpsof;
+					console.log("active chatter");
+					console.log(window.__active_chater);
+					console.log("test");
+					console.log(window.__display_active_chatter);
+					ReactDOM.render(<SudoChatBox M={window.__display_active_chatter} />,document.getElementById('_chat_container'));
+
+				},true);
+
+				window.addEventListener("chat_head_own_child",(evt) => {
+					evt.detail.forEach( (a,b) => {
+						console.log("barak obama");
+						console.log(b);
+						console.log(a);
+						ReactDOM.render(<ChatBoxBodyHidden pr={JSON.stringify(a)} />,document.getElementById(`${a.id}`))
+					} )
+				},true);
+				$(document).ready(function(){
+					$(window).on("pageTypeChangerRightPannel",function(evt,evtInfo){
+						//window.__pageType=evtInfo;
+						//alert("hello")
+						that.setState({
+							myPageType:evtInfo
+						})
+					});
+				});
+			}
+			componentDidMount(){
+				window.__faceMapper=this.state.faceMapper;
+				/*var that=this;
+				Rx.Observable.ajax({ url: '/myLinkedFaces', responseType: 'json',method:'GET'}).map(data=>data.response)
+				.subscribe(
+				function (data) {
+					console.log(data);
+					that.setState({
+						faceMapper:data.All
+					})
+				},
+				function (error) {
+					console.log(error);
+				}
+			);*/
+			$('.dropdown-button').dropdown({
+						inDuration: 300,
+						outDuration: 225,
+						constrainWidth: false, // Does not change width of dropdown to that of the activator
+						hover: false, // Activate on hover
+						gutter: 0, // Spacing from edge
+						belowOrigin: true, // Displays dropdown below the button
+						alignment: 'left', // Displays dropdown with edge aligned to the left of button
+						stopPropagation: false // Stops event propagation
+					}
+				);
+
+			}
+			render(){
+				if (this.state.faceMapper.length==0) {
+					return (
+						<div style={homeBodyMainStyle}>
+							<div id="its_ok_shreya_i_am_alright" style={home_p_three_white}>
+								<div id="_pyar_wala_part_3" style={partThreeTrndings}>
+									<TheLinkedFaceWalletView />
+									{
+										//this.state.myPageType=="Social"?(<YoutubeMostPopular />):false
+									}
+									{
+										//this.state.myPageType=="Professional"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Professional"?(<LetMeGetProfessionalCartAjay />):false*/
+									}
+									{
+										//this.state.myPageType=="Consumer"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Consumer"?(<LetMeGetShoppingCartAjay />):false*/
+									}
+									{
+										//this.state.myPageType=="Writer"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Writer"?(<LetMeGetBookCartAjay />):false*/
+									}
+									{
+										//this.state.myPageType=="Dater"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Dater"?(<LetMeGetDateCartAjay />):false*/
+									}
+									{
+										//this.state.myPageType=="Donator"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Donator"?(<LetMeGetDonationCartAjay />):false*/
+									}
+									{
+										//this.state.myPageType=="Sinner"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Sinner"?(<LetMeGetSinCartAjay />):false*/
+									}
+								</div>
+								<div id="_part_three_home_u_id_f_hs" style={partThreeLinkedFaces}>
+									<div style={mlMyLinkFSup}>
+										<font style={myLfTextStyle} size={4}>My linked faces</font>
+									</div>
+									<p style={non_empty_end}>You do not have any linked faces right now please browse the best face match via search box present on header .</p>
+								</div>
+							</div>
+						</div>
+					)
+				}else {
+					return (
+						<div style={homeBodyMainStyle}>
+							<div id="its_ok_shreya_i_am_alright" style={home_p_three_white}>
+								<div id="_pyar_wala_part_3" style={partThreeTrndings}>
+									<YoutubeMostPopular />
+									{/*
+										<TheLinkedFaceWalletView />
+										*/}
+									{
+										//this.state.myPageType=="Social"?(<YoutubeMostPopular />):false
+									}
+									{
+										//this.state.myPageType=="Professional"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Professional"?(<LetMeGetProfessionalCartAjay />):false*/
+									}
+									{
+										//this.state.myPageType=="Consumer"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Consumer"?(<LetMeGetShoppingCartAjay />):false*/
+									}
+									{
+										//this.state.myPageType=="Writer"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Writer"?(<LetMeGetBookCartAjay />):false*/
+									}
+									{
+										//this.state.myPageType=="Dater"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Dater"?(<LetMeGetDateCartAjay />):false*/
+									}
+									{
+										//this.state.myPageType=="Donator"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Donator"?(<LetMeGetDonationCartAjay />):false*/
+									}
+									{
+										//this.state.myPageType=="Sinner"?(<YoutubeMostPopular />):false
+										/*this.state.myPageType=="Sinner"?(<LetMeGetSinCartAjay />):false*/
+									}
+								</div>
+								<div id="_part_three_home_u_id_f_hs" style={partThreeLinkedFaces}>
+									<div style={mlMyLinkFSup}>
+										<font style={myLfTextStyle} size={4}>My linked faces</font>
+									</div>
+
+									{
+										this.state.faceMapper.map( (a,b) => {
+											if (this.state.myPageType=="Social" && a[3]=="true") {
+												return (
+													<div key={b} style={myLinkefaceUI} >
+														{/*
+															<div style={di_inject_custom} className="btn truncate tooltipped" data-position="right" data-delay="50" data-tooltip={a[0]}>
+																<img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />
+																{a[0]}
+															</div>
+															*/}
+														<a style={di_inject_custom} className='dropdown-button btn truncate tooltipped' href='#' data-activates={`_asalam_alayka_r_alla_social_key_${b}`} data-position="right" data-delay="50" data-tooltip={a[0]} ><img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />{a[0]}</a>
+														<ul id={`_asalam_alayka_r_alla_social_key_${b}`} className='dropdown-content black-text'>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._mm_faceClickOpenChat}>Chat</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._its_quarter_after_one_i_need_you_now}>Profile</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+														</ul>
+														<input type="hidden" value={JSON.stringify(a)} />
+													</div>
+												)
+											}else if(this.state.myPageType=="Professional" && a[4]=="true"){
+												return (
+													<div key={b} style={myLinkefaceUI} >
+														{/*
+															<div style={di_inject_custom} className="btn truncate tooltipped" data-position="right" data-delay="50" data-tooltip={a[0]}>
+																<img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />
+																{a[0]}
+															</div>
+															*/}
+														<a className='dropdown-button btn truncate tooltipped' href='#' data-activates={`_asalam_alayka_r_alla_professional_key_${b}`} data-position="right" data-delay="50" data-tooltip={a[0]} style={di_inject_custom} ><img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />{a[0]}</a>
+														<ul id={`_asalam_alayka_r_alla_professional_key_${b}`} className='dropdown-content black-text'>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._mm_faceClickOpenChat}>Chat</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._its_quarter_after_one_i_need_you_now}>Profile</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+														</ul>
+														<input type="hidden" value={JSON.stringify(a)} />
+													</div>
+												)
+											}else if(this.state.myPageType=="Consumer" && a[5]=="true"){
+												return (
+													<div key={b} style={myLinkefaceUI}>
+														{/*
+															<div style={di_inject_custom} className="btn truncate tooltipped" data-position="right" data-delay="50" data-tooltip={a[0]}>
+																<img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />
+																{a[0]}
+															</div>
+															*/}
+														<a className='dropdown-button btn truncate tooltipped' href='#' data-activates={`_asalam_alayka_r_alla_consumer_key_${b}`} data-position="right" data-delay="50" data-tooltip={a[0]} style={di_inject_custom} ><img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />{a[0]}</a>
+														<ul id={`_asalam_alayka_r_alla_consumer_key_${b}`} className='dropdown-content black-text'>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._mm_faceClickOpenChat}>Chat</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._its_quarter_after_one_i_need_you_now}>Profile</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+														</ul>
+														<input type="hidden" value={JSON.stringify(a)} />
+													</div>
+												)
+											}else if(this.state.myPageType=="Writer" && a[6]=="true"){
+												return (
+													<div key={b} style={myLinkefaceUI} >
+														{/*
+															<div style={di_inject_custom} className="btn truncate tooltipped" data-position="right" data-delay="50" data-tooltip={a[0]}>
+																<img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />
+																{a[0]}
+															</div>
+															*/}
+														<a className='dropdown-button btn truncate tooltipped' href='#' data-activates={`_asalam_alayka_r_alla_Writer_key_${b}`} data-position="right" data-delay="50" data-tooltip={a[0]} style={di_inject_custom} ><img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />{a[0]}</a>
+														<ul id={`_asalam_alayka_r_alla_Writer_key_${b}`} className='dropdown-content black-text'>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._mm_faceClickOpenChat}>Chat</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._its_quarter_after_one_i_need_you_now}>Profile</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+														</ul>
+														<input type="hidden" value={JSON.stringify(a)} />
+													</div>
+												)
+											}else if(this.state.myPageType=="Dater" && a[7]=="true"){
+												return (
+													<div key={b} style={myLinkefaceUI} >
+														{/*
+															<div style={di_inject_custom} className="btn truncate tooltipped" data-position="right" data-delay="50" data-tooltip={a[0]}>
+																<img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />
+																{a[0]}
+															</div>
+															*/}
+														<a className='dropdown-button btn truncate tooltipped' href='#' data-activates={`_asalam_alayka_r_alla_Dater_key_${b}`} data-position="right" data-delay="50" data-tooltip={a[0]} style={di_inject_custom} ><img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />{a[0]}</a>
+														<ul id={`_asalam_alayka_r_alla_Dater_key_${b}`} className='dropdown-content black-text'>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._mm_faceClickOpenChat}>Chat</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._its_quarter_after_one_i_need_you_now}>Profile</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+														</ul>
+														<input type="hidden" value={JSON.stringify(a)} />
+													</div>
+												)
+											}else if(this.state.myPageType=="Donator" && a[8]=="true"){
+												return (
+													<div key={b} style={myLinkefaceUI} >
+														{/*
+															<div style={di_inject_custom} className="btn truncate tooltipped" data-position="right" data-delay="50" data-tooltip={a[0]}>
+																<img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />
+																{a[0]}
+															</div>
+															*/}
+														<a className='dropdown-button btn truncate tooltipped' href='#' data-activates={`_asalam_alayka_r_alla_Donator_key_${b}`} data-position="right" data-delay="50" data-tooltip={a[0]} style={di_inject_custom} ><img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />{a[0]}</a>
+														<ul id={`_asalam_alayka_r_alla_Donator_key_${b}`} className='dropdown-content black-text'>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._mm_faceClickOpenChat}>Chat</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._its_quarter_after_one_i_need_you_now}>Profile</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+														</ul>
+														<input type="hidden" value={JSON.stringify(a)} />
+													</div>
+												)
+											}else if(this.state.myPageType=="Sinner" && a[9]=="true"){
+												return (
+													<div key={b} style={myLinkefaceUI}>
+														{/*
+															<div style={di_inject_custom} className="btn truncate tooltipped" data-position="right" data-delay="50" data-tooltip={a[0]}>
+																<img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />
+																{a[0]}
+															</div>
+															*/}
+														<a className='dropdown-button btn truncate tooltipped' href='#' data-activates={`_asalam_alayka_r_alla_Sinner_key_${b}`} data-position="right" data-delay="50" data-tooltip={a[0]} style={di_inject_custom} ><img className="responsive-img" style={tere_paas_meradil_hai} src={a[2]} alt="Contact Person" />{a[0]}</a>
+														<ul id={`_asalam_alayka_r_alla_Sinner_key_${b}`} className='dropdown-content black-text'>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._mm_faceClickOpenChat}>Chat</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+															<li>
+																<a href="#!" className="black-text" onClick={this._its_quarter_after_one_i_need_you_now}>Profile</a>
+																<input type="hidden" value={JSON.stringify(a)} />
+															</li>
+															<li className="divider"></li>
+														</ul>
+														<input type="hidden" value={JSON.stringify(a)} />
+													</div>
+												)
+											}else {
+												return false;
+											}
+										})
+									}
+								</div>
+							</div>
+						</div>
+					)
+				}
+			}
+		}
+		ReactDOM.render(<HomeBodyPartThree />,document.getElementById('_bdy_part_3'));
+	</script>
+{{end}}

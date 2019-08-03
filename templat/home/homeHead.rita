@@ -1,0 +1,3980 @@
+{{define "homeHead"}}
+<script type="text/javascript">
+	var tag = document.createElement('script');
+	tag.id = 'iframe-demo';
+	tag.src = 'https://www.youtube.com/iframe_api';
+	var firstScriptTag = document.getElementsByTagName('script')[0];
+	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+</script>
+<script type="text/javascript">
+window.__lord_visnu = {
+	theAbsolute:[
+		"em em---1","em em--1","em em-100","em em-1234","em em-8ball","em em-a","em em-ab","em em-abc","em em-abcd","em em-accept",
+		"em em-aerial_tramway","em em-airplane","em em-alarm_clock","em em-alien","em em-ambulance","em em-anchor","em em-angel",
+		"em em-anger","em em-anguished","em em-ant","em em-apple","em em-aquarius","em em-aries","em em-arrow_backward",
+		"em em-arrow_double_down","em em-arrow_double_up","em em-arrow_down","em em-arrow_down_small","em em-arrow_forward",
+		"em em-arrow_heading_down","em em-arrow_heading_up","em em-arrow_left","em em-arrow_lower_left","em em-arrow_lower_right",
+		"em em-arrow_right","em em-arrow_right_hook","em em-arrow_up","em em-arrow_up_down","em em-arrow_up_small","em em-arrow_upper_left",
+		"em em-arrow_upper_right","em em-arrows_clockwise","em em-arrows_counterclockwise","em em-art","em em-articulated_lorry",
+		"em em-astonished","em em-atm","em em-b","em em-baby","em em-baby_bottle","em em-baby_chick","em em-baby_symbol",
+		"em em-back","em em-baggage_claim","em em-balloon","em em-ballot_box_with_check","em em-bamboo","em em-banana",
+		"em em-bangbang","em em-bank","em em-bar_chart","em em-barber","em em-baseball","em em-basketball","em em-bath",
+		"em em-bathtub","em em-battery","em em-bear","em em-bee","em em-beer","em em-beers","em em-beetle","em em-beginner",
+		"em em-bell","em em-bento","em em-bicyclist","em em-bike","em em-bikini","em em-bird","em em-birthday","em em-black_circle",
+		"em em-black_joker","em em-black_medium_small_square","em em-black_medium_square","em em-black_nib","em em-black_small_square",
+		"em em-black_square","em em-black_square_button","em em-blossom","em em-blowfish","em em-blue_book","em em-blue_car",
+		"em em-blue_heart","em em-blush","em em-boar","em em-boat","em em-bomb","em em-book","em em-bookmark","em em-bookmark_tabs",
+		"em em-books","em em-boom","em em-boot","em em-bouquet","em em-bow","em em-bowling","em em-bowtie","em em-boy","em em-bread",
+		"em em-bride_with_veil","em em-bridge_at_night","em em-briefcase","em em-broken_heart","em em-bug","em em-bulb",
+		"em em-bullettrain_front","em em-bullettrain_side","em em-bus","em em-busstop","em em-bust_in_silhouette",
+		"em em-busts_in_silhouette","em em-cactus","em em-cake","em em-calendar","em em-calling","em em-camel","em em-camera",
+		"em em-cancer","em em-candy","em em-capital_abcd","em em-capricorn","em em-car","em em-card_index","em em-carousel_horse",
+		"em em-cat","em em-cat2","em em-cd","em em-chart","em em-chart_with_downwards_trend","em em-chart_with_upwards_trend",
+		"em em-checkered_flag","em em-cherries","em em-cherry_blossom","em em-chestnut","em em-chicken","em em-children_crossing",
+		"em em-chocolate_bar","em em-christmas_tree","em em-church","em em-cinema","em em-circus_tent","em em-city_sunrise",
+		"em em-city_sunset","em em-cl","em em-clap","em em-clapper","em em-clipboard","em em-clock1","em em-clock10","em em-clock1030",
+		"em em-clock11","em em-clock1130","em em-clock12","em em-clock1230","em em-clock130","em em-clock2","em em-clock230",
+		"em em-clock3","em em-clock330","em em-clock4","em em-clock430","em em-clock5","em em-clock530","em em-clock6","em em-clock630",
+		"em em-clock7","em em-clock730","em em-clock8","em em-clock830","em em-clock9","em em-clock930","em em-closed_book",
+		"em em-closed_lock_with_key","em em-closed_umbrella","em em-cloud","em em-clubs","em em-cn","em em-cocktail","em em-coffee",
+		"em em-cold_sweat","em em-collision","em em-computer","em em-confetti_ball","em em-confounded","em em-confused","em em-congratulations",
+		"em em-construction","em em-construction_worker","em em-convenience_store","em em-cookie","em em-cool","em em-cop","em em-copyright",
+		"em em-corn","em em-couple","em em-couple_with_heart","em em-couplekiss","em em-cow","em em-cow2","em em-credit_card",
+		"em em-crocodile","em em-crossed_flags","em em-crown","em em-cry","em em-crying_cat_face","em em-crystal_ball","em em-cupid",
+		"em em-curly_loop","em em-currency_exchange","em em-curry","em em-custard","em em-customs","em em-cyclone","em em-dancer",
+		"em em-dancers","em em-dango","em em-dart","em em-dash","em em-date","em em-de","em em-deciduous_tree","em em-department_store",
+		"em em-diamond_shape_with_a_dot_inside","em em-diamonds","em em-disappointed","em em-disappointed_relieved","em em-dizzy",
+		"em em-dizzy_face","em em-do_not_litter","em  em-dog","em em-dog2","em em-dollar","em em-dolls","em em-dolphin","em em-donut",
+		"em em-door","em em-doughnut","em em-dragon","em em-dragon_face","em em-dress","em em-dromedary_camel","em em-droplet",
+		"em em-dvd","em em-e-mail","em em-ear","em em-ear_of_rice","em em-earth_africa","em em-earth_americas","em em-earth_asia",
+		"em em-egg","em em-eggplant","em em-eight","em em-eight_pointed_black_star","em em-eight_spoked_asterisk","em  em-electric_plug",
+		"em em-elephant","em em-email","em em-end","em em-envelope","em em-es","em em-euro","em em-european_castle","em em-european_post_office",
+		"em em-evergreen_tree","em em-exclamation","em em-expressionless","em em-eyeglasses","em em-eyes","em em-facepunch",
+		"em em-factory","em em-fallen_leaf","em em-family","em em-fast_forward","em em-fax","em em-fearful","em em-feelsgood",
+		"em em-feet","em em-ferris_wheel","em em-file_folder","em em-finnadie","em em-fire","em em-fire_engine","em em-fireworks",
+		"em em-first_quarter_moon","em em-first_quarter_moon_with_face","em em-fish","em em-fish_cake","em em-fishing_pole_and_fish",
+		"em em-fist","em em-five","em em-flags","em em-flashlight","em em-floppy_disk","em em-flower_playing_cards","em em-flushed",
+		"em em-foggy","em em-football"
+	]
+	};
+</script>
+<script type="text/javascript">
+window.__rasoola = {
+	allah:[
+		{{range $i,$a:= .}}{{$a}},{{end}}
+	]
+	};
+	window.__lola_will_be_fired_soon={
+		pratibha:[
+
+		]
+	}
+</script>
+
+
+<script type="text/babel">
+	setInterval(function(){
+		let me = window.__rasoola.allah[1];
+		let pubKey = window.__rasoola.allah[4];
+		let sendableJson=JSON.stringify({Me:me,Domain:window.__pageType,PKey:pubKey})
+		console.log("hi");
+		console.log(pubKey);
+		console.log(sendableJson);
+		$.ajax({
+			url:`retriveMyEventSourceForMessagePratibha?data=${sendableJson}`,
+			type:"GET",
+			contentType:"json",
+			async:true
+		}).done((data)=>{
+			console.log("teri ye ada ye berukhi keh rahi hai ki mujhse ki aur pi ?");
+			console.log(data);
+			let arAller=[];
+			data.All.map( (a,b)=>{
+				let jsData={toA:a[2],fromA:a[3],contentA:a[4],domainA:a[5],toAImage:a[1],whenA:a[6]};
+				arAller.push(jsData);
+				jsData=undefined;
+			} )
+			window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME=arAller;
+			var event = new CustomEvent(
+				"update_my_face_pratibha_for_message",
+				{
+					detail: {
+						message: window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME,
+						time: new Date(),
+					},
+					bubbles: true,
+					cancelable: true
+				}
+			);
+			window.dispatchEvent(event);
+			let lenUpdatableCount=JSON.stringify({len:window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME.length,pType:window.__pageType})
+			var eventAbc = new CustomEvent(
+				"pata_nahi_yaar_kuchh_v_ho_sakta_hai",
+				{
+					detail: {
+						message: lenUpdatableCount,
+						time: new Date(),
+					},
+					bubbles: true,
+					cancelable: true
+				}
+			);
+			window.dispatchEvent(eventAbc);
+		}).fail((jqXHR,statusText)=>{
+			console.log(data);
+		})
+	}, 15000);
+</script>
+
+
+<script type="text/babel">
+
+// profile page as a  popup source class body
+
+var menu_bhi_pasand_tu_karti_jarur=(psudoHeight)=>{
+				return {width:"100%",height:psudoHeight,overflowY:"scroll"};
+			}
+			var khabo_khabo_halke_halke_u_in_my_heart_pratibha=(psudoHeight)=>{
+				return {width:"100%",height:psudoHeight,overflowY:"scroll"};
+			}
+			var sanu_aunda_nai_pyar_naap_tol_ke_pratibha_change_style=(psudoHeight)=>{
+				return {width:"100%",height:psudoHeight,overflowY:"scroll"};
+			}
+			var flexClickableStyle_post_tere_bina_namumkin_hai=(colorB) =>{
+				return {width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:colorB,cursor:"pointer"};
+			}
+			var flexClickableStyle_enjoyment_tere_bina_namumkin_hai=(colorB) => {
+				return {width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:colorB,cursor:"pointer"};
+			}
+			const hope_tah_you_listen={width:"99%",height:"1240px",position:"absolute",zIndex:30,backgroundColor:"transparent"};
+			const dFlexWrapperEightyPercent={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+			const tor_ke_aava_main_sari_deewar={width:"95%",height:"90%",display:"block"};
+			const do_number_social_face_style_1={width:"25%",height:"100%",display:"inline",float:"left"};
+			const do_number_social_face_style_2={width:"75%",height:"100%",display:"inline",float:"right"};
+			const dilWale_puchhdeni_jaan_style_dp_pic={width:"100%",height:"300px"};
+			const dilWale_puchhdeni_jaan_style_dp_pic_d_flex={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+			const jado_di_takiya_tenu_nai_ek_v_hosh_menu={width:"90%",height:"80%"};
+			const act_s_face_pic_style_pratibha={width:"100%",height:"100%"};
+			const act_s_face_pic_style_pratibha_overlove={width:"100%",height:"100%"};
+			const mahi_mahi_inside_second_box={width:"100%",height:"100%",display:"block"};
+			const _be_aa_mud_aawe_mahi_heeriye_1={width:"75%",height:"100%",display:"inline",float:"left"};
+			const _be_aa_mud_aawe_mahi_heeriye_2={width:"25%",height:"100%",display:"inline",float:"right"};
+			const lamborgini_te_kitha_kale_geriya={width:"100%",height:"45px"};
+			const ni_tu_dekhti_ta_ja_hale_hui_suruwat={minWidth:"95%",textAlign:"left"};
+			const _main_tera_ya_blood_goriye_tlf_social_face={width:"100%",height:"40px"};
+			const ni_tu_dekhti_ta_ja_halle_hui_suruwat_dflx={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+			const sapne_mere_sare_aansuwo_me_beh_gaye_top={width:"100%",height:"5%",backgroundColor:"white"};
+			const sapne_mere_sare_aansuwo_me_beh_gaye_bottom={width:"100%",height:"90%",backgroundColor:"white"};
+			const tera_ye_nasha_pratibha_is_best_of_me={width:"100%",height:"100%"};
+			const tera_ye_nasha_pratibha_is_best_of_me_1={width:"90%",height:"100%",display:"inline",float:"left"};
+			const tera_ye_nasha_pratibha_is_best_of_me_2={width:"10%",height:"100%",display:"inline",float:"right"};
+			const ni_tu_dekhti_ta_ja_halle_hui_suruwat_dflx_f_right={width:"100%",height:"100%",display:"flex",justifyContent:"flex-end",alignItems:"center"};
+			const lakh_dur_wariye_ta_tu_hoya_mashoor_be_tlf={width:"100%",height:"100%"};
+			const lakh_dur_wariye_ta_tu_hoya_mashoor_be_tlf_dflx_child={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+			const be_seat_di_niche_baje_goliyan_tlf_sf={width:"95%",height:"100%",display:"block"};
+			const ni_lake_tin_pack_baliye_pratibha={width:"100%",height:"100%",display:"block"};
+			const give_me_my_life_pratibha_i_l_u={width:"100%",height:"100%"};
+			const khabo_khabo_halke_halke_u_in_my_heart={width:"100%",height:"40px"};
+			const menu_ek_din_de_layi_social_face_pratibha={width:"100%",height:"100%"};
+			const sach_much_gabdo_da_life_ban_jayi_tu_jise_dil_lagaye_1={width:"50%",height:"100%",display:"inline",float:"left"};
+			const sach_much_gabdo_da_life_ban_jayi_tu_jise_dil_lagaye_2={width:"50%",height:"100%",display:"inline",float:"right"};
+			const menu_ekdin_de_leyi_mm_pp_pratibha_ilu_face_dflex={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+			const switchContStyle_tere_bina_namumkin_hai={width:"100%",height:"30px",marginBottom:"10px"};
+			const internalChangeClickStyle_tere_bina_namumkin_hai={width:"50%",height:"100%",display:"inline",float:"left"};
+			const _bbm_na_kar_menu_sang_raftar_tera_yaar={width:"100%",height:"10px",backgroundColor:"transparent"}
+
+
+
+
+			class SansoKiMalaMainPiKaNaam extends React.Component {
+				constructor(props) {
+					super(props);
+					this.componentWillMount=this.componentWillMount.bind(this);
+					this.componentWillUnmount=this.componentWillUnmount.bind(this);
+				}
+				componentWillMount(){
+					var events = new CustomEvent(
+						"opacity",
+						{
+							detail: {
+								message: 0.2,
+								time: new Date(),
+						},
+						bubbles: true,
+						cancelable: true
+					}
+				 );
+				 window.dispatchEvent(events);
+				}
+				componentWillUnmount(){
+					var events = new CustomEvent(
+						"opacity",
+						{
+							detail: {
+								message: 1,
+								time: new Date(),
+						},
+						bubbles: true,
+						cancelable: true
+					}
+				 );
+				 window.dispatchEvent(events);
+				}
+				render(){
+					return (
+						<div style={abcStylePopup_face_pratibha_love_head}>
+							<div style={popupPlaylistDf_face_pratibha_love_head}>
+								<div style={actPlaylistQuestPopup_face_pratibha_love_head}>
+									<div style={playlistPopupHead_face_pratibha_love_head}>
+										<div style={closePlaylistPopupBefore_face_pratibha_love_head}>
+											<div style={dflexCloseBefore_face_pratibha_love_head}>
+												<font className="truncate" size={4}>Please wait ....</font>
+											</div>
+										</div>
+										<div style={closePlaylistPopupAfter_face_pratibha_love_head}>
+											<div style={dflexCloseAfter_face_pratibha_love_head}>
+												<font className="truncate" style={closingPopupFontwa_face_pratibha_love_head} size={5} onClick={this._closing_playlist_popup_bhai}>&#9932;</font>
+											</div>
+										</div>
+									</div>
+									<div style={playlistPopupBody_face_pratibha_love_head}>
+										<div style={pratibha_i_wana_love_u_forever_love_head}>
+											<div style={dflex_loader_pratibha_beautiful_face_love_head}>
+												<PreloderCircularFacePratibhaLoveHead />
+											</div>
+										</div>
+										<div style={pratibha_i_wana_love_u_forever_2_love_head}>
+											<div style={dflex_loader_pratibha_beautiful_face_love_head}>
+												<p className="truncate flow-text">Selected profile is being loaded </p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					)
+				}
+			}
+
+
+
+
+
+            class MyAllFaceMine extends React.Component {
+                constructor(props){
+                    super(props);
+                    this.state = {
+											mySocialFacePic:this.props.MySocialFacePic,
+											myLinkedFace:this.props.MyLinkedface,
+											psudoHeight:"100px",
+											myPlayList:this.props.MyPlaylist,
+											myName:this.props.MyName,
+											myEmail:this.props.MyEmail,
+											changeHeightPratibha:"100px",
+											myLinkedFacesHeight:"100px",
+											textPartOne:"Posts",
+											textPartTwo:"About",
+											faceTypeChangable:"Posts",
+											informationArrayMappable:this.props.Post,
+											pageTypeChangeLeftSide:this.props.PageTypeChangeLeftSide,
+											faceOwnership:this.props.FaceOwnership,
+											postBackColor:"white",
+											engBackColor:"#f5f8fa",
+											proxyGender:this.props.ProxyGender
+                    };
+										this.componentDidMount=this.componentDidMount.bind(this);
+										this._main_jido_teri_khwaba_wali_raat_turiya=this._main_jido_teri_khwaba_wali_raat_turiya.bind(this);
+										this._nahi_ladte_te_nahi_jaan_jaan_part_one_click=this._nahi_ladte_te_nahi_jaan_jaan_part_one_click.bind(this);
+										this._nahi_ladte_te_nahi_jaan_jaan_part_two_click=this._nahi_ladte_te_nahi_jaan_jaan_part_two_click.bind(this);
+										this.componentWillMount=this.componentWillMount.bind(this);
+										this.componentWillUnmount=this.componentWillUnmount.bind(this);
+										this._hi_pratibha_u_r_beautiful=this._hi_pratibha_u_r_beautiful.bind(this);
+										this._jugni_ji_ho_ho_fir_mereya_jugni=this._jugni_ji_ho_ho_fir_mereya_jugni.bind(this);
+                	}
+									_jugni_ji_ho_ho_fir_mereya_jugni(evt){
+										let tarVal=evt.target.lastChild.textContent;
+										console.log(evt.target.lastChild);
+										if (this.state.pageTypeChangeLeftSide!=tarVal) {
+											this.setState({
+												pageTypeChangeLeftSide:tarVal
+											})
+										}
+									}
+									_hi_pratibha_u_r_beautiful(evt){
+										evt.preventDefault();
+										evt.stopPropagation();
+										console.log(evt.currentTarget.lastChild);
+										let tar=evt.currentTarget?evt.currentTarget:evt.target;
+										let tarText=tar.textContent;
+										let lastMan=evt.currentTarget?evt.currentTarget.lastChild.value:evt.target.lastChild.value
+										let llMan=JSON.parse(lastMan).email;
+										let tempMe=window.__rasoola.allah[1];
+										let pKey=window.__rasoola.allah[4];
+										 console.log("tera pyar hai mera jindagi bas meri jindagi tera pyar hai hohhooohohho");
+										let meUr="wowPratibhaYouLooksLikeAnAngel?data="+JSON.stringify({Me:tempMe,Pkey:pKey,Id:llMan})
+										$.ajax({
+											url:meUr,
+											type:"GET",
+											dataType:"json",
+											ContentType:"json",
+											beforeSend:(jqXHR)=>{
+												ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'))
+												ReactDOM.render(<SansoKiMalaMainPiKaNaam />,document.getElementById('_js_root_animation'))
+											},
+											async:true
+										}).done((data)=>{
+											console.log(data);
+											let refEr=window.__rasoola.allah[1];
+											let meName=data.Detail.Detail[0][0];
+											let meEmail=data.Detail.Detail[0][1];
+											let meDp=data.Detail.Detail[0][2];
+											let mePlaylist=data.Playlist.Playlist;
+											let meFace=data.Face.Face;
+											let mePost=data.Post.Post;
+											let meSocialFace=[];
+											let meProfessionalFace=[];
+											let meShoppingFace=[];
+											let meDatingFace=[];
+											let meReaderFace=[];
+											let meDonaterFace=[];
+											let meSinnerFace=[];
+											let meOwner="proxy";
+											let meGender=data.Detail.Detail[0][3];
+											meFace.map( (a,b)=>{
+												if (a[3]=="true") {
+													let abc={name:a[0],email:a[1],dp:a[2]};
+													meSocialFace.push(abc);
+												}
+												if (a[4]=="true") {
+													let abc={name:a[0],email:a[1],dp:a[2]};
+													meProfessionalFace.push(abc);
+												}
+												if (a[5]=="true") {
+													let abc={name:a[0],email:a[1],dp:a[2]};
+													meShoppingFace.push(abc);
+												}
+												if (a[6]=="true") {
+													let abc={name:a[0],email:a[1],dp:a[2]};
+													meReaderFace.push(abc);
+												}
+												if (a[7]=="true") {
+													let abc={name:a[0],email:a[1],dp:a[2]};
+													meDatingFace.push(abc);
+												}
+												if (a[8]=="true") {
+													let abc={name:a[0],email:a[1],dp:a[2]};
+													meDonaterFace.push(abc);
+												}
+												if (a[9]=="true") {
+													let abc={name:a[0],email:a[1],dp:a[2]};
+													meSinnerFace.push(abc);
+												}
+
+											} )
+											if (refEr==meEmail) {
+												meOwner="owner";
+											}
+											let mainObj;
+											console.log(tarText.toString()=="Social face");
+											if (tarText=="Social face") {
+												mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Social",MeGender:meGender};
+											}
+											if (tarText=="Professional face") {
+												mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Professional",MeGender:meGender};
+											}
+											if (tarText=="Consumer face") {
+												mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Consumer",MeGender:meGender};
+											}
+											if (tarText=="Reader face") {
+												mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Reader",MeGender:meGender};
+											}
+											if (tarText=="Dater face") {
+												mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Dater",MeGender:meGender};
+											}
+											if (tarText=="Donator face") {
+												mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Donator",MeGender:meGender};
+											}
+											if (tarText=="Sinner face") {
+												mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Sinner",MeGender:meGender};
+											}
+
+
+
+											var event = new CustomEvent(
+												"showMyFacePratibha",
+												{
+													detail: {
+														message: mainObj,
+														time: new Date(),
+													},
+													bubbles: true,
+													cancelable: true
+												}
+											);
+											window.dispatchEvent(event);
+
+										}).fail((jqXHR, textStatus)=>{
+											console.log(textStatus);
+										});
+									}
+									_nahi_ladte_te_nahi_jaan_jaan_part_one_click(evt){
+										evt.preventDefault();
+										evt.stopPropagation();
+										this.setState({
+											faceTypeChangable:"Posts",
+											postBackColor:"white",
+											engBackColor:"#f5f8fa"
+										});
+									}
+									_nahi_ladte_te_nahi_jaan_jaan_part_two_click(evt){
+										evt.preventDefault();
+										evt.stopPropagation();
+										this.setState({
+											faceTypeChangable:"About",
+											postBackColor:"#f5f8fa",
+											engBackColor:"white"
+										});
+									}
+									_main_jido_teri_khwaba_wali_raat_turiya(evt){
+										evt.preventDefault();
+										evt.stopPropagation();
+										ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+									}
+									componentDidMount(){
+										let h1=document.getElementById('do_number_social_face_style_1').clientHeight;
+										let h2=document.getElementById('dilWale_puchhdeni_jaan_style_dp_pic').clientHeight;
+										let h3=document.getElementById('_main_tera_ya_blood_goriye_tlf_social_face').clientHeight;
+										let mainHeight=`${h1-(h2+h3)}px`;
+										let splittedHeartOfAjay=document.getElementById('give_me_my_life_pratibha_i_l_u').clientHeight;
+										let pleaseMakeMeCompletePratibha=`${splittedHeartOfAjay-40}px`;
+										let meraBloodPratibha=document.getElementById('act_s_face_pic_style_pratibha_overlove').clientHeight;
+										let mainHoGayaDeewanaBaliyePratibha=`${meraBloodPratibha-40}px`;
+										this.setState({
+											psudoHeight:mainHeight,
+											changeHeightPratibha:pleaseMakeMeCompletePratibha,
+											myLinkedFacesHeight:mainHoGayaDeewanaBaliyePratibha
+										});
+										$('.dropdown-button').dropdown({
+									      inDuration: 300,
+									      outDuration: 225,
+									      constrainWidth: false, // Does not change width of dropdown to that of the activator
+									      hover: false, // Activate on hover
+									      gutter: 0, // Spacing from edge
+									      belowOrigin: false, // Displays dropdown below the button
+									      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+									      stopPropagation: false // Stops event propagation
+									    }
+									  );
+									}
+									componentWillMount(){
+										var that=this;
+										let emMe=this.state.myEmail;
+										var events = new CustomEvent(
+											"opacity",
+											{
+												detail: {
+													message: 0.2,
+													time: new Date(),
+											},
+											bubbles: true,
+											cancelable: true
+										}
+									 );
+									 window.dispatchEvent(events);
+									 /*
+									 $.ajax({
+										 url:`getMyPostForProfilePratibhaPlease?data=${emMe}`,
+										 type:"GET",
+										 contentType:"json",
+										 async:true
+									 }).done((data)=>{
+										 console.log(data);
+									 }).fail((jqXHR,statusText)=>{
+										 console.log(statusText);
+									 })
+									 */
+									}
+									componentWillUnmount(){
+										var events = new CustomEvent(
+											"opacity",
+											{
+												detail: {
+													message: 1,
+													time: new Date(),
+											},
+											bubbles: true,
+											cancelable: true
+										}
+									 );
+									 window.dispatchEvent(events);
+									}
+                render(){
+                    return (
+                        <div style={hope_tah_you_listen}>
+                            <div style={dFlexWrapperEightyPercent}>
+                                <div style={tor_ke_aava_main_sari_deewar}>
+                                    <div style={sapne_mere_sare_aansuwo_me_beh_gaye_top}>
+										<div style={tera_ye_nasha_pratibha_is_best_of_me}>
+											<div style={tera_ye_nasha_pratibha_is_best_of_me_1}>
+												<div style={ni_tu_dekhti_ta_ja_halle_hui_suruwat_dflx}>
+													<p className="truncate large_font_pratibha">{this.state.myName} - Hi there welcome to my {this.state.pageTypeChangeLeftSide} face.</p>
+													{/*
+														<a className='dropdown-button btn _pratibha_reset_my_text white black-text' href='#' data-activates='dropdown_main_head_hoho_dollar_1'>{this.state.pageTypeChangeLeftSide}</a> face
+													  <ul id='dropdown_main_head_hoho_dollar_1' className='dropdown-content black-text'>
+															<li className="divider"></li>
+															<li onClick={this._jugni_ji_ho_ho_fir_mereya_jugni}><a href="#!" disabled={this.state.pageTypeChangeLeftSide=="social"}>social</a></li>
+															<li className="divider"></li>
+													    <li onClick={this._jugni_ji_ho_ho_fir_mereya_jugni}><a href="#!" disabled={this.state.pageTypeChangeLeftSide=="professional"}>professional</a></li>
+															<li className="divider"></li>
+													    <li onClick={this._jugni_ji_ho_ho_fir_mereya_jugni}><a href="#!" disabled={this.state.pageTypeChangeLeftSide=="consumer"}>consumer</a></li>
+															<li className="divider"></li>
+															<li onClick={this._jugni_ji_ho_ho_fir_mereya_jugni}><a href="#!" disabled={this.state.pageTypeChangeLeftSide=="reader"}>reader</a></li>
+															<li className="divider"></li>
+															<li onClick={this._jugni_ji_ho_ho_fir_mereya_jugni}><a href="#!" disabled={this.state.pageTypeChangeLeftSide=="dater"}>dater</a></li>
+															<li className="divider"></li>
+															<li onClick={this._jugni_ji_ho_ho_fir_mereya_jugni}><a href="#!" disabled={this.state.pageTypeChangeLeftSide=="donator"}>donator</a></li>
+															<li className="divider"></li>
+															<li onClick={this._jugni_ji_ho_ho_fir_mereya_jugni}><a href="#!" disabled={this.state.pageTypeChangeLeftSide=="sinner"}>sinner</a></li>
+															<li className="divider"></li>
+													  </ul>
+														*/}
+												</div>
+											</div>
+											<div style={tera_ye_nasha_pratibha_is_best_of_me_2}>
+												<div style={ni_tu_dekhti_ta_ja_halle_hui_suruwat_dflx_f_right}>
+													<i className="material-icons small _design_my_cursor_pratibha" onClick={this._main_jido_teri_khwaba_wali_raat_turiya}>close</i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div style={_bbm_na_kar_menu_sang_raftar_tera_yaar}>
+									</div>
+									<div style={sapne_mere_sare_aansuwo_me_beh_gaye_bottom}>
+										<div style={do_number_social_face_style_1} id="do_number_social_face_style_1">
+											<div style={dilWale_puchhdeni_jaan_style_dp_pic} id="dilWale_puchhdeni_jaan_style_dp_pic">
+												<div style={dilWale_puchhdeni_jaan_style_dp_pic_d_flex}>
+													<div style={jado_di_takiya_tenu_nai_ek_v_hosh_menu}>
+														<img src={this.state.mySocialFacePic} className="materialboxed" style={act_s_face_pic_style_pratibha} />
+													</div>
+												</div>
+												<div style={_main_tera_ya_blood_goriye_tlf_social_face} id="_main_tera_ya_blood_goriye_tlf_social_face">
+													<div style={ni_tu_dekhti_ta_ja_halle_hui_suruwat_dflx}>
+														{
+															(this.state.pageTypeChangeLeftSide=="social" && this.state.faceOwnership=="owner")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="My playlists">My playlists</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="shopping" && this.state.faceOwnership=="owner")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="My shops & shoppings">My shops & shoppings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="professional" && this.state.faceOwnership=="owner")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="My jobs & seekings">My jobs & seekings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="reader" && this.state.faceOwnership=="owner")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="My readings">My readings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="dater" && this.state.faceOwnership=="owner")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="My datings">My datings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="donator" && this.state.faceOwnership=="owner")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="My donations">My donations</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="sinner" && this.state.faceOwnership=="owner")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="My confessions">My confessions</p>
+															):false
+														}
+
+
+														{/* different domain male */}
+
+
+														{
+															(this.state.pageTypeChangeLeftSide=="social" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="male")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="His playlists">His playlists</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="shopping" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="male")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="His shops & shoppings">His shops & shoppings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="professional" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="male")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="His jobs & seekings">His jobs & seekings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="reader" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="male")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="His readings">His readings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="dater" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="male")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="His datings">His datings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="donator" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="male")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="His donations">His donations</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="sinner" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="male")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="His confessions">His confessions</p>
+															):false
+														}
+
+
+														{/* different domain female */}
+
+
+														{
+															(this.state.pageTypeChangeLeftSide=="social" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="female")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="Her playlists">Her playlists</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="shopping" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="female")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="Her shops & shoppings">Her shops & shoppings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="professional" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="female")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="Her jobs & seekings">Her jobs & seekings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="reader" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="female")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="Her readings">Her readings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="dater" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="female")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="Her datings">Her datings</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="donator" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="female")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="Her donations">Her donations</p>
+															):false
+														}
+														{
+															(this.state.pageTypeChangeLeftSide=="sinner" && this.state.faceOwnership=="proxy" && this.state.proxyGender=="female")?(
+																<p className="truncate tooltipped" data-position="top" data-delay="50" data-tooltip="Her confessions">Her confessions</p>
+															):false
+														}
+
+
+													</div>
+												</div>
+												<div style={menu_bhi_pasand_tu_karti_jarur(this.state.psudoHeight)}>
+													{
+														(this.state.pageTypeChangeLeftSide=="social" && this.state.faceOwnership=="owner")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="professional" && this.state.faceOwnership=="owner")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="shopping" && this.state.faceOwnership=="owner")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="reader" && this.state.faceOwnership=="owner")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="dater" && this.state.faceOwnership=="owner")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="donator" && this.state.faceOwnership=="owner")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="sinner" && this.state.faceOwnership=="owner")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+
+
+													{/* different domain */}
+
+
+
+													{
+														(this.state.pageTypeChangeLeftSide=="social" && this.state.faceOwnership=="proxy")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="professional" && this.state.faceOwnership=="proxy")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="shopping" && this.state.faceOwnership=="proxy")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="reader" && this.state.faceOwnership=="proxy")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="dater" && this.state.faceOwnership=="proxy")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="donator" && this.state.faceOwnership=="proxy")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+													{
+														(this.state.pageTypeChangeLeftSide=="sinner" && this.state.faceOwnership=="proxy")?(
+															this.state.myPlayList.map( (a,b)=>{
+															return (
+																<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																	<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text tooltipped' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-position="right" data-delay="50" data-tooltip={a}>{a}</a>
+																</div>
+															)
+														} )
+														):false
+													}
+
+												</div>
+											</div>
+										</div>
+										<div style={do_number_social_face_style_2}>
+											<div style={mahi_mahi_inside_second_box}>
+												<div style={_be_aa_mud_aawe_mahi_heeriye_1}>
+													<div style={lakh_dur_wariye_ta_tu_hoya_mashoor_be_tlf}>
+														<div style={lakh_dur_wariye_ta_tu_hoya_mashoor_be_tlf_dflx_child}>
+															<div style={be_seat_di_niche_baje_goliyan_tlf_sf}>
+																<div style={ni_lake_tin_pack_baliye_pratibha}>
+																	<div style={give_me_my_life_pratibha_i_l_u} id="give_me_my_life_pratibha_i_l_u">
+																		<div style={khabo_khabo_halke_halke_u_in_my_heart}>
+																			<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																				{/*
+																					<div style={sach_much_gabdo_da_life_ban_jayi_tu_jise_dil_lagaye_1}>
+																						<div className="truncate _design_my_cursor_pratibha" style={menu_ekdin_de_leyi_mm_pp_pratibha_ilu_face_dflex} onClick={this._nahi_ladte_te_nahi_jaan_jaan_part_one_click}>
+																							{
+																								this.state.textPartOne
+																							}
+																						</div>
+																					</div>
+																					<div style={sach_much_gabdo_da_life_ban_jayi_tu_jise_dil_lagaye_2}>
+																						<div className="truncate _design_my_cursor_pratibha" style={menu_ekdin_de_leyi_mm_pp_pratibha_ilu_face_dflex} onClick={this._nahi_ladte_te_nahi_jaan_jaan_part_two_click}>
+																							{
+																								this.state.textPartTwo
+																							}
+																						</div>
+																					</div>
+																				*/}
+
+																				<div style={switchContStyle_tere_bina_namumkin_hai}>
+																					<div style={internalChangeClickStyle_tere_bina_namumkin_hai}>
+																						<div className="z-depth-1 truncate" style={flexClickableStyle_post_tere_bina_namumkin_hai(this.state.postBackColor)} onClick={this._nahi_ladte_te_nahi_jaan_jaan_part_one_click}>
+																							<font size={4}>
+																								{
+																									this.state.textPartOne
+																								}
+																							</font>
+																						</div>
+																					</div>
+																					<div className="z-depth-1 truncate" style={internalChangeClickStyle_tere_bina_namumkin_hai}>
+																						<div style={flexClickableStyle_enjoyment_tere_bina_namumkin_hai(this.state.engBackColor)} onClick={this._nahi_ladte_te_nahi_jaan_jaan_part_two_click}>
+																							<font size={4}>
+																								{
+																									this.state.textPartTwo
+																								}
+																							</font>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div style={khabo_khabo_halke_halke_u_in_my_heart_pratibha(this.state.changeHeightPratibha)}>
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="social" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="social" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Main tera ya blood goriye tu backbone jaat di
+																					</div>
+																				):false
+																			}
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="professional" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="professional" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Main tera ya blood goriye tu backbone jaat di
+																					</div>
+																				):false
+																			}
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="shopping" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="shopping" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Main tera ya blood goriye tu backbone jaat di
+																					</div>
+																				):false
+																			}
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="reader" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="reader" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Main tera ya blood goriye tu backbone jaat di
+																					</div>
+																				):false
+																			}
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="dater" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="dater" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Main tera ya blood goriye tu backbone jaat di
+																					</div>
+																				):false
+																			}
+
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="donator" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="donator" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Main tera ya blood goriye tu backbone jaat di
+																					</div>
+																				):false
+																			}
+
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="sinner" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="sinner" && this.state.faceOwnership=="owner")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Main tera ya blood goriye tu backbone jaat di
+																					</div>
+																				):false
+																			}
+
+
+
+
+
+																			{/* different content owner */}
+
+
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="social" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="social" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Hi there we cannot let you view this part because you do not seems to be face owner.
+																					</div>
+																				):false
+																			}
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="professional" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="professional" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Hi there we cannot let you view this part because you do not seems to be face owner.
+																					</div>
+																				):false
+																			}
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="shopping" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="shopping" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Hi there we cannot let you view this part because you do not seems to be face owner.
+																					</div>
+																				):false
+																			}
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="reader" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="reader" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Hi there we cannot let you view this part because you do not seems to be face owner.
+																					</div>
+																				):false
+																			}
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="dater" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="dater" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Hi there we cannot let you view this part because you do not seems to be face owner.
+																					</div>
+																				):false
+																			}
+
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="donator" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="donator" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Hi there we cannot let you view this part because you do not seems to be face owner.
+																					</div>
+																				):false
+																			}
+
+
+
+																			{
+																				(this.state.faceTypeChangable=="Posts" && this.state.pageTypeChangeLeftSide=="sinner" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						{
+																							this.state.informationArrayMappable.map( (a,b)=>{
+																									return (
+																										<div key={b} className="card">
+																											<div className="card-image waves-effect waves-block waves-light">
+																											  <img className="activator" src={this.state.mySocialFacePic} />
+																											</div>
+																											<div className="card-content">
+																											  <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
+																											  <p><a href="#">This is a link</a></p>
+																											</div>
+																											<div className="card-reveal">
+																											  <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
+																											  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+																											</div>
+																										</div>
+																									)
+																								} )
+																						}
+																					</div>
+																				):false
+																			}
+																			{
+																				(this.state.faceTypeChangable=="About"&& this.state.pageTypeChangeLeftSide=="sinner" && this.state.faceOwnership=="proxy")?(
+																					<div style={menu_ek_din_de_layi_social_face_pratibha}>
+																						Hi there we cannot let you view this part because you do not seems to be face owner.
+																					</div>
+																				):false
+																			}
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div style={_be_aa_mud_aawe_mahi_heeriye_2}>
+													<div style={act_s_face_pic_style_pratibha_overlove} id="act_s_face_pic_style_pratibha_overlove">
+														<div style={_main_tera_ya_blood_goriye_tlf_social_face}>
+															<div style={ni_tu_dekhti_ta_ja_halle_hui_suruwat_dflx}>
+																<p>My linked faces</p>
+															</div>
+														</div>
+														<div style={sanu_aunda_nai_pyar_naap_tol_ke_pratibha_change_style(this.state.myLinkedFacesHeight)}>
+															{
+																(this.state.pageTypeChangeLeftSide=="social" && this.state.faceOwnership=="owner")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="professional" && this.state.faceOwnership=="owner")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="shopping" && this.state.faceOwnership=="owner")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="reader" && this.state.faceOwnership=="owner")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="dater" && this.state.faceOwnership=="owner")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="donator" && this.state.faceOwnership=="owner")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="sinner" && this.state.faceOwnership=="owner")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+
+
+															{/* different domain linked faces */}
+
+
+															{
+																(this.state.pageTypeChangeLeftSide=="social" && this.state.faceOwnership=="proxy")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="professional" && this.state.faceOwnership=="proxy")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="shopping" && this.state.faceOwnership=="proxy")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="reader" && this.state.faceOwnership=="proxy")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="dater" && this.state.faceOwnership=="proxy")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="donator" && this.state.faceOwnership=="proxy")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+															{
+																(this.state.pageTypeChangeLeftSide=="sinner" && this.state.faceOwnership=="proxy")?(
+																	this.state.myLinkedFace.map( (a,b)=>{
+																		let tempName=a.email;
+																		return (
+																			<div key={b} style={lamborgini_te_kitha_kale_geriya}>
+																				<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' style={ni_tu_dekhti_ta_ja_hale_hui_suruwat} data-activates={`dropdown_pratibhaFace_${b}_${tempName}`}>{a.name}</a>
+																				<ul id={`dropdown_pratibhaFace_${b}_${tempName}`} className='dropdown-content'>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Social face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Professional face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Consumer face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Reader face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Dater face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Donator face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																					<li onClick={this._hi_pratibha_u_r_beautiful}>
+																						<a style={myUniqueFaceSelectStyle_child} href="#!">
+																							Sinner face
+																						</a>
+																						<input type="hidden" value={JSON.stringify(a)} />
+																					</li>
+																					<li className="divider"></li>
+																			  </ul>
+																			</div>
+																		)
+																	} )
+																):false
+															}
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                }
+            }
+
+
+//end profile page as a source class body
+
+
+
+class PreloderCircularHead extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+
+		};
+	}
+	render(){
+		return(
+			<div className="preloader-wrapper small active">
+	<div className="spinner-layer spinner-blue">
+		<div className="circle-clipper left">
+			<div className="circle"></div>
+		</div><div className="gap-patch">
+			<div className="circle"></div>
+		</div><div className="circle-clipper right">
+			<div className="circle"></div>
+		</div>
+	</div>
+
+	<div className="spinner-layer spinner-red">
+		<div className="circle-clipper left">
+			<div className="circle"></div>
+		</div><div className="gap-patch">
+			<div className="circle"></div>
+		</div><div className="circle-clipper right">
+			<div className="circle"></div>
+		</div>
+	</div>
+
+	<div className="spinner-layer spinner-yellow">
+		<div className="circle-clipper left">
+			<div className="circle"></div>
+		</div><div className="gap-patch">
+			<div className="circle"></div>
+		</div><div className="circle-clipper right">
+			<div className="circle"></div>
+		</div>
+	</div>
+
+	<div className="spinner-layer spinner-green">
+		<div className="circle-clipper left">
+			<div className="circle"></div>
+		</div><div className="gap-patch">
+			<div className="circle"></div>
+		</div><div className="circle-clipper right">
+			<div className="circle"></div>
+		</div>
+	</div>
+</div>
+		)
+	}
+}
+
+
+var getMyStyle=(a,b,c)=> {
+	return {width:a,height:b,marginTop:"55px",position:"fixed",marginLeft:c,backgroundColor:"#f5f8fa",border:"1px solid lightgrey",zIndex:"9",overflowY:"scroll"}
+}
+class SuggestionPopupHead extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			w:this.props.W,
+			ml:this.props.Ml
+		};
+		this.componentWillReceiveProps=this.componentWillReceiveProps.bind(this);
+	}
+	componentWillReceiveProps(nextProps){
+		this.setState({
+			w:nextProps.W,
+			ml:nextProps.Ml
+		})
+	}
+	render(){
+		return (
+			<div id="_lol_p_olol" style={getMyStyle(this.state.w,"400px",this.state.ml)}>hi</div>
+		)
+	}
+}
+
+
+// Suggestion main root animation popup
+
+	const myManasWalaSmile={width:"100%",height:"1150px",position:"absolute",zIndex:15,backgroundColor:"transparent",marginTop:""};
+	const _hehe_mehnat_se_jhagda_wala_pyar_head={width:"100%",height:"50px",marginBottom:"10px",backgroundColor:"white"};
+	const _hehe_mehnat_se_jhagda_wala_pyar_body={width:"100%",height:"1190px",backgroundColor:"white"};
+	const martoManasBahutBachKeRah={width:"100%",height:"100%"};
+	const budhware_peshkaar_ni_to_aain_haha_1={width:"25%",height:"100%",display:"inline",float:"left"};
+	const budhware_peshkaar_ni_to_aain_haha_2={width:"49%",height:"100%",display:"inline",float:"left"};
+	const budhware_peshkaar_ni_to_aain_haha_3={width:"25%",height:"100%",display:"inline",float:"left"};
+
+	const budhware_peshkaar_ni_to_aain_haha_head_1={width:"10%",height:"100%",display:"inline",float:"left"};
+	const budhware_peshkaar_ni_to_aain_haha_head_2={width:"79%",height:"100%",display:"inline",float:"left"};
+	const budhware_peshkaar_ni_to_aain_haha_head_3={width:"10%",height:"100%",display:"inline",float:"left"};
+	const Hehe_hoho_lol_lolu_lklj_hhgg={width:"100%",height:"300px"};
+  const wo_ladki_yaadAatiHaiMereKo_Bahut={width:"75%",height:"250px",border:"1px solid grey",borderRadius:"50%"};
+	const dil_hai_ki_manta_nahi_lolo_lolu_ilu={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+	const dil_hai_ki_manta_nahi_lolo_lolu_ilu_right={width:"100%",height:"100%",display:"flex",justifyContent:"flex-end",alignItems:"center"};
+	const ek_jaise_the_dono_ke_gam_haha={width:"100%",height:"100%"}
+
+	const message_baxa_for_u_pratibha_please_accept_it_chat_bot={width:"100%"};
+	const pratibha_actual_msg_text_body_for_u_1_chat_bot={width:"80%",display:"inline-block",float:"left",textIndent:"10px",paddingLeft:"10px",border:"1px solid grey",backgroundColor:"white",borderRadius:"25%",minHeight:"50px"};
+	const pratibha_actual_msg_text_body_for_u_2_chat_bot={width:"19%",display:"inline-block",float:"right",maxHeight:"50px"};
+	const pratibha_actual_msg_text_body_for_u_3_chat_bot={width:"19%",display:"inline-block",float:"left",maxHeight:"50px"};
+	const pratibha_actual_msg_text_body_for_u_4_chat_bot={width:"80%",display:"inline-block",float:"right",textIndent:"10px",paddingLeft:"10px",border:"1px solid grey",backgroundColor:"white",borderRadius:"25%",minHeight:"50px"};
+	const d_flex_for_who_symbol_pratibha_chat_bot={width:"100%",height:"100%",display:"flex",justifyContent:"flex-end",alignItems:"center"};
+	const d_flex_for_who_symbol_pratibha_chat_bot_11={width:"100%",height:"100%",display:"flex",justifyContent:"flex-start",alignItems:"center"};
+	const tu_nahi_hai_teri_yaaden_mujhe_satati_hai_chat_bot={width:"60px",height:"60px",borderRadius:"50%",border:"1px solid grey"};
+	const under_table_style_me_pratibha_chat_bot={width:"30%"};
+	const under_table_style_me_pratibha_1_chat_bot={width:"70%"};
+	const under_table_style_me_pratibha_2_chat_bot={width:"30%"};
+	const under_table_style_me_pratibha_3_chat_bot={width:"70%"};
+	const grey_border_style_to_the_msg_content_chat_bot={width:"100%",minHeight:"100%",textIndent:"10px",paddingLeft:"10px",border:"1px solid grey",backgroundColor:"white",borderRadius:"5%"}
+	const _aye_khuda_wala_ishq_haha_jath_tham={width:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+
+
+	var tempValidateEmail=(data)=>{
+		let re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    return re.test(data);
+	}
+
+	var tempvalidateMobile=(data)=>{
+		var re = /^[0-9]{10}$/;
+    return re.test(data);
+	}
+
+	var checkForMobileAndEmail=(data)=>{
+		if (tempvalidateMobile(data) || tempvalidateMobile(data)) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+
+
+
+	class PopupMainFromMessageRoot extends React.Component {
+		constructor(props) {
+			super(props);
+			this.state= {
+				dataDisplay:JSON.parse(this.props.DataDisplay),
+				dataSampleDetail:[],
+				dataSampleChatable:[],
+				spinMe:true
+			};
+			this.componentWillMount=this.componentWillMount.bind(this);
+			this.componentWillUnmount=this.componentWillUnmount.bind(this);
+			this.componentWillReceiveProps=this.componentWillReceiveProps.bind(this);
+			this._let_me_close_myself=this._let_me_close_myself.bind(this);
+
+		}
+		_let_me_close_myself(evt){
+			evt.preventDefault();
+			evt.stopPropagation();
+			ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'))
+		}
+		componentWillReceiveProps(nextProps){
+			this.setState({
+				dataDisplay:nextProps.DataDisplay
+			})
+		}
+		componentWillMount(){
+			var that=this;
+
+			var events = new CustomEvent(
+				"opacity",
+				{
+					detail: {
+						message: 0.2,
+						time: new Date(),
+				},
+				bubbles: true,
+				cancelable: true
+			}
+		 );
+		 window.dispatchEvent(events);
+		 let meData=that.state.dataDisplay;
+		 let toAtemp=meData.toA;
+		 let fromAtemp=meData.fromA;
+		 let domainTemp=meData.domainA;
+		 let meTempMine=window.__rasoola.allah[1];
+		 let pKey=window.__rasoola.allah[4];
+		 let readyAjaxableJson=JSON.stringify({FirstUser:toAtemp,SecondUser:fromAtemp,Domain:domainTemp,Me:meTempMine,Pkey:pKey})
+		 $.ajax({
+			 url:`tumheDillaggibhulJaniParegiYaar?data=${readyAjaxableJson}`,
+			 type:"GET",
+			 contentType:"json",
+			 async:true
+		 }).done((data)=>{
+			 //console.log(data);
+			 let detMeDetail=data.Detail[0];
+			 let detMeChatable=data.ChatableData;
+			 that.setState({
+				 spinMe:false,
+				 dataSampleDetail:detMeDetail,
+				 dataSampleChatable:detMeChatable
+			 })
+		 }).fail((jqXHR,statusText)=>{
+			 console.log(statusText);
+		 })
+		}
+		componentWillUnmount(){
+			window.__myDeliveryPinCode=undefined;
+			var events = new CustomEvent(
+				"opacity",
+				{
+					detail: {
+						message: 1,
+						time: new Date(),
+				},
+				bubbles: true,
+				cancelable: true
+			}
+		 );
+		 window.dispatchEvent(events);
+		}
+		render(){
+			return (
+				<div style={myManasWalaSmile}>
+					<div style={_hehe_mehnat_se_jhagda_wala_pyar_head}>
+						<div style={martoManasBahutBachKeRah}>
+							<div style={budhware_peshkaar_ni_to_aain_haha_head_1}>
+
+							</div>
+							<div style={budhware_peshkaar_ni_to_aain_haha_head_2}>
+								<div style={dil_hai_ki_manta_nahi_lolo_lolu_ilu}>
+									<p className="truncate">Chat between {(!this.state.spinMe)?(this.state.dataSampleDetail[0][1]):false} - {(!this.state.spinMe)?(this.state.dataSampleDetail[1][1]):false}</p>
+								</div>
+							</div>
+							<div style={budhware_peshkaar_ni_to_aain_haha_head_3}>
+								<div style={dil_hai_ki_manta_nahi_lolo_lolu_ilu_right}>
+									<i className="material-icons small _design_my_cursor_pratibha" onClick={this._let_me_close_myself}>close</i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style={_hehe_mehnat_se_jhagda_wala_pyar_body}>
+						<div style={martoManasBahutBachKeRah}>
+							<div style={budhware_peshkaar_ni_to_aain_haha_1}>
+								{
+									(!this.state.spinMe)?(
+										<div>
+											<div style={Hehe_hoho_lol_lolu_lklj_hhgg}>
+												<div style={dil_hai_ki_manta_nahi_lolo_lolu_ilu}>
+													<img src={this.state.dataSampleDetail[0][3]} style={wo_ladki_yaadAatiHaiMereKo_Bahut}/>
+												</div>
+											</div>
+											<p className="truncate _align_my_text_pratibha_center">{this.state.dataSampleDetail[0][1]}</p>
+											<p className="truncate _align_my_text_pratibha_center">{this.state.dataSampleDetail[0][2]}</p>
+										</div>
+									):false
+								}
+							</div>
+							<div style={budhware_peshkaar_ni_to_aain_haha_2}>
+								<div style={ek_jaise_the_dono_ke_gam_haha}>
+									{
+										(this.state.spinMe)?(
+											<div style={_aye_khuda_wala_ishq_haha_jath_tham}>
+												<PreloderCircularFacePratibhaLoveHead />
+											</div>
+										):(
+												this.state.dataSampleChatable.map( (a,b)=>{
+													console.log("ali ali ali ali");
+													console.log(this.state.dataSampleDetail);
+													console.log(a);
+													if(this.state.dataSampleDetail[0][0]==a[2]){
+														return (
+															<div key={b} style={message_baxa_for_u_pratibha_please_accept_it_chat_bot}>
+																<table>
+																	<tbody>
+																		<tr>
+																			<td style={under_table_style_me_pratibha_1_chat_bot}>
+																				<div style={d_flex_for_who_symbol_pratibha_chat_bot}>
+																					<div style={grey_border_style_to_the_msg_content_chat_bot}>
+																						{
+																							a[4]
+																						}
+																					</div>
+																				</div>
+																			</td>
+																			<td style={under_table_style_me_pratibha_1_chat_bot}>
+																				<div style={d_flex_for_who_symbol_pratibha_chat_bot_11}>
+																					<img src={a[1]} style={tu_nahi_hai_teri_yaaden_mujhe_satati_hai_chat_bot} />
+																				</div>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														)
+													}else {
+														return (
+															<div key={b} style={message_baxa_for_u_pratibha_please_accept_it_chat_bot}>
+																<table>
+																	<tbody>
+																		<tr>
+																			<td style={under_table_style_me_pratibha_2_chat_bot}>
+																				<div style={d_flex_for_who_symbol_pratibha_chat_bot}>
+																					<img src={a[1]} style={tu_nahi_hai_teri_yaaden_mujhe_satati_hai_chat_bot} />
+																				</div>
+																			</td>
+																			<td style={under_table_style_me_pratibha_3_chat_bot}>
+																				<div style={d_flex_for_who_symbol_pratibha_chat_bot}>
+																					<div style={grey_border_style_to_the_msg_content_chat_bot}>
+																						{
+																							a[4]
+																						}
+																					</div>
+																				</div>
+																			</td>
+
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														)
+													}
+												} )
+
+										)
+									}
+								</div>
+							</div>
+							<div style={budhware_peshkaar_ni_to_aain_haha_3}>
+								{
+									(!this.state.spinMe)?(
+										<div>
+											<div style={Hehe_hoho_lol_lolu_lklj_hhgg}>
+												<div style={dil_hai_ki_manta_nahi_lolo_lolu_ilu}>
+													<img src={this.state.dataSampleDetail[1][3]} style={wo_ladki_yaadAatiHaiMereKo_Bahut}/>
+												</div>
+											</div>
+											<p className="truncate _align_my_text_pratibha_center">{this.state.dataSampleDetail[1][1]}</p>
+											<p className="truncate _align_my_text_pratibha_center">{this.state.dataSampleDetail[1][2]}</p>
+										</div>
+									):false
+								}
+							</div>
+						</div>
+					</div>
+				</div>
+			)
+		}
+	}
+
+
+//end Sugestion root popup
+
+
+
+// for message suggestion box
+const hunhunhunhunhunHundred={width:"100%",height:"100%"};
+const tu_ki_jaane_pyar_mera_pratibha_please={width:"100%",height:"30px",marginBottom:"5px"};
+const intejar_wala_pyar_is_the_best_1={width:"29%",height:"100%",display:"inline",float:"left"};
+const intejar_wala_pyar_is_the_best_2={width:"70%",height:"100%",display:"inline",float:"right"};
+const agar_tu_degi_saath_mera_dn_am_best_p={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center",backgroundColor:"white",borderRadius:"10%",textIndent:"10px",borderColor:"1px solid grey"};
+const agar_tu_degi_saath_mera_dn_am_best_p_icon={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+const har_gam_fisal_jaye_wala_image_p={width:"25px",height:"25px",borderRadius:"50%"};
+class SuggestionPopupHeadMessage extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			w:this.props.W,
+			ml:this.props.Ml,
+			mapperMe:window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME?window.__MESSAGECONTENTMY_PRATIBHA_LOVE_ME:[]
+		};
+		this._teri_yaad_saath_hai_yaar_picha_hi_nai_chadta=this._teri_yaad_saath_hai_yaar_picha_hi_nai_chadta.bind(this);
+		this.componentWillReceiveProps=this.componentWillReceiveProps.bind(this);
+	}
+	_teri_yaad_saath_hai_yaar_picha_hi_nai_chadta(evt){
+		evt.preventDefault();
+		evt.stopPropagation();
+		console.log("piya_re_piya_piyere");
+		console.log(evt.target);
+		console.log(evt.currentTarget);
+		let tar=evt.currentTarget?evt.currentTarget:evt.target;
+		let jsDatable=tar.lastChild.value;
+		console.log(jsDatable);
+		ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'))
+		ReactDOM.render(<PopupMainFromMessageRoot DataDisplay={jsDatable} />,document.getElementById('_js_root_animation'))
+	}
+	componentWillReceiveProps(nextProps){
+		this.setState({
+			w:nextProps.W,
+			ml:nextProps.Ml
+		})
+	}
+	render(){
+		return (
+			<div id="_lol_p_olol" style={getMyStyle(this.state.w,"400px",this.state.ml)}>
+				<div style={hunhunhunhunhunHundred}>
+					{
+						this.state.mapperMe.map( (a,b)=>{
+							return (
+								<div key={b} style={tu_ki_jaane_pyar_mera_pratibha_please} className="_design_my_cursor_pratibha" onClick={this._teri_yaad_saath_hai_yaar_picha_hi_nai_chadta}>
+									<div style={hunhunhunhunhunHundred}>
+										<div style={intejar_wala_pyar_is_the_best_1}>
+											<div style={agar_tu_degi_saath_mera_dn_am_best_p_icon}>
+												<img src={a.toAImage} style={har_gam_fisal_jaye_wala_image_p} />
+											</div>
+										</div>
+										<div style={intejar_wala_pyar_is_the_best_2}>
+											<div style={agar_tu_degi_saath_mera_dn_am_best_p}>
+												<p className="truncate">{a.contentA}</p>
+											</div>
+										</div>
+									</div>
+									<input type="hidden" value={JSON.stringify(a)} />
+								</div>
+							)
+						} )
+					}
+				</div>
+			</div>
+		)
+	}
+}
+
+//end message box suggestion head
+
+// spinner extra
+
+
+
+										class PreloderCircularFacePratibhaLoveHead extends React.Component {
+											constructor(props) {
+												super(props);
+												this.state = {
+
+												};
+											}
+											render(){
+												return(
+													<div className="preloader-wrapper small active">
+											<div className="spinner-layer spinner-blue">
+												<div className="circle-clipper left">
+													<div className="circle"></div>
+												</div><div className="gap-patch">
+													<div className="circle"></div>
+												</div><div className="circle-clipper right">
+													<div className="circle"></div>
+												</div>
+											</div>
+
+											<div className="spinner-layer spinner-red">
+												<div className="circle-clipper left">
+													<div className="circle"></div>
+												</div><div className="gap-patch">
+													<div className="circle"></div>
+												</div><div className="circle-clipper right">
+													<div className="circle"></div>
+												</div>
+											</div>
+
+											<div className="spinner-layer spinner-yellow">
+												<div className="circle-clipper left">
+													<div className="circle"></div>
+												</div><div className="gap-patch">
+													<div className="circle"></div>
+												</div><div className="circle-clipper right">
+													<div className="circle"></div>
+												</div>
+											</div>
+
+											<div className="spinner-layer spinner-green">
+												<div className="circle-clipper left">
+													<div className="circle"></div>
+												</div><div className="gap-patch">
+													<div className="circle"></div>
+												</div><div className="circle-clipper right">
+													<div className="circle"></div>
+												</div>
+											</div>
+										</div>
+												)
+											}
+										}
+
+
+
+// end spinner extra
+
+
+
+// search profile oprn box
+
+
+const abcStylePopup_face_pratibha_love_head={width:"99%",height:"1240px",position:"absolute",zIndex:10,backgroundColor:"transparent"};
+const popupPlaylistDf_face_pratibha_love_head={width:"100%",height:"100%",display:"flex",justifyContent:"center"};
+const actPlaylistQuestPopup_face_pratibha_love_head={width:"400px",height:"400px",border:"1px solid #e6ecf0",marginTop:"150px"};
+const playlistPopupHead_face_pratibha_love_head={width:"100%",height:"40px",backgroundColor:"white",marginBottom:"10px"};
+const playlistPopupBody_face_pratibha_love_head={width:"100%",height:"340px",backgroundColor:"white"};
+const closePlaylistPopupBefore_face_pratibha_love_head={width:"70%",height:"100%",display:"inline",float:"left"};
+const closePlaylistPopupAfter_face_pratibha_love_head={width:"30%",height:"100%",display:"inline",float:"right"};
+const dflexCloseBefore_face_pratibha_love_head={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+const dflexCloseAfter_face_pratibha_love_head={width:"100%",height:"100%",display:"flex",justifyContent:"flex-end",alignItems:"center"};
+const closingPopupFontwa_face_pratibha_love_head={cursor:"pointer"};
+const msgInformationToAddPlaylist_face_pratibha_love_head={width:"100%",height:"40px",display:"flex",justifyContent:"center",alignItems:"center"};
+const actPlaylistDataStyle_face_pratibha_love_head={width:"100%",height:"260px",overflowY:"scroll"};
+const updatePlaylistStyle_face_pratibha_love_head={width:"100%",height:"40px"};
+const createPlaylistButtonDadaji_face_pratibha_love_head={width:"100%",height:"100%",display:"inline",float:"left"};
+const updatePlaylistButtonDadaji_face_pratibha_love_head={width:"50%",height:"100%",display:"inline",float:"right"};
+const createPlaylistButtonDady_face_pratibha_love_head={width:"99%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center",border:"1px solid #e6ecf0"};
+const updatePlaylistButtonDady_face_pratibha_love_head={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+const closingPopupFontwaOf_face_pratibha_love_head={cursor:"pointer"};
+const duniya_me_nahi_hai_face_pratibha_love_head={width:"100%",height:"200px"};
+const kudrat_hans_paregi_face_pratibha_love_head={width:"100%",height:"33%"};
+const man_amadeham_face_pratibha_love_head={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"flex-end"};
+const man_amadeham_1_face_pratibha_love_head={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+const man_amadeham_2_face_pratibha_love_head={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"flex-start"};
+const aa_v_ja_bahon_me_face_pratibha_love_head={width:"80%",height:"25px"};
+const dflex_loader_pratibha_beautiful_face_love_head={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"flex-start"}
+const pratibha_i_wana_love_u_forever_love_head={width:"100%",height:"30%"};
+const pratibha_i_wana_love_u_forever_2_love_head={width:"100%",height:"69%"};
+class ChangeDPPopupBeautifulFacePratibhaLoveHead extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			statusText:"",
+			initBeg:0,
+			tarText:this.props.TarText
+		};
+		this.componentWillMount=this.componentWillMount.bind(this);
+		this.componentWillUnmount=this.componentWillUnmount.bind(this);
+		this._closing_playlist_popup_bhai=this._closing_playlist_popup_bhai.bind(this);
+		this._let_me_get_typed_array=this._let_me_get_typed_array.bind(this);
+	}
+	_let_me_get_typed_array(evt){
+		evt.preventDefault();
+		evt.stopPropagation();
+	}
+	_closing_playlist_popup_bhai(evt){
+		ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'))
+	}
+	componentWillMount(){
+		var events = new CustomEvent(
+			"opacity",
+			{
+				detail: {
+					message: 0.2,
+					time: new Date(),
+			},
+			bubbles: true,
+			cancelable: true
+		}
+	 );
+	 window.dispatchEvent(events);
+	 let lastMan=this.state.tarText;
+	 console.log("lllllllllllllllllllllllllllllllaaaaaaaaaaaaaaaaaaaaaaaasssssssssssstttttttttttttt man");
+	 console.log(lastMan);
+	 console.log("tera pyar hai mera jindagi bas meri jindagi tera pyar hai");
+	 let llMan=JSON.parse(lastMan).email;
+	 console.log("from search option view profile");
+	 console.log(lastMan);
+	 let tempMe=window.__rasoola.allah[1];
+	 let pKey=window.__rasoola.allah[4];
+	 let meUr="wowPratibhaYouLooksLikeAnAngel?data="+JSON.stringify({Me:tempMe,Pkey:pKey,Id:lastMan})
+	 let tarText="";
+	 let myPageTypePratibha=window.__pageType;
+	 switch (myPageTypePratibha) {
+		case "Social":
+			tarText="Social face"
+			break;
+		case "Professional":
+			tarText="Professional face"
+			break;
+		case "Consumer":
+			tarText="Consumer face"
+			break;
+		case "Writer":
+			tarText="Reader face"
+			break;
+		case "Dater":
+			tarText="Dater face"
+			break;
+		case "Donator":
+			tarText="Donator face"
+			break;
+		case "Sinner":
+			tarText="Sinner face"
+			break;
+		default:
+			tarText="Social face"
+			break;
+	 }
+	 $.ajax({
+		 url:meUr,
+		 type:"GET",
+		 dataType:"json",
+		 ContentType:"json",
+		 beforeSend:(jqXHR)=>{
+			 ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'))
+			 ReactDOM.render(<SansoKiMalaMainPiKaNaam />,document.getElementById('_js_root_animation'))
+		 },
+		 async:true
+	 }).done((data)=>{
+		 console.log(data);
+		 let refEr=window.__rasoola.allah[1];
+		 let meName=data.Detail.Detail[0][0];
+		 let meEmail=data.Detail.Detail[0][1];
+		 let meDp=data.Detail.Detail[0][2];
+		 let mePlaylist=data.Playlist.Playlist;
+		 let meFace=data.Face.Face;
+		 let mePost=data.Post.Post;
+		 let meSocialFace=[];
+		 let meProfessionalFace=[];
+		 let meShoppingFace=[];
+		 let meDatingFace=[];
+		 let meReaderFace=[];
+		 let meDonaterFace=[];
+		 let meSinnerFace=[];
+		 let meOwner="proxy";
+		 let meGender=data.Detail.Detail[0][3];
+		 meFace.map( (a,b)=>{
+			 if (a[3]=="true") {
+				 let abc={name:a[0],email:a[1],dp:a[2]};
+				 meSocialFace.push(abc);
+			 }
+			 if (a[4]=="true") {
+				 let abc={name:a[0],email:a[1],dp:a[2]};
+				 meProfessionalFace.push(abc);
+			 }
+			 if (a[5]=="true") {
+				 let abc={name:a[0],email:a[1],dp:a[2]};
+				 meShoppingFace.push(abc);
+			 }
+			 if (a[6]=="true") {
+				 let abc={name:a[0],email:a[1],dp:a[2]};
+				 meReaderFace.push(abc);
+			 }
+			 if (a[7]=="true") {
+				 let abc={name:a[0],email:a[1],dp:a[2]};
+				 meDatingFace.push(abc);
+			 }
+			 if (a[8]=="true") {
+				 let abc={name:a[0],email:a[1],dp:a[2]};
+				 meDonaterFace.push(abc);
+			 }
+			 if (a[9]=="true") {
+				 let abc={name:a[0],email:a[1],dp:a[2]};
+				 meSinnerFace.push(abc);
+			 }
+
+		 } )
+		 if (refEr==meEmail) {
+			 meOwner="owner";
+		 }
+		 let mainObj;
+		 console.log(tarText.toString()=="Social face");
+		 if (tarText=="Social face") {
+			 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Social",MeGender:meGender};
+		 }
+		 if (tarText=="Professional face") {
+			 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Professional",MeGender:meGender};
+		 }
+		 if (tarText=="Consumer face") {
+			 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Consumer",MeGender:meGender};
+		 }
+		 if (tarText=="Reader face") {
+			 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Reader",MeGender:meGender};
+		 }
+		 if (tarText=="Dater face") {
+			 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Dater",MeGender:meGender};
+		 }
+		 if (tarText=="Donator face") {
+			 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Donator",MeGender:meGender};
+		 }
+		 if (tarText=="Sinner face") {
+			 mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Sinner",MeGender:meGender};
+		 }
+
+
+
+		 var event = new CustomEvent(
+			 "showMyFacePratibha",
+			 {
+				 detail: {
+					 message: mainObj,
+					 time: new Date(),
+				 },
+				 bubbles: true,
+				 cancelable: true
+			 }
+		 );
+		 window.dispatchEvent(event);
+
+	 }).fail((jqXHR, textStatus)=>{
+		 console.log(textStatus);
+	 });
+	}
+	componentWillUnmount(){
+		var events = new CustomEvent(
+			"opacity",
+			{
+				detail: {
+					message: 1,
+					time: new Date(),
+			},
+			bubbles: true,
+			cancelable: true
+		}
+	 );
+	 window.dispatchEvent(events);
+	}
+	render(){
+		return (
+			<div style={abcStylePopup_face_pratibha_love_head}>
+				<div style={popupPlaylistDf_face_pratibha_love_head}>
+					<div style={actPlaylistQuestPopup_face_pratibha_love_head}>
+						<div style={playlistPopupHead_face_pratibha_love_head}>
+							<div style={closePlaylistPopupBefore_face_pratibha_love_head}>
+								<div style={dflexCloseBefore_face_pratibha_love_head}>
+									<font className="truncate" size={4}>Please wait ....</font>
+								</div>
+							</div>
+							<div style={closePlaylistPopupAfter_face_pratibha_love_head}>
+								<div style={dflexCloseAfter_face_pratibha_love_head}>
+									<font className="truncate" style={closingPopupFontwa_face_pratibha_love_head} size={5} onClick={this._closing_playlist_popup_bhai}>&#9932;</font>
+								</div>
+							</div>
+						</div>
+						<div style={playlistPopupBody_face_pratibha_love_head}>
+							<div style={pratibha_i_wana_love_u_forever_love_head}>
+								<div style={dflex_loader_pratibha_beautiful_face_love_head}>
+									<PreloderCircularFacePratibhaLoveHead />
+								</div>
+							</div>
+							<div style={pratibha_i_wana_love_u_forever_2_love_head}>
+								<div style={dflex_loader_pratibha_beautiful_face_love_head}>
+									<p className="truncate flow-text">Selected profile is being loaded </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		)
+	}
+}
+
+
+
+class LinkMyFacePratibha extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+
+		};
+	}
+	render(){
+		return (
+			<div>
+			</div>
+		)
+	}
+}
+
+
+
+// end search profile oprn box
+
+const jidraTuMariBoliwoodWhichEntry={width:"100%",height:"100%",display:"flex",justifyContent:"center"};
+const jidraTuMariBoliwoodWhichEntryKalaDil={width:"100%",height:"100%",overflowY:"scroll"};
+const _be_dil_tera_kala_mundiya_pave_chando_se_sunakha_muh={cursor:"pointer"};
+const mail_me_your_style_feedback_pratibha_please={width:"30px",height:"30px",verticalAlign:"middle"};
+const kachhchhi_doriyo_se_menu_tu_bandh_le_o_soniye={width:"98%",textAlign:"left",marginBottom:"5px"}
+class SuggestionPopupHeadSearch extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			w:this.props.W,
+			ml:this.props.Ml,
+			data:this.props.DataOf
+		};
+		this._click_me_on_each_face_view=this._click_me_on_each_face_view.bind(this);
+		this.componentWillReceiveProps=this.componentWillReceiveProps.bind(this);
+		this.componentDidUpdate=this.componentDidUpdate.bind(this);
+		this.componentDidMount=this.componentDidMount.bind(this);
+	}
+	componentDidMount(){
+		$('.dropdown-button').dropdown({
+					inDuration: 300,
+					outDuration: 225,
+					constrainWidth: false, // Does not change width of dropdown to that of the activator
+					hover: false, // Activate on hover
+					gutter: 0, // Spacing from edge
+					belowOrigin: true, // Displays dropdown below the button
+					alignment: 'left', // Displays dropdown with edge aligned to the left of button
+					stopPropagation: false // Stops event propagation
+				}
+			);
+	}
+	componentDidUpdate(prevProps, prevState){
+		$('.dropdown-button').dropdown({
+					inDuration: 300,
+					outDuration: 225,
+					constrainWidth: false, // Does not change width of dropdown to that of the activator
+					hover: false, // Activate on hover
+					gutter: 0, // Spacing from edge
+					belowOrigin: true, // Displays dropdown below the button
+					alignment: 'left', // Displays dropdown with edge aligned to the left of button
+					stopPropagation: false // Stops event propagation
+				}
+			);
+	}
+	_click_me_on_each_face_view(evt){
+		evt.preventDefault();
+		evt.stopPropagation();
+		let tarVal=JSON.parse(evt.currentTarget.lastChild.value);
+		ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+		ReactDOM.render(<ChangeDPPopupBeautifulFacePratibhaLoveHead TarText={tarVal} />,document.getElementById('_js_root_animation'));
+		var eventAll = new CustomEvent(
+			"destroySearchSuggestion",
+			{
+				detail: {
+					message: "destroy",
+					time: new Date(),
+				},
+				bubbles: true,
+				cancelable: true
+			}
+		);
+		window.dispatchEvent(eventAll);
+	}
+	componentWillReceiveProps(nextProps){
+		this.setState({
+			w:nextProps.W,
+			ml:nextProps.Ml,
+			data:nextProps.DataOf
+		})
+	}
+	render(){
+		return (
+			<div id="_lol_p_olol" style={getMyStyle(this.state.w,"400px",this.state.ml)}>
+				{
+					JSON.parse(this.state.data).data=="spinner"?(
+						<div style={jidraTuMariBoliwoodWhichEntry}>
+							<PreloderCircularHead />
+						</div>
+					):false
+				}
+				{
+					JSON.parse(this.state.data).data!="spinner"?(
+						<div style={jidraTuMariBoliwoodWhichEntryKalaDil}>
+							{
+								JSON.parse(this.state.data).data.map( (a,b)=>{
+									return (
+										<div key={b}>
+											{/*
+												<div className="chip" key={b} onClick={this._click_me_on_each_face_view} style={_be_dil_tera_kala_mundiya_pave_chando_se_sunakha_muh}>
+													<img src={a[2]} alt="Contact Person" />
+													{a[0]}
+													<input type="hidden" value={JSON.stringify(a[1])} />
+												</div>
+												*/}
+												<a className='dropdown-button btn white black-text _pratibha_capitalize_my_text' href='#' data-activates={`dropdown_pratibha_beautiful_face_${b}`} style={kachhchhi_doriyo_se_menu_tu_bandh_le_o_soniye}><img src={a[2]} style={mail_me_your_style_feedback_pratibha_please} alt="N.A." />{a[0]}</a>
+												<ul id={`dropdown_pratibha_beautiful_face_${b}`} className='dropdown-content'>
+											    <li className="divider"></li>
+											    <li onClick={this._click_me_on_each_face_view}><a href="#!" className="white black-text">View profile</a><input type="hidden" value={JSON.stringify(a[1])} /></li>
+													<li className="divider"></li>
+													<li><a href="#!" className="white black-text">Link face</a></li>
+													<li className="divider"></li>
+											  </ul>
+										</div>
+									)
+								} )
+							}
+						</div>
+					):false
+				}
+			</div>
+		)
+	}
+}
+
+
+const logHeadStyle={width:"100%",height:"100%"}
+const logIconCont={width:"20%",height:"100%",display:"inline",float:"left"};
+const logIconCont_offer={width:"20%",height:"100%",display:"flex",float:"left",alignItems:"center"};
+const imgStyle={width:"40px",height:"40px",verticalAlign:"bottom",marginTop:"5px"};
+const codeStyle={};
+const fontStyle={cursor:"pointer"};
+const flexDiv={width:"100%",height:"100%",display:"flex",justifyContent:"flex-start",alignItems:"flex-start"};
+const logIconCont_search={width:"30%",height:"100%",display:"inline",float:"left"};
+const logIconCont_search_a={width:"10%",height:"100%",display:"inline",float:"left"};
+const logIconCont_search_a_x={width:"20%",height:"100%",display:"inline",float:"left"};
+const searchContentStyle={width:"90%",height:"91%",borderRadius:"3px",border:"1px solid #e6ecf0",textIndent:"10px",borderBottomRightRadius:"0px",borderTopRightRadius:"0px",borderRightWidth:"0px"};
+const barakAllah={height:"95%",width:"15%",maxWidth:"50%",backgroundColor:"transparent",borderLeft:"0px",fontSize:"medium",border:"1px solid #e6ecf0",borderLeftWidth:"0px"};
+const barakAllah_mine={height:"69%",width:"70%",maxWidth:"100%",backgroundColor:"transparent",borderLeft:"0px",fontSize:"medium",border:"1px solid #e6ecf0"};
+const flexDiv_barakallah={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+const notificationAllStyle={width:"100%",height:"100%"};
+const dflex_inner_other={width:"33%",height:"100%",display:"inline",float:"left"};
+const flexTypeOverMore={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+const imgNotStyle={width:"30px",height:"30px",cursor:"pointer"};
+const imgNotStyle_more={width:"25px",height:"25px",cursor:"pointer"};
+const spanningNotStyle={color:"red"};
+const myUniqueFaceSelectStyle={backgroundColor:"transparent",color:"black",textTransform:"capitalize"};
+const myUniqueFaceSelectStyle_filter={backgroundColor:"transparent",color:"black",height:"90%",marginTop:"2px",textTransform:"capitalize"};
+const myUniqueFaceSelectStyle_child={color:"black"};
+const patolaSoniyeLoveYou={display:"flex",alignItems:"center"};
+const dBtStWidth={width:"100%",backgroundColor:"transparent",border:"0px",borderColor:"transparent"}
+
+window.addEventListener('showMyFacePratibha',(evt)=>{
+	console.log(evt.detail.message);
+	let meName=evt.detail.message.MeName;
+	let meDp=evt.detail.message.MeDp;
+	let meEmail=evt.detail.message.MeEmail
+	let mePlaylist=evt.detail.message.MePlaylist;
+	let meSocialFace=evt.detail.message.MeSocialFace;
+	let meProfessionalFace=evt.detail.message.MeProfessionalFace;
+	let meShoppingFace=evt.detail.message.MeShoppingFace;
+	let meDatingFace=evt.detail.message.MeDatingFace;
+	let meReaderFace=evt.detail.message.MeReaderFace;
+	let meDonaterFace=evt.detail.message.MeDonaterFace;
+	let meSinnerFace=evt.detail.message.MeSinnerFace;
+	let meOwner=evt.detail.message.MeOwner;
+	let mePageTypeActual=evt.detail.message.MePageTypeActual;
+	let meProxyGender=evt.detail.message.MeGender;
+	let mePost=evt.detail.message.MePost;
+
+	if (mePageTypeActual=="Social") {
+		ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+		ReactDOM.render(<MyAllFaceMine FaceOwnership={meOwner} Post={mePost} PageTypeChangeLeftSide={"social"} MyEmail={meEmail} MyName={meName} MyPlaylist={mePlaylist} MyLinkedface={meSocialFace} MySocialFacePic={meDp} ProxyGender={meProxyGender} />,document.getElementById('_js_root_animation'));
+	}else if (mePageTypeActual=="Professional") {
+		ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+		ReactDOM.render(<MyAllFaceMine FaceOwnership={meOwner} Post={mePost} PageTypeChangeLeftSide={"professional"} MyEmail={meEmail} MyName={meName} MyPlaylist={mePlaylist} MyLinkedface={meProfessionalFace} MySocialFacePic={meDp} ProxyGender={meProxyGender} />,document.getElementById('_js_root_animation'));
+	}else if (mePageTypeActual=="Consumer") {
+		ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+		ReactDOM.render(<MyAllFaceMine FaceOwnership={meOwner} Post={mePost} PageTypeChangeLeftSide={"shopping"} MyEmail={meEmail} MyName={meName} MyPlaylist={mePlaylist} MyLinkedface={meShoppingFace} MySocialFacePic={meDp} ProxyGender={meProxyGender} />,document.getElementById('_js_root_animation'));
+	}else if (mePageTypeActual=="Reader") {
+		ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+		ReactDOM.render(<MyAllFaceMine FaceOwnership={meOwner} Post={mePost} PageTypeChangeLeftSide={"reader"} MyEmail={meEmail} MyName={meName} MyPlaylist={mePlaylist} MyLinkedface={meReaderFace} MySocialFacePic={meDp} ProxyGender={meProxyGender} />,document.getElementById('_js_root_animation'));
+	}else if (mePageTypeActual=="Dater") {
+		ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+		ReactDOM.render(<MyAllFaceMine FaceOwnership={meOwner} Post={mePost} PageTypeChangeLeftSide={"dater"} MyEmail={meEmail} MyName={meName} MyPlaylist={mePlaylist} MyLinkedface={meDatingFace} MySocialFacePic={meDp} ProxyGender={meProxyGender} />,document.getElementById('_js_root_animation'));
+	}else if (mePageTypeActual=="Donator") {
+		ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+		ReactDOM.render(<MyAllFaceMine FaceOwnership={meOwner} Post={mePost} PageTypeChangeLeftSide={"donator"} MyEmail={meEmail} MyName={meName} MyPlaylist={mePlaylist} MyLinkedface={meDonaterFace} MySocialFacePic={meDp} ProxyGender={meProxyGender} />,document.getElementById('_js_root_animation'));
+	}else if (mePageTypeActual=="Sinner") {
+		ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+		ReactDOM.render(<MyAllFaceMine FaceOwnership={meOwner} Post={mePost} PageTypeChangeLeftSide={"sinner"} MyEmail={meEmail} MyName={meName} MyPlaylist={mePlaylist} MyLinkedface={meSinnerFace} MySocialFacePic={meDp} ProxyGender={meProxyGender} />,document.getElementById('_js_root_animation'));
+	}
+
+
+},true)
+
+// reveal my cart information pratibha screen
+
+
+	class RevealMyOwnCartWithHistory extends React.Component {
+		constructor(props) {
+			super(props);
+			this.state = {
+
+			}
+		}
+		render(){
+			return (
+				<div>
+				</div>
+			)
+		}
+	}
+
+
+//end ny reaveal cart pratibha screen
+
+// logout serf signal
+
+const abcStylePopup_act_p_hash={width:"99%",height:"1240px",position:"absolute",zIndex:15,backgroundColor:"transparent"};
+const popupPlaylistDf_act_p_hash={width:"100%",height:"100%",display:"flex",justifyContent:"center"};
+const actPlaylistQuestPopup_act_p_hash={width:"400px",height:"400px",border:"1px solid #e6ecf0",marginTop:"150px"};
+const playlistPopupHead_act_p_hash={width:"100%",height:"40px",backgroundColor:"white",marginBottom:"10px"};
+const playlistPopupBody_act_p_hash={width:"100%",height:"340px",backgroundColor:"white"};
+const closePlaylistPopupBefore_act_p_hash={width:"70%",height:"100%",display:"inline",float:"left"};
+const closePlaylistPopupAfter_act_p_hash={width:"30%",height:"100%",display:"inline",float:"right"};
+const dflexCloseBefore_act_p_hash={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+const dflexCloseAfter_act_p_hash={width:"100%",height:"100%",display:"flex",justifyContent:"flex-end",alignItems:"center"};
+const closingPopupFontwa_act_p_hash={cursor:"pointer"};
+const msgInformationToAddPlaylist_act_p_hash={width:"100%",height:"40px",display:"flex",justifyContent:"center",alignItems:"center"};
+const actPlaylistDataStyle_act_p_hash={width:"100%",height:"260px",overflowY:"scroll"};
+const updatePlaylistStyle_act_p_hash={width:"100%",height:"40px"};
+const createPlaylistButtonDadaji_act_p_hash={width:"50%",height:"100%",display:"inline",float:"left"};
+const createPlaylistButtonDadaji_act_go_p_hash={width:"100%",height:"100%",display:"inline",float:"left"};
+const updatePlaylistButtonDadaji_act_p_hash={width:"50%",height:"100%",display:"inline",float:"right"};
+const createPlaylistButtonDady_act_p_hash={width:"99%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center",border:"1px solid #e6ecf0"};
+const createPlaylistButtonDady_act_go_p_hash={width:"99%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center",border:"1px solid #e6ecf0"};
+const updatePlaylistButtonDady_act_p_hash={width:"100%",height:"100%",display:"flex",justifyContent:"center",alignItems:"center"};
+const closingPopupFontwaOf_act_p_hash={cursor:"pointer"};
+const fontingStyleCursor_p_hash={cursor:"pointer"};
+
+
+class LogOutPopupUnbreakable extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state={
+
+		};
+		this.componentWillUnmount=this.componentWillUnmount.bind(this);
+		this.componentWillMount=this.componentWillMount.bind(this);
+	}
+	componentWillUnmount(){
+		let events = new CustomEvent(
+			"opacity",
+			{
+				detail: {
+					message: 1,
+					time: new Date(),
+			},
+			bubbles: true,
+			cancelable: true
+		}
+	 );
+	 window.dispatchEvent(events);
+	}
+	componentWillMount(){
+		let events = new CustomEvent(
+			"opacity",
+			{
+				detail: {
+					message: 0.2,
+					time: new Date(),
+			},
+			bubbles: true,
+			cancelable: true
+		}
+	 );
+	 window.dispatchEvent(events);
+	}
+	render(){
+		return (
+			<div style={abcStylePopup_act_p_hash}>
+				<div style={popupPlaylistDf_act_p_hash}>
+					<div style={actPlaylistQuestPopup_act_p_hash}>
+						<div style={playlistPopupHead_act_p_hash}>
+							<div style={closePlaylistPopupBefore_act_p_hash}>
+								<div style={dflexCloseBefore_act_p_hash}>
+									<font size={4} className="truncate">Clearing your access token</font>
+								</div>
+							</div>
+							<div style={closePlaylistPopupAfter_act_p_hash}>
+								<div style={dflexCloseAfter_act_p_hash}>
+									<font style={closingPopupFontwa_act_p_hash} size={5} onClick={this._closing_playlist_popup_bhai}>&#9932;</font>
+								</div>
+							</div>
+						</div>
+						<div style={playlistPopupBody_act_p_hash}>
+							<div style={msgInformationToAddPlaylist_act_p_hash}>
+							 <p className="truncate">Please wait..</p>
+							</div>
+							<div id="_jaaniye_heeriye_oo_hs" style={actPlaylistDataStyle_act_p_hash}>
+								<div className="_basne_laga_q_fir_wo_jahan">
+									<div className="_payaliya_teri_hohoho_mujhe_rulaye_pp_prati">
+										<PreloderCircularHead />
+									</div>
+								</div>
+							</div>
+							<div style={updatePlaylistStyle_act_p_hash}>
+								<div style={createPlaylistButtonDadaji_act_go_p_hash}>
+									<div style={createPlaylistButtonDady_act_go_p_hash}>
+										<font style={closingPopupFontwaOf_act_p_hash} size={5} onClick={this._closing_playlist_popup_bhai}>Close</font>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		)
+	}
+}
+
+// end logout serf signal
+
+const _style_fix_pratibha_beijjati_mera_ki=Object.freeze({width:"100%"});
+
+class ExpandableSettingsAndMore extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			w:this.props.W,
+			ml:this.props.Ml,
+			pageType:window.__pageType
+		};
+		this._angle_bas_tu_hi_jandi_setting=this._angle_bas_tu_hi_jandi_setting.bind(this);
+		this._angle_bas_tu_hi_jandi_logout=this._angle_bas_tu_hi_jandi_logout.bind(this);
+		this._angle_bas_tu_hi_jandi_cart=this._angle_bas_tu_hi_jandi_cart.bind(this);
+	}
+	_angle_bas_tu_hi_jandi_cart(evt){
+		evt.preventDefault();
+		evt.stopPropagation();
+	}
+	_angle_bas_tu_hi_jandi_logout(evt){
+		evt.preventDefault();
+		evt.stopPropagation();
+		let jsSend=JSON.stringify({Me:window.__rasoola.allah[1],Pkey:window.__rasoola.allah[4]});
+		ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+		ReactDOM.render(<LogOutPopupUnbreakable />,document.getElementById('_js_root_animation'));
+		$.ajax({
+			url:`deleteMyAuthHashPratibhaPleaseHelp?data=${jsSend}`,
+			type:"GET",
+			contentType:"json",
+			async:"true"
+		}).done((data)=>{
+			console.log(data);
+			if (data.Status=="nil") {
+				ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+				top.location.href=`${top.location.href.replace("linkAuth", "login")}`
+			}else {
+				Materialize.toast('Some exception occured while deleting your hash to perform logout please try again', 4000);
+				ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+			}
+		}).fail((jqXHR,statusText)=>{
+			console.log(statusText);
+			ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'));
+		})
+	}
+	_angle_bas_tu_hi_jandi_setting(evt){
+		evt.preventDefault();
+		evt.stopPropagation();
+		Materialize.toast('Hey there this part is not implemented yet , and will be implemented soon ...', 4000)
+	}
+	render(){
+		return (
+			<div id="_lol_p_olol_logout_more_setting" style={getMyStyle(this.state.w,"250px",this.state.ml)}>
+				<ul style={_style_fix_pratibha_beijjati_mera_ki}>
+					<li style={_style_fix_pratibha_beijjati_mera_ki}>
+						<a className="waves-effect waves-light btn white black-text _pratibha_capitalize_my_text" style={_style_fix_pratibha_beijjati_mera_ki} onClick={this._angle_bas_tu_hi_jandi_setting}>Settings</a>
+					</li>
+					<li style={_style_fix_pratibha_beijjati_mera_ki}>
+						<a className="waves-effect waves-light btn white black-text _pratibha_capitalize_my_text" style={_style_fix_pratibha_beijjati_mera_ki} onClick={this._angle_bas_tu_hi_jandi_logout}>Logout</a>
+					</li>
+					{
+						(this.state.pageType=="Consumer")?(
+							<li style={_style_fix_pratibha_beijjati_mera_ki}>
+								<a className="waves-effect waves-light btn white black-text _pratibha_capitalize_my_text" style={_style_fix_pratibha_beijjati_mera_ki} onClick={this._angle_bas_tu_hi_jandi_cart}>My cart</a>
+							</li>
+						):false
+					}
+				</ul>
+			</div>
+		)
+	}
+}
+
+	class HomeHead extends React.Component {
+		constructor(props){
+			super(props);
+			this.state = {
+				rc:"/logo.jpg",
+				searchContent:"",
+				newNot:5,
+				newMess:0,
+				notImage:"/notification.jpg",
+				messImage:"/message.jpg",
+				moreImage:"/more.png",
+				defineFilter:"Faces",
+				pindChadta:1,
+				partyWalaData:[],
+				renderredFirstTimeLog:false
+			};
+			this._mm_all_ser_opt_chng=this._mm_all_ser_opt_chng.bind(this);
+			this._clk_get_notification=this._clk_get_notification.bind(this);
+			this._message_as_notification=this._message_as_notification.bind(this);
+			this._tum_samandar_ke_dhani=this._tum_samandar_ke_dhani.bind(this);
+			this.disabledOrOpenCheckFilter=this.disabledOrOpenCheckFilter.bind(this);
+			this._mm_unmount_extra_suggest=this._mm_unmount_extra_suggest.bind(this);
+			this._sachmuchJatTenuLoveKarda=this._sachmuchJatTenuLoveKarda.bind(this);
+			this._ji_le_jara_hoho_haha_hamsafar=this._ji_le_jara_hoho_haha_hamsafar.bind(this);
+			this.componentDidMount=this.componentDidMount.bind(this);
+			this.componentWillMount=this.componentWillMount.bind(this);
+			this._expand_more_option_pratibha_please=this._expand_more_option_pratibha_please.bind(this);
+		}
+		_expand_more_option_pratibha_please(evt){
+			evt.preventDefault();
+			evt.stopPropagation();
+			let that=this;
+			const ml=`${document.getElementById('_mm_get_u_one').clientWidth+document.getElementById('_mm_get_u_two').clientWidth+document.getElementById('_mm_get_u_three').clientWidth+220}px`;
+			if (!this.state.renderredFirstTimeLog) {
+				ReactDOM.unmountComponentAtNode(document.getElementById('_head_root_animation'));
+				ReactDOM.render(<ExpandableSettingsAndMore W={"150px"} Ml={ml} />,document.getElementById('_head_root_animation'));
+				that.setState({
+					renderredFirstTimeLog:!that.state.renderredFirstTimeLog
+				});
+			}else {
+				ReactDOM.unmountComponentAtNode(document.getElementById('_head_root_animation'))
+				that.setState({
+					renderredFirstTimeLog:!that.state.renderredFirstTimeLog
+				});
+			}
+		}
+		componentWillMount(){
+			var that=this;
+			window.addEventListener("destroySearchSuggestion",(evt)=>{
+				that.setState({
+					searchContent:""
+				})
+				ReactDOM.unmountComponentAtNode(document.getElementById('_head_root_animation'));
+			},true)
+
+			window.addEventListener('pata_nahi_yaar_kuchh_v_ho_sakta_hai',(evt)=>{
+				console.log(evt.detail.message);
+				console.log("main jeena tera tu jeena mera ");
+				let Jsparsed=JSON.parse(evt.detail.message)
+				if (Jsparsed.pType==window.__pageType) {
+					that.setState({
+						newMess:Jsparsed.len
+					})
+				}
+			},true)
+		}
+		componentDidMount(){
+			var inp=this.refs._referable_anyone_search;
+			var that=this;
+			const sourceAnyone = Rx.Observable.fromEvent(inp, 'input');
+			const sour1AnyOne=sourceAnyone.debounceTime(500).map(evt=>evt.target.value);
+			const subscribeAnyOne = sour1AnyOne.subscribe((val) => {
+				//console.log("valllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll");
+				//console.log(val);
+				if (val!="") {
+					Rx.Observable.ajax({ url: `/faces/${val}`, responseType: 'json',method:'GET'}).map(data=>data.response.All)
+					.subscribe(
+						function (data) {
+							console.log(data);
+							console.log("hhhhoooo");
+							var mWnot="30%";
+							var ml=`${document.getElementById('_mm_get_u_one').clientWidth+document.getElementById('_mm_get_u_two').clientWidth}px`;
+							ReactDOM.render(<SuggestionPopupHeadSearch Ml={ml} W={mWnot} DataOf={JSON.stringify({data:data})} />,document.getElementById('_head_root_animation'))
+						},
+						function (error) {
+							console.log(error);
+						}
+					);
+				}
+			});
+		}
+		_ji_le_jara_hoho_haha_hamsafar(evt){
+			evt.preventDefault();
+			evt.stopPropagation();
+			let tar=evt.currentTarget?evt.currentTarget:evt.target;
+			let tarText=tar.textContent;
+			console.log(tar.innerText);
+			/*let meName=window.__rasoola.allah[0];
+			let meEmail=window.__rasoola.allah[1];
+			let meDp=window.__rasoola.allah[2];
+			let mePlaylist=window.__playlistArray;
+			let meFace=window.__faceMapper;
+			let meGender=window.__rasoola.allah[3];
+			let meSocialFace=[];
+			let meProfessionalFace=[];
+			let meShoppingFace=[];
+			let meDatingFace=[];
+			let meReaderFace=[];
+			let meDonaterFace=[];
+			let meSinnerFace=[];
+			meFace.map( (a,b)=>{
+				if (a[3]=="true") {
+					let abc={name:a[0],email:a[1],dp:a[2]};
+					meSocialFace.push(abc);
+				}
+				if (a[4]=="true") {
+					let abc={name:a[0],email:a[1],dp:a[2]};
+					meProfessionalFace.push(abc);
+				}
+				if (a[5]=="true") {
+					let abc={name:a[0],email:a[1],dp:a[2]};
+					meShoppingFace.push(abc);
+				}
+				if (a[6]=="true") {
+					let abc={name:a[0],email:a[1],dp:a[2]};
+					meReaderFace.push(abc);
+				}
+				if (a[7]=="true") {
+					let abc={name:a[0],email:a[1],dp:a[2]};
+					meDatingFace.push(abc);
+				}
+				if (a[8]=="true") {
+					let abc={name:a[0],email:a[1],dp:a[2]};
+					meDonaterFace.push(abc);
+				}
+				if (a[9]=="true") {
+					let abc={name:a[0],email:a[1],dp:a[2]};
+					meSinnerFace.push(abc);
+				}
+			} )
+			let meOwner="owner";
+			let mainObj;
+			console.log(tarText.toString()=="Social face");
+			if (tarText=="Social face") {
+				mainObj={MeName:meName,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Social",MeGender:meGender};
+			}
+			if (tarText=="Professional face") {
+				mainObj={MeName:meName,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Professional",MeGender:meGender};
+			}
+			if (tarText=="Consumer face") {
+				mainObj={MeName:meName,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Consumer",MeGender:meGender};
+			}
+			if (tarText=="Reader face") {
+				mainObj={MeName:meName,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Reader",MeGender:meGender};
+			}
+			if (tarText=="Dater face") {
+				mainObj={MeName:meName,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Dater",MeGender:meGender};
+			}
+			if (tarText=="Donator face") {
+				mainObj={MeName:meName,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Donator",MeGender:meGender};
+			}
+			if (tarText=="Sinner face") {
+				mainObj={MeName:meName,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Sinner",MeGender:meGender};
+			}
+
+
+			var event = new CustomEvent(
+				"showMyFacePratibha",
+				{
+					detail: {
+						message: mainObj,
+						time: new Date(),
+					},
+					bubbles: true,
+					cancelable: true
+				}
+			);
+			window.dispatchEvent(event);*/
+			let globalMe=JSON.stringify({Me:window.__rasoola.allah[1],Pkey:window.__rasoola.allah[4]});
+			let meUr="wowPratibhaYouLooksLikeAnAngelPratibha?data="+globalMe
+			$.ajax({
+				url:meUr,
+				type:"GET",
+				dataType:"json",
+				ContentType:"json",
+				beforeSend:(jqXHR)=>{
+					ReactDOM.unmountComponentAtNode(document.getElementById('_js_root_animation'))
+					ReactDOM.render(<SansoKiMalaMainPiKaNaam />,document.getElementById('_js_root_animation'))
+				},
+				async:true
+			}).done((data)=>{
+				console.log(data);
+				let refEr=window.__rasoola.allah[1];
+				let meName=data.Detail.Detail[0][0];
+				let meEmail=data.Detail.Detail[0][1];
+				let meDp=data.Detail.Detail[0][2];
+				let mePlaylist=data.Playlist.Playlist;
+				let meFace=data.Face.Face;
+				let mePost=data.Post.Post;
+				let meSocialFace=[];
+				let meProfessionalFace=[];
+				let meShoppingFace=[];
+				let meDatingFace=[];
+				let meReaderFace=[];
+				let meDonaterFace=[];
+				let meSinnerFace=[];
+				let meOwner="proxy";
+				let meGender=data.Detail.Detail[0][3];
+				meFace.map( (a,b)=>{
+					if (a[3]=="true") {
+						let abc={name:a[0],email:a[1],dp:a[2]};
+						meSocialFace.push(abc);
+					}
+					if (a[4]=="true") {
+						let abc={name:a[0],email:a[1],dp:a[2]};
+						meProfessionalFace.push(abc);
+					}
+					if (a[5]=="true") {
+						let abc={name:a[0],email:a[1],dp:a[2]};
+						meShoppingFace.push(abc);
+					}
+					if (a[6]=="true") {
+						let abc={name:a[0],email:a[1],dp:a[2]};
+						meReaderFace.push(abc);
+					}
+					if (a[7]=="true") {
+						let abc={name:a[0],email:a[1],dp:a[2]};
+						meDatingFace.push(abc);
+					}
+					if (a[8]=="true") {
+						let abc={name:a[0],email:a[1],dp:a[2]};
+						meDonaterFace.push(abc);
+					}
+					if (a[9]=="true") {
+						let abc={name:a[0],email:a[1],dp:a[2]};
+						meSinnerFace.push(abc);
+					}
+
+				} )
+				if (refEr==meEmail) {
+					meOwner="owner";
+				}
+				let mainObj;
+				console.log(tarText.toString()=="Social face");
+				if (tarText=="Social face") {
+					mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Social",MeGender:meGender};
+				}
+				if (tarText=="Professional face") {
+					mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Professional",MeGender:meGender};
+				}
+				if (tarText=="Consumer face") {
+					mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Consumer",MeGender:meGender};
+				}
+				if (tarText=="Reader face") {
+					mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Reader",MeGender:meGender};
+				}
+				if (tarText=="Dater face") {
+					mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Dater",MeGender:meGender};
+				}
+				if (tarText=="Donator face") {
+					mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Donator",MeGender:meGender};
+				}
+				if (tarText=="Sinner face") {
+					mainObj={MeName:meName,MePost:mePost,MeEmail:meEmail,MeDp:meDp,MePlaylist:mePlaylist,MeSocialFace:meSocialFace,MeProfessionalFace:meProfessionalFace,MeShoppingFace:meShoppingFace,MeDatingFace:meDatingFace,MeReaderFace:meReaderFace,MeDonaterFace:meDonaterFace,MeSinnerFace:meSinnerFace,MeOwner:meOwner,MePageTypeActual:"Sinner",MeGender:meGender};
+				}
+
+
+
+				var event = new CustomEvent(
+					"showMyFacePratibha",
+					{
+						detail: {
+							message: mainObj,
+							time: new Date(),
+						},
+						bubbles: true,
+						cancelable: true
+					}
+				);
+				window.dispatchEvent(event);
+
+			}).fail((jqXHR,statusText)=>{
+				console.log(statusText);
+			})
+		}
+		_sachmuchJatTenuLoveKarda(evt){
+			evt.preventDefault();
+			evt.stopPropagation();
+			console.log(evt.currentTarget.firstChild);
+			console.log(evt.currentTarget.firstChild.lastChild);
+			console.log(evt.currentTarget.firstChild.lastChild.innerText=="Social");
+			let tar=evt.currentTarget.firstChild.lastChild.innerText;
+			this.setState({
+				defineFilter:tar
+			})
+		}
+		_mm_unmount_extra_suggest(evt){
+			if (this.state.searchContent=="") {
+				ReactDOM.unmountComponentAtNode(document.getElementById('_head_root_animation'))
+			}
+		}
+		disabledOrOpenCheckFilter(evt){
+			evt.preventDefault();
+			evt.stopPropagation();
+			evt.persist();
+			$(document).ready(function(){
+				//$(evt.currentTarget).closest('.dropdown-button').dropdown('open');
+			})
+		}
+		_tum_samandar_ke_dhani(evt){
+			evt.preventDefault();
+			evt.stopPropagation();
+			var $toastContent = $('<span>Hi there welcome to theLinkedFace.com let me serve you for better living .. Don\'t know more about theLinkedFace ?</span>').add($('<button class="btn-flat toast-action">Take tour</button>'));
+  			Materialize.toast($toastContent, 10000);
+		}
+		_message_as_notification(evt){
+			evt.preventDefault();
+			evt.stopPropagation();
+			console.log("hi");
+			const mWnot="20%";
+			const ml=`${document.getElementById('_mm_get_u_one').clientWidth+document.getElementById('_mm_get_u_two').clientWidth+document.getElementById('_mm_get_u_three').clientWidth+20}px`;
+			console.log(ml);
+			ReactDOM.unmountComponentAtNode(document.getElementById('_head_root_animation'))
+			ReactDOM.render(<SuggestionPopupHeadMessage Ml={ml} W={mWnot} />,document.getElementById('_head_root_animation'))
+		}
+		_clk_get_notification(evt){
+			evt.preventDefault();
+			evt.stopPropagation();
+			console.log("hi");
+			const mWnot="20%";
+			const ml=`${document.getElementById('_mm_get_u_one').clientWidth+document.getElementById('_mm_get_u_two').clientWidth+document.getElementById('_mm_get_u_three').clientWidth-70}px`;
+			console.log(ml);
+			ReactDOM.unmountComponentAtNode(document.getElementById('_head_root_animation'))
+			ReactDOM.render(<SuggestionPopupHead Ml={ml} W={mWnot} />,document.getElementById('_head_root_animation'))
+		}
+		_mm_all_ser_opt_chng(evt){
+			evt.preventDefault();
+			evt.stopPropagation();
+			evt.persist();
+			if (evt.currentTarget.value!="") {
+				var mWnot="30%";
+				var ml=`${document.getElementById('_mm_get_u_one').clientWidth+document.getElementById('_mm_get_u_two').clientWidth}px`;
+				this.setState({
+					searchContent:evt.target.value
+				});
+				console.log("wakhira");
+				console.log(document.getElementById('_head_root_animation').firstChild);
+				ReactDOM.render(<SuggestionPopupHeadSearch Ml={ml} W={mWnot} DataOf={JSON.stringify({data:"spinner"})} />,document.getElementById('_head_root_animation'))
+			}else {
+				this.setState({
+					searchContent:evt.target.value
+				});
+				ReactDOM.unmountComponentAtNode(document.getElementById('_head_root_animation'))
+			}
+		}
+		render(){
+			return (
+				<div style={logHeadStyle}>
+					<div id="_mm_get_u_one" style={logIconCont}>
+					</div>
+					<div id="_mm_get_u_two" style={logIconCont_offer}>
+						<img className="materialboxed" data-caption={"welcome to theLinkedFace"} src={this.state.rc} style={imgStyle} /> <code style={codeStyle}><font style={fontStyle} size={5} color="black" onClick={this._tum_samandar_ke_dhani}>&nbsp;theLinkedFace</font></code>
+					</div>
+					<div id="_mm_get_u_three" style={logIconCont_search}>
+						<div style={flexDiv}>
+							<input  type="text" id="_all_ser_opt_box" value={this.state.searchContent} placeholder="wana search anyone ?" style={searchContentStyle} onChange={this._mm_all_ser_opt_chng} onBlur={this._mm_unmount_extra_suggest} ref="_referable_anyone_search" />
+							{/*<select className="browser-default" style={barakAllah} >
+								<option value="all">all</option>
+								<option value="social">social</option>
+								<option value="professional">professional</option>
+								<option value="shopping">shopping</option>
+								<option value="stories">stories</option>
+								<option value="dating">dating</option>
+								<option value="faces">faces</option>
+								<option value="enjoyments">enjoyments</option>
+							</select>*/}
+							<a style={myUniqueFaceSelectStyle_filter} className='dropdown-button btn' href='#' data-activates="dropdown12312" data-stopPropagation="false" data-constrainWidth="false"><i className="material-icons">filter list</i></a>
+	  					<ul id='dropdown12312' className='dropdown-content'>
+								<li className="divider"></li>
+								<li >
+									<span style={patolaSoniyeLoveYou}>
+										<input type="button" className="black-text" disabled="true" style={dBtStWidth} value="Choose filter" />
+									</span>
+								</li>
+								{/*
+									<li className="divider"></li>
+									<li onClick={this._sachmuchJatTenuLoveKarda}>
+										<span style={patolaSoniyeLoveYou}>{
+											this.state.defineFilter=="All"?(<i className="material-icons black-text">done</i>):false
+										}
+										<a style={myUniqueFaceSelectStyle_child} href="#!">All</a></span>
+									</li>
+									*/}
+								{/*
+									<li className="divider"></li>
+									<li onClick={this._sachmuchJatTenuLoveKarda}>
+										<span style={patolaSoniyeLoveYou}>{
+											this.state.defineFilter=="Social"?(<i className="material-icons black-text">done</i>):false
+										}
+										<a style={myUniqueFaceSelectStyle_child} href="#!">Social</a></span>
+									</li>
+									<li className="divider"></li>
+									<li onClick={this._sachmuchJatTenuLoveKarda}>
+										<span style={patolaSoniyeLoveYou}>{
+											this.state.defineFilter=="Professional"?(<i className="material-icons black-text">done</i>):false
+										}
+										<a style={myUniqueFaceSelectStyle_child} href="#!">Professional</a></span>
+									</li>
+									<li className="divider"></li>
+									<li onClick={this._sachmuchJatTenuLoveKarda}>
+										<span style={patolaSoniyeLoveYou}>{
+											this.state.defineFilter=="Shopping"?(<i className="material-icons black-text">done</i>):false
+										}
+										<a style={myUniqueFaceSelectStyle_child} href="#!">Shopping</a></span>
+									</li>
+									<li className="divider"></li>
+									<li onClick={this._sachmuchJatTenuLoveKarda}>
+										<span style={patolaSoniyeLoveYou}>{
+											this.state.defineFilter=="Books"?(<i className="material-icons black-text">done</i>):false
+										}
+										<a style={myUniqueFaceSelectStyle_child} href="#!">Books</a></span>
+									</li>
+									<li className="divider"></li>
+									<li onClick={this._sachmuchJatTenuLoveKarda}>
+										<span style={patolaSoniyeLoveYou}>{
+											this.state.defineFilter=="Dating"?(<i className="material-icons black-text">done</i>):false
+										}
+										<a style={myUniqueFaceSelectStyle_child} href="#!">Dating</a></span>
+									</li>
+									*/}
+						    <li className="divider"></li>
+								<li onClick={this._sachmuchJatTenuLoveKarda}>
+									<span style={patolaSoniyeLoveYou}>{
+										this.state.defineFilter=="Faces"?(<i className="material-icons black-text">done</i>):false
+									}
+									<a style={myUniqueFaceSelectStyle_child} href="#!">Faces</a></span>
+								</li>
+						    {/*
+									<li className="divider"></li>
+									<li onClick={this._sachmuchJatTenuLoveKarda}>
+										<span style={patolaSoniyeLoveYou}>{
+											this.state.defineFilter=="Enjoyments"?(<i className="material-icons black-text">done</i>):false
+										}
+										<a style={myUniqueFaceSelectStyle_child} href="#!">Enjoyments</a></span>
+									</li>
+									*/}
+						    <li className="divider"></li>
+	  					</ul>
+							{/*<div className="input-field col s12">
+								<select className="icons">
+									<option value="" >Choose your option</option>
+									<option value="" data-icon="images/sample-1.jpg" className="left circle">example 1</option>
+									<option value="" data-icon="images/office.jpg" className="left circle">example 2</option>
+									<option value="" data-icon="images/yuna.jpg" className="left circle">example 3</option>
+								</select>
+								<label>Images in select</label>
+							</div>*/}
+						</div>
+					</div>
+					<div style={logIconCont_search_a}>
+					<div style={flexDiv_barakallah}>
+						{/*<select className="browser-default" style={barakAllah_mine} >
+							<option value="My faces">My faces</option>
+							<option value="social">Social face</option>
+							<option value="professional">Professional face</option>
+							<option value="shoppkeeper">Shopping face</option>
+							<option value="writer">Stories face</option>
+							<option value="lover">Dating face</option>
+							<option value="lover">Sinner face</option>
+						</select>*/}
+						<a style={myUniqueFaceSelectStyle} className='dropdown-button btn' href='#' data-activates='dropdown2'>My faces</a>
+  					<ul id='dropdown2' className='dropdown-content'>
+							<li className="divider"></li>
+    					<li onClick={this._ji_le_jara_hoho_haha_hamsafar}><a style={myUniqueFaceSelectStyle_child} href="#!">Social face</a></li>
+							<li className="divider"></li>
+					    <li onClick={this._ji_le_jara_hoho_haha_hamsafar}><a style={myUniqueFaceSelectStyle_child} href="#!">Professional face</a></li>
+					    <li className="divider"></li>
+							<li onClick={this._ji_le_jara_hoho_haha_hamsafar}><a style={myUniqueFaceSelectStyle_child} href="#!">Consumer face</a></li>
+					    <li className="divider"></li>
+							<li onClick={this._ji_le_jara_hoho_haha_hamsafar}><a style={myUniqueFaceSelectStyle_child} href="#!">Reader face</a></li>
+					    <li className="divider"></li>
+							<li onClick={this._ji_le_jara_hoho_haha_hamsafar}><a style={myUniqueFaceSelectStyle_child} href="#!">Dater face</a></li>
+					    <li className="divider"></li>
+							<li onClick={this._ji_le_jara_hoho_haha_hamsafar}><a style={myUniqueFaceSelectStyle_child} href="#!">Donator face</a></li>
+					    <li className="divider"></li>
+							<li onClick={this._ji_le_jara_hoho_haha_hamsafar}><a style={myUniqueFaceSelectStyle_child} href="#!">Sinner face</a></li>
+					    <li className="divider"></li>
+  					</ul>
+					</div>
+					</div>
+					<div style={logIconCont_search_a_x}>
+						<div style={notificationAllStyle}>
+							<div style={dflex_inner_other}>
+								<div style={flexTypeOverMore}>
+									{
+										this.state.newNot==0?(<a className="btn btn-floating white"><i className="material-icons black-text" onClick={this._clk_get_notification} >public</i></a>):(<div style={flexTypeOverMore}><span style={spanningNotStyle}>{`+ ${this.state.newNot} `}</span><a className="btn btn-floating pulse white"><i className="material-icons black-text" onClick={this._clk_get_notification} >public</i></a></div>)
+									}
+								</div>
+							</div>
+							<div style={dflex_inner_other}>
+								<div style={flexTypeOverMore}>
+									{
+										this.state.newMess==0?(<a className="btn btn-floating white"><i className="material-icons black-text" onClick={this._message_as_notification} >message</i></a>):(<div style={flexTypeOverMore}><span style={spanningNotStyle}>{`+ ${this.state.newMess} `}</span><a className="btn btn-floating pulse white"><i className="material-icons black-text" onClick={this._message_as_notification} >message</i></a></div>)
+									}
+								</div>
+							</div>
+							<div style={dflex_inner_other}>
+								<div style={flexTypeOverMore}>
+									<img src={this.state.moreImage} style={imgNotStyle_more} onClick={this._expand_more_option_pratibha_please} />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			)
+		}
+	}
+	ReactDOM.render(<HomeHead />,document.getElementById('_head'))
+</script>
+{{end}}

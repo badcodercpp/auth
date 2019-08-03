@@ -1,0 +1,19 @@
+{{define "babel"}}
+	<script type="text/babel">
+		class Abc extends React.Component {
+			constructor(props){
+				super(props);
+				this.state = {
+					name:"ajay jha"
+				}
+			}
+			render(){
+				return (
+					<div></div>
+				)
+			}
+		}
+		ReactDOM.render(<Abc />,document.getElementById('_go'))
+		console.log(Abc)
+	</script>
+{{end}}

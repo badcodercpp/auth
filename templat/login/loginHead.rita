@@ -1,0 +1,39 @@
+{{define "loginHead"}}
+<script type="text/babel">
+const logHeadStyle={width:"100%",height:"100%"}
+const logIconCont={width:"20%",height:"100%",display:"inline",float:"left"};
+const imgStyle={width:"50px",height:"50px",verticalAlign:"middle"};
+const codeStyle={fontFamily:"cursive"};
+const fontStyle={cursor:"pointer"};
+const flexDiv={width:"100%",height:"100%",display:"flex",justifyContent:"flex-start",alignItems:"center"};
+	class LoginHead extends React.Component {
+		constructor(props){
+			super(props);
+			this.state = {
+				rc:"/logo.jpg"
+			};
+		}
+		render(){
+			return (
+				<div style={logHeadStyle}>
+					<div style={logIconCont}>
+					</div>
+					<div style={logIconCont}>
+						<img src={this.state.rc} style={imgStyle} /> <code style={codeStyle}><font style={fontStyle} size={4} color="black">&nbsp;Home</font></code>
+					</div>
+					<div style={logIconCont}>
+						<div style={flexDiv}>
+							<code style={codeStyle}><font style={fontStyle} size={4} color="black">&nbsp;About</font></code>
+						</div>
+					</div>
+					<div style={logIconCont}>
+					</div>
+					<div style={logIconCont}>
+					</div>
+				</div>
+			)
+		}
+	}
+	ReactDOM.render(<LoginHead />,document.getElementById('_head'))
+</script>
+{{end}}

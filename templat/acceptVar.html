@@ -1,0 +1,17 @@
+{{define "access"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	{{template "cdn"}}
+</head>
+<body>
+<div id="_go">
+</div>
+{{template "T" .}}
+<p>{{.UserName}}</p>
+{{template "script"}}
+{{template "babel"}}
+</body>
+</html>
+{{end}}

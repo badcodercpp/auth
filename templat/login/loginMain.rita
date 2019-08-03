@@ -1,0 +1,30 @@
+{{define "login"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>theLinkedFace - We link faces together</title>
+	{{template "cdn" .}}
+	{{template "loginStyle"}}
+	{{template "sanitize"}}
+	{{template "placeholderLog"}}
+</head>
+<body>
+<div id="_js_root_animation">
+</div>
+<div id="_head">
+</div>
+<div id="_head_root_animation">
+</div>
+{{template "loginHead"}}
+<div id="_body">
+	<div id="_bdy_part_1">
+	</div>
+	<div id="_bdy_part_2">
+	</div>
+	{{template "loginBody"}}
+	<div id="_bdy_part_3">
+	</div>
+</div>
+</body>
+</html>
+{{end}}
